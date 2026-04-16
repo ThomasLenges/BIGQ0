@@ -1,54 +1,3 @@
-# # === General imports ===
-# import os
-# import time
-# import cv2
-# from arduino.app_utils import App
-
-# # === Brick imports ===
-# from bricks.camera.camera import Camera
-# from arduino.app_bricks.web_ui import WebUI
-
-# # === Brick initialization ===
-# # V4L camera at index 0
-# camera = Camera(fps=30)
-# camera.start()
-# # Web server
-# ui = WebUI()
-
-# # === FPS tracking ===
-# _fps_last_time = time.time()
-# _fps_counter = 0
-
-# # ==== Main function ====
-# def streaming():
-#     image = camera.capture()
-
-#     if image is None:
-#         return
-
-#     # Atomic write: write to temp file first, then replace
-#     # os.replace() is atomic on Linux — the web server always reads a complete file
-#     tmp_path = "assets/latest.tmp.jpg"
-#     final_path = "assets/latest.jpg"
-#     cv2.imwrite(tmp_path, image)
-#     os.replace(tmp_path, final_path)
-
-#     # == FPS tracking ==
-#     global _fps_last_time, _fps_counter
-#     _fps_counter += 1
-#     now = time.time()
-#     elapsed = now - _fps_last_time
-#     if elapsed >= 1.0:
-#         fps = _fps_counter / elapsed
-#         print(f"[FPS] latest.jpg write rate: {fps:.1f} fps")
-#         _fps_counter = 0
-#         _fps_last_time = now
-
-
-# # Run the application
-# App.run(streaming)
-
-
 import time
 import threading
 from arduino.app_utils import App
@@ -58,7 +7,7 @@ from fastapi.responses import Response
 import cv2
 
 # ==== Camera ====
-camera = Camera()
+camera = Camera(fps=30)
 camera.start()
 
 # ==== Thread lock ====
