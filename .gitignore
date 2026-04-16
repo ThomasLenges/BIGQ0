@@ -1,0 +1,8 @@
+*
+!.gitignore
+!ArduinoBricks/
+!ArduinoBricks/**
+!ArduinoApps/
+!ArduinoApps/**
+!Thomas/
+!Thomas/**
