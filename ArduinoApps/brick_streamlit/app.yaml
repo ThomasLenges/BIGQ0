@@ -1,0 +1,6 @@
+name: Brick_Streamlit
+description: ""
+ports: []
+bricks:
+- arduino:streamlit_ui: {}
+icon: 🧱

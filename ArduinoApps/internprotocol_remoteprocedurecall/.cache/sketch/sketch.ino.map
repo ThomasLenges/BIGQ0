@@ -1,0 +1,1600 @@
+Archive member included to satisfy reference by file (symbol)
+
+/home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(abi.cpp.o)
+                              /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o (std::__throw_length_error(char const*))
+/home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(Print.cpp.o)
+                              /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o (arduino::Print::println(char const*))
+/home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(Stream.cpp.o)
+                              /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o (arduino::Stream::setTimeout(unsigned long))
+/home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(String.cpp.o)
+                              /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o (arduino::String::String(arduino::String&&))
+/home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(itoa.cpp.o)
+                              /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(String.cpp.o) (dtostrf)
+/home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(main.cpp.o)
+                              (main)
+/home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(new.cpp.o)
+                              /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o (operator new(unsigned int))
+/home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(threads.cpp.o)
+                              /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(main.cpp.o) (start_static_threads())
+/home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(zephyrCommon.cpp.o)
+                              /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o (pinMode)
+/home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(zephyrSerial.cpp.o)
+                              /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o (Serial1)
+/home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(Common.cpp.o)
+                              /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(zephyrCommon.cpp.o) (map(long, long, long, long, long))
+
+Discarded input sections
+
+ .group         0x0000000000000000        0x8 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+ .group         0x0000000000000000        0x8 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+ .group         0x0000000000000000        0x8 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+ .group         0x0000000000000000        0x8 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+ .group         0x0000000000000000       0x10 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+ .group         0x0000000000000000        0x8 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+ .group         0x0000000000000000       0x24 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+ .group         0x0000000000000000        0xc /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+ .group         0x0000000000000000        0xc /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+ .group         0x0000000000000000        0xc /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+ .group         0x0000000000000000        0x8 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+ .group         0x0000000000000000        0xc /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+ .group         0x0000000000000000        0xc /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+ .group         0x0000000000000000        0x8 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+ .group         0x0000000000000000       0x14 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+ .group         0x0000000000000000        0x8 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+ .group         0x0000000000000000        0x8 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+ .group         0x0000000000000000        0x8 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+ .group         0x0000000000000000        0xc /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+ .group         0x0000000000000000        0x8 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+ .group         0x0000000000000000        0xc /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+ .group         0x0000000000000000        0xc /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+ .group         0x0000000000000000        0x8 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+ .group         0x0000000000000000        0xc /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+ .group         0x0000000000000000        0xc /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+ .group         0x0000000000000000        0xc /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+ .group         0x0000000000000000        0xc /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+ .group         0x0000000000000000        0xc /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+ .group         0x0000000000000000        0xc /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+ .group         0x0000000000000000        0xc /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+ .group         0x0000000000000000        0xc /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+ .group         0x0000000000000000        0xc /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+ .group         0x0000000000000000        0xc /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+ .group         0x0000000000000000        0xc /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+ .group         0x0000000000000000        0xc /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+ .group         0x0000000000000000        0xc /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+ .group         0x0000000000000000        0xc /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+ .group         0x0000000000000000        0xc /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+ .group         0x0000000000000000        0x8 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+ .group         0x0000000000000000        0xc /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+ .group         0x0000000000000000        0x8 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+ .group         0x0000000000000000        0xc /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+ .group         0x0000000000000000        0xc /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+ .group         0x0000000000000000        0xc /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+ .group         0x0000000000000000        0xc /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+ .group         0x0000000000000000        0x8 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+ .group         0x0000000000000000        0xc /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+ .group         0x0000000000000000        0x8 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+ .group         0x0000000000000000        0xc /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+ .group         0x0000000000000000        0xc /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+ .group         0x0000000000000000        0xc /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+ .group         0x0000000000000000        0xc /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+ .group         0x0000000000000000        0x8 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+ .group         0x0000000000000000        0xc /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+ .group         0x0000000000000000        0xc /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+ .group         0x0000000000000000        0xc /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+ .group         0x0000000000000000        0xc /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+ .group         0x0000000000000000        0xc /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+ .group         0x0000000000000000        0xc /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+ .group         0x0000000000000000        0xc /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+ .group         0x0000000000000000        0xc /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+ .group         0x0000000000000000        0xc /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+ .group         0x0000000000000000        0xc /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+ .group         0x0000000000000000        0xc /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+ .group         0x0000000000000000        0xc /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+ .group         0x0000000000000000        0xc /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+ .group         0x0000000000000000        0xc /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+ .group         0x0000000000000000        0xc /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+ .group         0x0000000000000000        0xc /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+ .group         0x0000000000000000        0xc /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+ .group         0x0000000000000000        0xc /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+ .group         0x0000000000000000        0xc /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+ .group         0x0000000000000000        0xc /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+ .group         0x0000000000000000        0xc /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+ .group         0x0000000000000000        0xc /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+ .group         0x0000000000000000        0xc /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+ .group         0x0000000000000000        0xc /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+ .group         0x0000000000000000        0xc /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+ .group         0x0000000000000000        0xc /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+ .group         0x0000000000000000        0x8 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+ .group         0x0000000000000000        0x8 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+ .group         0x0000000000000000        0xc /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+ .group         0x0000000000000000        0xc /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+ .group         0x0000000000000000        0xc /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+ .group         0x0000000000000000        0xc /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+ .group         0x0000000000000000        0xc /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+ .group         0x0000000000000000        0xc /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+ .group         0x0000000000000000        0xc /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+ .group         0x0000000000000000        0xc /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+ .group         0x0000000000000000        0xc /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+ .group         0x0000000000000000        0xc /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+ .group         0x0000000000000000        0xc /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+ .group         0x0000000000000000        0xc /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+ .group         0x0000000000000000        0xc /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+ .group         0x0000000000000000        0xc /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+ .group         0x0000000000000000        0xc /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+ .group         0x0000000000000000        0xc /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+ .group         0x0000000000000000        0xc /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+ .group         0x0000000000000000        0xc /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+ .group         0x0000000000000000        0xc /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+ .group         0x0000000000000000        0xc /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+ .group         0x0000000000000000        0xc /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+ .group         0x0000000000000000        0xc /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+ .group         0x0000000000000000        0xc /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+ .group         0x0000000000000000        0xc /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+ .group         0x0000000000000000        0xc /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+ .group         0x0000000000000000        0xc /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+ .group         0x0000000000000000        0xc /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+ .group         0x0000000000000000        0xc /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+ .group         0x0000000000000000        0xc /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+ .group         0x0000000000000000        0xc /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+ .group         0x0000000000000000        0xc /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+ .group         0x0000000000000000        0xc /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+ .group         0x0000000000000000        0xc /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+ .group         0x0000000000000000        0xc /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+ .group         0x0000000000000000        0xc /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+ .group         0x0000000000000000        0x8 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+ .group         0x0000000000000000        0x8 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+ .group         0x0000000000000000        0x8 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+ .group         0x0000000000000000        0xc /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+ .group         0x0000000000000000        0xc /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+ .group         0x0000000000000000        0xc /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+ .group         0x0000000000000000        0x8 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+ .group         0x0000000000000000        0x8 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+ .group         0x0000000000000000        0x8 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+ .group         0x0000000000000000        0x8 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+ .group         0x0000000000000000        0x8 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+ .group         0x0000000000000000        0x8 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+ .group         0x0000000000000000        0x8 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+ .group         0x0000000000000000        0x8 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+ .group         0x0000000000000000        0x8 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+ .group         0x0000000000000000        0x8 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+ .group         0x0000000000000000        0x8 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+ .group         0x0000000000000000        0x8 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+ .group         0x0000000000000000        0x8 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+ .group         0x0000000000000000        0x8 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+ .group         0x0000000000000000        0x8 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+ .group         0x0000000000000000        0x8 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+ .text          0x0000000000000000        0x0 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+ .data          0x0000000000000000        0x0 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+ .bss           0x0000000000000000        0x0 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+ .comment       0x0000000000000000       0x21 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+ .ARM.attributes
+                0x0000000000000000       0x3c /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+ .text          0x0000000000000000        0x0 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/analogReference.cpp.o
+ .data          0x0000000000000000        0x0 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/analogReference.cpp.o
+ .bss           0x0000000000000000        0x0 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/analogReference.cpp.o
+ .text.analogReference
+                0x0000000000000000        0x8 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/analogReference.cpp.o
+ .debug_info    0x0000000000000000     0x15b3 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/analogReference.cpp.o
+ .debug_abbrev  0x0000000000000000      0x31c /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/analogReference.cpp.o
+ .debug_loclists
+                0x0000000000000000       0x23 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/analogReference.cpp.o
+ .debug_aranges
+                0x0000000000000000       0x20 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/analogReference.cpp.o
+ .debug_rnglists
+                0x0000000000000000       0x13 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/analogReference.cpp.o
+ .debug_line    0x0000000000000000      0x3c1 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/analogReference.cpp.o
+ .debug_str     0x0000000000000000     0x1738 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/analogReference.cpp.o
+ .comment       0x0000000000000000       0x21 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/analogReference.cpp.o
+ .debug_frame   0x0000000000000000       0x20 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/analogReference.cpp.o
+ .ARM.attributes
+                0x0000000000000000       0x3c /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/analogReference.cpp.o
+ .text          0x0000000000000000        0x0 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(abi.cpp.o)
+ .data          0x0000000000000000        0x0 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(abi.cpp.o)
+ .bss           0x0000000000000000        0x0 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(abi.cpp.o)
+ .text.__cxa_pure_virtual
+                0x0000000000000000        0x2 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(abi.cpp.o)
+ .text.__cxa_deleted_virtual
+                0x0000000000000000        0x2 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(abi.cpp.o)
+ .text.__cxa_atexit
+                0x0000000000000000        0x4 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(abi.cpp.o)
+ .data.__dso_handle
+                0x0000000000000000        0x4 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(abi.cpp.o)
+ .comment       0x0000000000000000       0x21 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(abi.cpp.o)
+ .ARM.attributes
+                0x0000000000000000       0x3c /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(abi.cpp.o)
+ .group         0x0000000000000000        0x8 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(Print.cpp.o)
+ .group         0x0000000000000000        0x8 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(Print.cpp.o)
+ .group         0x0000000000000000        0xc /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(Print.cpp.o)
+ .text          0x0000000000000000        0x0 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(Print.cpp.o)
+ .data          0x0000000000000000        0x0 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(Print.cpp.o)
+ .bss           0x0000000000000000        0x0 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(Print.cpp.o)
+ .text._ZN7arduino5Print17availableForWriteEv
+                0x0000000000000000        0x4 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(Print.cpp.o)
+ .text._ZN7arduino5Print5flushEv
+                0x0000000000000000        0x2 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(Print.cpp.o)
+ .text._ZN7arduino5Print5writeEPKhj
+                0x0000000000000000       0x2c /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(Print.cpp.o)
+ .text._ZN7arduino5Print5printEPKNS_19__FlashStringHelperE
+                0x0000000000000000        0xc /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(Print.cpp.o)
+ .text._ZN7arduino5Print5printERKNS_6StringE
+                0x0000000000000000        0xa /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(Print.cpp.o)
+ .text._ZN7arduino5Print5printEPKc
+                0x0000000000000000        0xc /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(Print.cpp.o)
+ .text._ZN7arduino5Print5printEc
+                0x0000000000000000        0x6 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(Print.cpp.o)
+ .text._ZN7arduino5Print5printERKNS_9PrintableE
+                0x0000000000000000        0xc /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(Print.cpp.o)
+ .text._ZN7arduino5Print7printlnERKNS_6StringE
+                0x0000000000000000       0x1c /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(Print.cpp.o)
+ .text._ZN7arduino5Print7printlnEc
+                0x0000000000000000       0x1c /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(Print.cpp.o)
+ .text._ZN7arduino5Print7printlnERKNS_9PrintableE
+                0x0000000000000000       0x1c /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(Print.cpp.o)
+ .text._ZN7arduino5Print11printNumberEmh
+                0x0000000000000000       0x40 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(Print.cpp.o)
+ .text._ZN7arduino5Print5printEli
+                0x0000000000000000       0x50 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(Print.cpp.o)
+ .text._ZN7arduino5Print5printEii
+                0x0000000000000000        0x8 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(Print.cpp.o)
+ .text._ZN7arduino5Print7printlnEii
+                0x0000000000000000       0x1c /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(Print.cpp.o)
+ .text._ZN7arduino5Print7printlnEli
+                0x0000000000000000       0x1c /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(Print.cpp.o)
+ .text._ZN7arduino5Print5printEmi
+                0x0000000000000000       0x20 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(Print.cpp.o)
+ .text._ZN7arduino5Print5printEhi
+                0x0000000000000000        0x8 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(Print.cpp.o)
+ .text._ZN7arduino5Print7printlnEhi
+                0x0000000000000000       0x1c /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(Print.cpp.o)
+ .text._ZN7arduino5Print5printEji
+                0x0000000000000000        0x8 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(Print.cpp.o)
+ .text._ZN7arduino5Print7printlnEji
+                0x0000000000000000       0x1c /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(Print.cpp.o)
+ .text._ZN7arduino5Print7printlnEmi
+                0x0000000000000000       0x1c /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(Print.cpp.o)
+ .text._ZN7arduino5Print14printULLNumberEyh
+                0x0000000000000000       0xfc /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(Print.cpp.o)
+ .text._ZN7arduino5Print5printExi
+                0x0000000000000000       0x5c /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(Print.cpp.o)
+ .text._ZN7arduino5Print7printlnExi
+                0x0000000000000000       0x24 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(Print.cpp.o)
+ .text._ZN7arduino5Print5printEyi
+                0x0000000000000000       0x20 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(Print.cpp.o)
+ .text._ZN7arduino5Print7printlnEyi
+                0x0000000000000000       0x24 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(Print.cpp.o)
+ .rodata._ZN7arduino5Print10printFloatEdi.str1.1
+                0x0000000000000000        0xe /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(Print.cpp.o)
+ .text._ZN7arduino5Print10printFloatEdi
+                0x0000000000000000      0x1b4 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(Print.cpp.o)
+ .text._ZN7arduino5Print5printEdi
+                0x0000000000000000        0x8 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(Print.cpp.o)
+ .text._ZN7arduino5Print7printlnEdi
+                0x0000000000000000       0x1c /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(Print.cpp.o)
+ .rodata._ZTVN7arduino5PrintE
+                0x0000000000000000       0x18 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(Print.cpp.o)
+ .comment       0x0000000000000000       0x21 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(Print.cpp.o)
+ .ARM.attributes
+                0x0000000000000000       0x3c /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(Print.cpp.o)
+ .text          0x0000000000000000        0x0 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(Stream.cpp.o)
+ .data          0x0000000000000000        0x0 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(Stream.cpp.o)
+ .bss           0x0000000000000000        0x0 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(Stream.cpp.o)
+ .text._ZN7arduino6Stream9timedPeekEv
+                0x0000000000000000       0x2c /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(Stream.cpp.o)
+ .text._ZN7arduino6Stream13peekNextDigitENS_13LookaheadModeEb
+                0x0000000000000000       0x58 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(Stream.cpp.o)
+ .text._ZN7arduino6Stream8parseIntENS_13LookaheadModeEc
+                0x0000000000000000       0x70 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(Stream.cpp.o)
+ .text._ZN7arduino6Stream10parseFloatENS_13LookaheadModeEc
+                0x0000000000000000      0x138 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(Stream.cpp.o)
+ .text._ZN7arduino6Stream14readBytesUntilEcPcj
+                0x0000000000000000       0x34 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(Stream.cpp.o)
+ .rodata._ZN7arduino6Stream10readStringEv.str1.1
+                0x0000000000000000        0x1 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(Stream.cpp.o)
+ .text._ZN7arduino6Stream10readStringEv
+                0x0000000000000000       0x38 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(Stream.cpp.o)
+ .text._ZN7arduino6Stream15readStringUntilEc
+                0x0000000000000000       0x44 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(Stream.cpp.o)
+ .text._ZN7arduino6Stream9findMultiEPNS0_11MultiTargetEi
+                0x0000000000000000       0xa8 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(Stream.cpp.o)
+ .text._ZN7arduino6Stream9findUntilEPKcjS2_j
+                0x0000000000000000       0x50 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(Stream.cpp.o)
+ .text._ZN7arduino6Stream9findUntilEPKcS2_
+                0x0000000000000000       0x34 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(Stream.cpp.o)
+ .text._ZN7arduino6Stream4findEPKcj
+                0x0000000000000000       0x24 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(Stream.cpp.o)
+ .text._ZN7arduino6Stream4findEPKc
+                0x0000000000000000       0x34 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(Stream.cpp.o)
+ .comment       0x0000000000000000       0x21 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(Stream.cpp.o)
+ .ARM.attributes
+                0x0000000000000000       0x3c /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(Stream.cpp.o)
+ .text          0x0000000000000000        0x0 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(String.cpp.o)
+ .data          0x0000000000000000        0x0 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(String.cpp.o)
+ .bss           0x0000000000000000        0x0 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(String.cpp.o)
+ .text._ZN7arduino6StringC2EPKcj
+                0x0000000000000000       0x1c /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(String.cpp.o)
+ .text._ZN7arduino6String4copyEPKNS_19__FlashStringHelperEj
+                0x0000000000000000       0x34 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(String.cpp.o)
+ .text._ZN7arduino6StringC2Ec
+                0x0000000000000000       0x24 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(String.cpp.o)
+ .text._ZN7arduino6StringC2Ehh
+                0x0000000000000000       0x2c /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(String.cpp.o)
+ .text._ZN7arduino6StringC2Ejh
+                0x0000000000000000       0x2c /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(String.cpp.o)
+ .text._ZN7arduino6StringC2Elh
+                0x0000000000000000       0x2c /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(String.cpp.o)
+ .text._ZN7arduino6StringC2Emh
+                0x0000000000000000       0x2c /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(String.cpp.o)
+ .text._ZN7arduino6StringC2Efh
+                0x0000000000000000       0x4c /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(String.cpp.o)
+ .text._ZN7arduino6StringC2Edh
+                0x0000000000000000       0x34 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(String.cpp.o)
+ .text._ZN7arduino6StringaSEPKNS_19__FlashStringHelperE
+                0x0000000000000000       0x30 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(String.cpp.o)
+ .text._ZN7arduino6StringC2EPKNS_19__FlashStringHelperE
+                0x0000000000000000       0x18 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(String.cpp.o)
+ .text._ZN7arduino6String6concatEPKc.part.0
+                0x0000000000000000       0x24 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(String.cpp.o)
+ .text._ZN7arduino6String6concatEPKc
+                0x0000000000000000       0x10 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(String.cpp.o)
+ .text._ZN7arduino6String6concatEh
+                0x0000000000000000       0x24 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(String.cpp.o)
+ .text._ZN7arduino6String6concatEi
+                0x0000000000000000       0x24 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(String.cpp.o)
+ .text._ZN7arduino6String6concatEj
+                0x0000000000000000       0x24 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(String.cpp.o)
+ .text._ZN7arduino6String6concatEl
+                0x0000000000000000       0x24 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(String.cpp.o)
+ .text._ZN7arduino6String6concatEm
+                0x0000000000000000       0x24 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(String.cpp.o)
+ .text._ZN7arduino6String6concatEf
+                0x0000000000000000       0x34 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(String.cpp.o)
+ .text._ZN7arduino6String6concatEd
+                0x0000000000000000       0x24 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(String.cpp.o)
+ .text._ZN7arduino6String6concatEPKNS_19__FlashStringHelperE
+                0x0000000000000000       0x44 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(String.cpp.o)
+ .text._ZN7arduinoplERKNS_15StringSumHelperERKNS_6StringE
+                0x0000000000000000       0x20 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(String.cpp.o)
+ .text._ZN7arduinoplERKNS_15StringSumHelperEPKc
+                0x0000000000000000       0x24 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(String.cpp.o)
+ .text._ZN7arduinoplERKNS_15StringSumHelperEc
+                0x0000000000000000       0x1c /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(String.cpp.o)
+ .text._ZN7arduinoplERKNS_15StringSumHelperEh
+                0x0000000000000000       0x1c /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(String.cpp.o)
+ .text._ZN7arduinoplERKNS_15StringSumHelperEi
+                0x0000000000000000       0x1c /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(String.cpp.o)
+ .text._ZN7arduinoplERKNS_15StringSumHelperEj
+                0x0000000000000000       0x1c /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(String.cpp.o)
+ .text._ZN7arduinoplERKNS_15StringSumHelperEl
+                0x0000000000000000       0x1c /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(String.cpp.o)
+ .text._ZN7arduinoplERKNS_15StringSumHelperEm
+                0x0000000000000000       0x1c /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(String.cpp.o)
+ .text._ZN7arduinoplERKNS_15StringSumHelperEf
+                0x0000000000000000       0x1c /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(String.cpp.o)
+ .text._ZN7arduinoplERKNS_15StringSumHelperEd
+                0x0000000000000000       0x1c /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(String.cpp.o)
+ .text._ZN7arduinoplERKNS_15StringSumHelperEPKNS_19__FlashStringHelperE
+                0x0000000000000000       0x1c /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(String.cpp.o)
+ .text._ZNK7arduino6String9compareToEPKc
+                0x0000000000000000       0x2c /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(String.cpp.o)
+ .text._ZNK7arduino6String16equalsIgnoreCaseERKS0_
+                0x0000000000000000       0x38 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(String.cpp.o)
+ .text._ZNK7arduino6String10startsWithERKS0_j
+                0x0000000000000000       0x30 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(String.cpp.o)
+ .text._ZNK7arduino6String10startsWithERKS0_
+                0x0000000000000000       0x18 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(String.cpp.o)
+ .text._ZNK7arduino6String8endsWithERKS0_
+                0x0000000000000000       0x30 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(String.cpp.o)
+ .text._ZN7arduino6String9setCharAtEjc
+                0x0000000000000000        0xc /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(String.cpp.o)
+ .text._ZN7arduino6StringixEj
+                0x0000000000000000       0x1c /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(String.cpp.o)
+ .text._ZNK7arduino6StringixEj
+                0x0000000000000000       0x12 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(String.cpp.o)
+ .text._ZNK7arduino6String6charAtEj
+                0x0000000000000000        0x8 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(String.cpp.o)
+ .text._ZNK7arduino6String8getBytesEPhjj
+                0x0000000000000000       0x34 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(String.cpp.o)
+ .text._ZNK7arduino6String7indexOfEcj
+                0x0000000000000000       0x20 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(String.cpp.o)
+ .text._ZNK7arduino6String7indexOfEc
+                0x0000000000000000        0xc /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(String.cpp.o)
+ .text._ZNK7arduino6String7indexOfERKS0_j
+                0x0000000000000000       0x24 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(String.cpp.o)
+ .text._ZNK7arduino6String7indexOfERKS0_
+                0x0000000000000000        0xc /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(String.cpp.o)
+ .text._ZNK7arduino6String11lastIndexOfEcj
+                0x0000000000000000       0x34 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(String.cpp.o)
+ .text._ZNK7arduino6String11lastIndexOfEc
+                0x0000000000000000        0xc /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(String.cpp.o)
+ .text._ZNK7arduino6String11lastIndexOfERKS0_j
+                0x0000000000000000       0x54 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(String.cpp.o)
+ .text._ZNK7arduino6String11lastIndexOfERKS0_
+                0x0000000000000000       0x10 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(String.cpp.o)
+ .rodata._ZNK7arduino6String9substringEjj.str1.1
+                0x0000000000000000        0x1 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(String.cpp.o)
+ .text._ZNK7arduino6String9substringEjj
+                0x0000000000000000       0x4c /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(String.cpp.o)
+ .text._ZN7arduino6String7replaceEcc
+                0x0000000000000000       0x16 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(String.cpp.o)
+ .text._ZN7arduino6String7replaceERKS0_S2_
+                0x0000000000000000      0x12c /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(String.cpp.o)
+ .text._ZN7arduino6String6removeEjj
+                0x0000000000000000       0x38 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(String.cpp.o)
+ .text._ZN7arduino6String6removeEj
+                0x0000000000000000        0xc /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(String.cpp.o)
+ .text._ZN7arduino6String11toLowerCaseEv
+                0x0000000000000000       0x1c /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(String.cpp.o)
+ .text._ZN7arduino6String11toUpperCaseEv
+                0x0000000000000000       0x1c /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(String.cpp.o)
+ .text._ZN7arduino6String4trimEv
+                0x0000000000000000       0x58 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(String.cpp.o)
+ .text._ZNK7arduino6String5toIntEv
+                0x0000000000000000       0x10 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(String.cpp.o)
+ .text._ZNK7arduino6String8toDoubleEv
+                0x0000000000000000       0x1c /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(String.cpp.o)
+ .text._ZNK7arduino6String7toFloatEv
+                0x0000000000000000       0x1c /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(String.cpp.o)
+ .bss._ZZN7arduino6StringixEjE19dummy_writable_char
+                0x0000000000000000        0x1 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(String.cpp.o)
+ .rodata._ZN7arduino6String22DBL_MAX_DECIMAL_PLACESE
+                0x0000000000000000        0x4 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(String.cpp.o)
+ .rodata._ZN7arduino6String22FLT_MAX_DECIMAL_PLACESE
+                0x0000000000000000        0x4 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(String.cpp.o)
+ .comment       0x0000000000000000       0x21 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(String.cpp.o)
+ .ARM.attributes
+                0x0000000000000000       0x3c /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(String.cpp.o)
+ .text          0x0000000000000000        0x0 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(itoa.cpp.o)
+ .data          0x0000000000000000        0x0 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(itoa.cpp.o)
+ .bss           0x0000000000000000        0x0 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(itoa.cpp.o)
+ .rodata.dtostrf.str1.1
+                0x0000000000000000        0x9 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(itoa.cpp.o)
+ .text.dtostrf  0x0000000000000000       0x30 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(itoa.cpp.o)
+ .text.ultoa    0x0000000000000000       0x64 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(itoa.cpp.o)
+ .text.utoa     0x0000000000000000        0x8 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(itoa.cpp.o)
+ .comment       0x0000000000000000       0x21 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(itoa.cpp.o)
+ .ARM.attributes
+                0x0000000000000000       0x3c /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(itoa.cpp.o)
+ .text          0x0000000000000000        0x0 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(main.cpp.o)
+ .data          0x0000000000000000        0x0 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(main.cpp.o)
+ .bss           0x0000000000000000        0x0 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(main.cpp.o)
+ .text._Z10__loopHookv
+                0x0000000000000000        0x2 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(main.cpp.o)
+ .entry_point   0x0000000000000000       0xb8 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(main.cpp.o)
+ .comment       0x0000000000000000       0x21 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(main.cpp.o)
+ .ARM.attributes
+                0x0000000000000000       0x3c /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(main.cpp.o)
+ .text          0x0000000000000000        0x0 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(new.cpp.o)
+ .data          0x0000000000000000        0x0 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(new.cpp.o)
+ .bss           0x0000000000000000        0x0 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(new.cpp.o)
+ .text._Znaj    0x0000000000000000        0x8 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(new.cpp.o)
+ .text._ZnwjSt11align_val_t
+                0x0000000000000000        0x8 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(new.cpp.o)
+ .text._ZnajSt11align_val_t
+                0x0000000000000000        0x8 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(new.cpp.o)
+ .text._ZnwjSt11align_val_tSt9nothrow_t
+                0x0000000000000000        0x8 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(new.cpp.o)
+ .text._ZnajSt11align_val_tRKSt9nothrow_t
+                0x0000000000000000        0x8 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(new.cpp.o)
+ .text._ZnwjSt9nothrow_t
+                0x0000000000000000        0x8 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(new.cpp.o)
+ .text._ZnajRKSt9nothrow_t
+                0x0000000000000000        0x8 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(new.cpp.o)
+ .text._ZnajPv  0x0000000000000000        0x4 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(new.cpp.o)
+ .text._ZdlPv   0x0000000000000000        0x8 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(new.cpp.o)
+ .text._ZdaPv   0x0000000000000000        0x8 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(new.cpp.o)
+ .text._ZdaPvj  0x0000000000000000        0x8 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(new.cpp.o)
+ .text._ZdlPvRKSt9nothrow_t
+                0x0000000000000000        0x8 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(new.cpp.o)
+ .text._ZdaPvRKSt9nothrow_t
+                0x0000000000000000        0x8 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(new.cpp.o)
+ .text._ZdlPvS_
+                0x0000000000000000        0x2 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(new.cpp.o)
+ .text._ZdaPvS_
+                0x0000000000000000        0x2 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(new.cpp.o)
+ .rodata._ZSt7nothrow
+                0x0000000000000000        0x1 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(new.cpp.o)
+ .comment       0x0000000000000000       0x21 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(new.cpp.o)
+ .ARM.attributes
+                0x0000000000000000       0x3c /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(new.cpp.o)
+ .text          0x0000000000000000        0x0 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(threads.cpp.o)
+ .data          0x0000000000000000        0x0 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(threads.cpp.o)
+ .bss           0x0000000000000000        0x0 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(threads.cpp.o)
+ .comment       0x0000000000000000       0x21 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(threads.cpp.o)
+ .ARM.attributes
+                0x0000000000000000       0x3c /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(threads.cpp.o)
+ .text          0x0000000000000000        0x0 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(zephyrCommon.cpp.o)
+ .data          0x0000000000000000        0x0 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(zephyrCommon.cpp.o)
+ .bss           0x0000000000000000        0x0 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(zephyrCommon.cpp.o)
+ .text.gpio_pin_get_dt
+                0x0000000000000000       0x2a /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(zephyrCommon.cpp.o)
+ .text._ZN12_GLOBAL__N_123find_gpio_port_callbackEPK6device
+                0x0000000000000000       0x3c /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(zephyrCommon.cpp.o)
+ .text._ZN12_GLOBAL__N_119setInterruptHandlerEhPFvvE
+                0x0000000000000000       0x28 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(zephyrCommon.cpp.o)
+ .text._ZN12_GLOBAL__N_118handleGpioCallbackEPK6deviceP13gpio_callbackj
+                0x0000000000000000       0x24 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(zephyrCommon.cpp.o)
+ .text._Z14tone_expiry_cbP7k_timer
+                0x0000000000000000       0x10 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(zephyrCommon.cpp.o)
+ .text.digitalRead
+                0x0000000000000000       0x1c /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(zephyrCommon.cpp.o)
+ .text._Z4tonehjm
+                0x0000000000000000      0x104 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(zephyrCommon.cpp.o)
+ .text._Z6noToneh
+                0x0000000000000000       0x30 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(zephyrCommon.cpp.o)
+ .text._Z15tone_timeout_cbP7k_timer
+                0x0000000000000000        0xc /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(zephyrCommon.cpp.o)
+ .text.delayMicroseconds
+                0x0000000000000000       0x24 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(zephyrCommon.cpp.o)
+ .text.micros   0x0000000000000000       0x1c /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(zephyrCommon.cpp.o)
+ .text._Z21analogWriteResolutioni
+                0x0000000000000000        0xc /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(zephyrCommon.cpp.o)
+ .text._Z21analogWriteResolutionv
+                0x0000000000000000        0xc /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(zephyrCommon.cpp.o)
+ .text.analogWrite
+                0x0000000000000000      0x104 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(zephyrCommon.cpp.o)
+ .text._Z11analogWrite7dacPinsi
+                0x0000000000000000       0x68 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(zephyrCommon.cpp.o)
+ .text.analogReference
+                0x0000000000000000        0x2 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(zephyrCommon.cpp.o)
+ .text._Z20analogReadResolutioni
+                0x0000000000000000        0xc /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(zephyrCommon.cpp.o)
+ .text._Z20analogReadResolutionv
+                0x0000000000000000        0xc /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(zephyrCommon.cpp.o)
+ .text.analogRead
+                0x0000000000000000       0xbc /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(zephyrCommon.cpp.o)
+ .text._Z10randomSeedm
+                0x0000000000000000        0x8 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(zephyrCommon.cpp.o)
+ .text._Z6randomll
+                0x0000000000000000       0x1c /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(zephyrCommon.cpp.o)
+ .text._Z6randoml
+                0x0000000000000000       0x18 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(zephyrCommon.cpp.o)
+ .text.pulseIn  0x0000000000000000       0xf4 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(zephyrCommon.cpp.o)
+ .text.enableInterrupt
+                0x0000000000000000       0x28 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(zephyrCommon.cpp.o)
+ .text.attachInterrupt
+                0x0000000000000000       0xb4 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(zephyrCommon.cpp.o)
+ .text.disableInterrupt
+                0x0000000000000000       0x2c /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(zephyrCommon.cpp.o)
+ .text.detachInterrupt
+                0x0000000000000000       0x1c /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(zephyrCommon.cpp.o)
+ .text._Z10interruptsv
+                0x0000000000000000       0x20 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(zephyrCommon.cpp.o)
+ .text._Z12noInterruptsv
+                0x0000000000000000       0x28 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(zephyrCommon.cpp.o)
+ .text._Z21digitalPinToInterrupth
+                0x0000000000000000       0x24 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(zephyrCommon.cpp.o)
+ .rodata.CSWTCH.130
+                0x0000000000000000       0x14 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(zephyrCommon.cpp.o)
+ .data._ZL15read_resolution
+                0x0000000000000000        0x4 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(zephyrCommon.cpp.o)
+ .data._ZL24_analog_write_resolution
+                0x0000000000000000        0x4 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(zephyrCommon.cpp.o)
+ .bss.arduino_pin_timers_timeout
+                0x0000000000000000      0xf50 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(zephyrCommon.cpp.o)
+ .bss.arduino_pin_timers
+                0x0000000000000000      0xf50 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(zephyrCommon.cpp.o)
+ .bss._ZN12_GLOBAL__N_1L19interrupts_disabledE
+                0x0000000000000000        0x1 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(zephyrCommon.cpp.o)
+ .bss._ZN12_GLOBAL__N_1L7irq_keyE
+                0x0000000000000000        0x4 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(zephyrCommon.cpp.o)
+ .rodata._ZN12_GLOBAL__N_1L10dac_ch_cfgE
+                0x0000000000000000        0x6 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(zephyrCommon.cpp.o)
+ .rodata._ZN12_GLOBAL__N_1L11arduino_adcE
+                0x0000000000000000       0x60 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(zephyrCommon.cpp.o)
+ .rodata._ZN12_GLOBAL__N_1L16arduino_pwm_pinsE
+                0x0000000000000000        0x8 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(zephyrCommon.cpp.o)
+ .rodata._ZN12_GLOBAL__N_1L11arduino_pwmE
+                0x0000000000000000       0x80 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(zephyrCommon.cpp.o)
+ .bss._ZN12_GLOBAL__N_113port_callbackE
+                0x0000000000000000      0x534 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(zephyrCommon.cpp.o)
+ .comment       0x0000000000000000       0x21 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(zephyrCommon.cpp.o)
+ .ARM.attributes
+                0x0000000000000000       0x3c /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(zephyrCommon.cpp.o)
+ .group         0x0000000000000000        0x8 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(zephyrSerial.cpp.o)
+ .group         0x0000000000000000        0x8 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(zephyrSerial.cpp.o)
+ .group         0x0000000000000000        0x8 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(zephyrSerial.cpp.o)
+ .group         0x0000000000000000        0x8 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(zephyrSerial.cpp.o)
+ .group         0x0000000000000000        0xc /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(zephyrSerial.cpp.o)
+ .text          0x0000000000000000        0x0 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(zephyrSerial.cpp.o)
+ .data          0x0000000000000000        0x0 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(zephyrSerial.cpp.o)
+ .bss           0x0000000000000000        0x0 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(zephyrSerial.cpp.o)
+ .text._Z11serialEventv
+                0x0000000000000000        0x2 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(zephyrSerial.cpp.o)
+ .text._Z12serial1Eventv
+                0x0000000000000000        0x2 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(zephyrSerial.cpp.o)
+ .text._ZN7arduino14serialEventRunEv
+                0x0000000000000000       0x30 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(zephyrSerial.cpp.o)
+ .comment       0x0000000000000000       0x21 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(zephyrSerial.cpp.o)
+ .ARM.attributes
+                0x0000000000000000       0x3c /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(zephyrSerial.cpp.o)
+ .text          0x0000000000000000        0x0 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(Common.cpp.o)
+ .data          0x0000000000000000        0x0 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(Common.cpp.o)
+ .bss           0x0000000000000000        0x0 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(Common.cpp.o)
+ .text._Z3maplllll
+                0x0000000000000000       0x14 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(Common.cpp.o)
+ .text._Z8makeWordt
+                0x0000000000000000        0x2 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(Common.cpp.o)
+ .text._Z8makeWordhh
+                0x0000000000000000        0x6 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(Common.cpp.o)
+ .debug_info    0x0000000000000000      0x168 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(Common.cpp.o)
+ .debug_abbrev  0x0000000000000000       0xc1 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(Common.cpp.o)
+ .debug_loclists
+                0x0000000000000000       0x51 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(Common.cpp.o)
+ .debug_aranges
+                0x0000000000000000       0x30 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(Common.cpp.o)
+ .debug_rnglists
+                0x0000000000000000       0x1f /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(Common.cpp.o)
+ .debug_line    0x0000000000000000      0x1b6 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(Common.cpp.o)
+ .debug_str     0x0000000000000000      0x370 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(Common.cpp.o)
+ .comment       0x0000000000000000       0x21 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(Common.cpp.o)
+ .debug_frame   0x0000000000000000       0x48 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(Common.cpp.o)
+ .ARM.attributes
+                0x0000000000000000       0x3c /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(Common.cpp.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD /home/arduino/.arduino15/packages/zephyr/tools/arm-zephyr-eabi/0.16.8/bin/../lib/gcc/../../picolibc/arm-zephyr-eabi/lib/thumb/v8-m.main+fp/hard/libstdc++.a
+LOAD /home/arduino/.arduino15/packages/zephyr/tools/arm-zephyr-eabi/0.16.8/bin/../lib/gcc/../../picolibc/arm-zephyr-eabi/lib/thumb/v8-m.main+fp/hard/libsupc++.a
+LOAD /home/arduino/.arduino15/packages/zephyr/tools/arm-zephyr-eabi/0.16.8/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/../../../../arm-zephyr-eabi/lib/thumb/v8-m.main+fp/hard/libnosys.a
+LOAD /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+LOAD /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/analogReference.cpp.o
+START GROUP
+LOAD /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a
+LOAD /home/arduino/.arduino15/packages/zephyr/tools/arm-zephyr-eabi/0.16.8/bin/../lib/gcc/../../picolibc/arm-zephyr-eabi/lib/thumb/v8-m.main+fp/hard/libstdc++.a
+LOAD /home/arduino/.arduino15/packages/zephyr/tools/arm-zephyr-eabi/0.16.8/bin/../lib/gcc/../../picolibc/arm-zephyr-eabi/lib/thumb/v8-m.main+fp/hard/libsupc++.a
+END GROUP
+
+/DISCARD/
+ *(.ARM.attributes)
+ *(.ARM.attributes.*)
+ *(.ARM.exidx)
+ *(.ARM.exidx.*)
+ *(.ARM.extidx)
+ *(.ARM.extidx.*)
+ *(.ARM.extab)
+ *(.ARM.extab.*)
+ *(.comment)
+ *(.comment.*)
+ *(.llvmbc)
+ *(.llvmcmd)
+ *(.eh_frame)
+ *stdexcept.o()
+ *eh_*.o()
+ *cow-stdexcept.o()
+ *functexcept.o()
+ *cow-string-inst.o()
+
+.text           0x0000000000000000     0x4838
+ *(.text)
+ *(.stub)
+ *(.text*)
+ .text._ZN7arduino5Print17availableForWriteEv
+                0x0000000000000000        0x4 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+                0x0000000000000000                arduino::Print::availableForWrite()
+ .text._ZN7arduino5Print5flushEv
+                0x0000000000000004        0x2 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+                0x0000000000000004                arduino::Print::flush()
+ .text._ZN15SerialTransport9availableEv
+                0x0000000000000006       0x12 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+                0x0000000000000006                SerialTransport::available()
+ .text._ZN15SerialTransport5writeEPKhj
+                0x0000000000000018       0x10 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+                0x0000000000000018                SerialTransport::write(unsigned char const*, unsigned int)
+ .text._ZN15SerialTransportD2Ev
+                0x0000000000000028        0x2 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+                0x0000000000000028                SerialTransport::~SerialTransport()
+                0x0000000000000028                SerialTransport::~SerialTransport()
+ .text._ZN13BridgeMonitorILj512EE5writeEh
+                0x000000000000002a       0x18 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+                0x000000000000002a                BridgeMonitor<512u>::write(unsigned char)
+ *fill*         0x0000000000000042        0x2 
+ .text.k_yield  0x0000000000000044        0x8 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+ .text.__tcf_1  0x000000000000004c       0x10 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+ .text._ZN15SerialTransportD0Ev
+                0x000000000000005c       0x14 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+                0x000000000000005c                SerialTransport::~SerialTransport()
+ .text._ZN15SerialTransport4readEPhj
+                0x0000000000000070       0x28 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+                0x0000000000000070                SerialTransport::read(unsigned char*, unsigned int)
+ .text._ZN15SerialTransport9read_byteERh
+                0x0000000000000098       0x20 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+                0x0000000000000098                SerialTransport::read_byte(unsigned char&)
+ .text.k_mutex_lock
+                0x00000000000000b8        0x8 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+ .text._Z13set_led_stateb
+                0x00000000000000c0       0x10 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+                0x00000000000000c0                set_led_state(bool)
+ .text._ZNSt17_Function_handlerIFvbEPS0_E10_M_managerERSt9_Any_dataRKS3_St18_Manager_operation
+                0x00000000000000d0       0x30 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+                0x00000000000000d0                std::_Function_handler<void (bool), void (*)(bool)>::_M_manager(std::_Any_data&, std::_Any_data const&, std::_Manager_operation)
+ .text._ZNSt17_Function_handlerIFvbEPS0_E9_M_invokeERKSt9_Any_dataOb
+                0x0000000000000100        0x6 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+                0x0000000000000100                std::_Function_handler<void (bool), void (*)(bool)>::_M_invoke(std::_Any_data const&, bool&&)
+ *fill*         0x0000000000000106        0x2 
+ .text._ZSt14__relocate_a_1IhhENSt9enable_ifIXsrSt24__is_bitwise_relocatableIT_vE5valueEPS2_E4typeES4_S4_S4_RSaIT0_E.isra.0
+                0x0000000000000108       0x20 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+ .text._ZNSt12_Vector_baseIhSaIhEE11_M_allocateEj.isra.0
+                0x0000000000000128       0x20 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+ .text.k_mutex_unlock.isra.0
+                0x0000000000000148        0x8 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+ .text._ZN13BridgeMonitorILj512EE4readEv
+                0x0000000000000150       0x64 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+                0x0000000000000150                BridgeMonitor<512u>::read()
+ .text._ZN13BridgeMonitorILj512EE4peekEv
+                0x00000000000001b4       0x44 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+                0x00000000000001b4                BridgeMonitor<512u>::peek()
+ .text.k_msleep.constprop.0.isra.0
+                0x00000000000001f8        0xc /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+ .text._ZNSt14_Function_baseD2Ev
+                0x0000000000000204       0x12 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+                0x0000000000000204                std::_Function_base::~_Function_base()
+                0x0000000000000204                std::_Function_base::~_Function_base()
+ *fill*         0x0000000000000216        0x2 
+ .text._ZN18RpcFunctionWrapperISt8functionIFvbEEED2Ev
+                0x0000000000000218       0x1c /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+                0x0000000000000218                RpcFunctionWrapper<std::function<void (bool)> >::~RpcFunctionWrapper()
+                0x0000000000000218                RpcFunctionWrapper<std::function<void (bool)> >::~RpcFunctionWrapper()
+ .text._ZN18RpcFunctionWrapperISt8functionIFvbEEED0Ev
+                0x0000000000000234       0x1c /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+                0x0000000000000234                RpcFunctionWrapper<std::function<void (bool)> >::~RpcFunctionWrapper()
+ .text._ZN7arduino7msgpack8Unpacker11deserializeEv
+                0x0000000000000250       0x16 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+                0x0000000000000250                arduino::msgpack::Unpacker::deserialize()
+ .text._ZN7arduino7msgpack8Unpacker5clearEv
+                0x0000000000000266       0x14 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+                0x0000000000000266                arduino::msgpack::Unpacker::clear()
+ .text._ZNK7arduino7msgpack8Unpacker13getRawBytePtrEjj
+                0x000000000000027a       0x1e /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+                0x000000000000027a                arduino::msgpack::Unpacker::getRawBytePtr(unsigned int, unsigned int) const
+ .text._ZN8RpcErrorC2Ev
+                0x0000000000000298       0x2c /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+                0x0000000000000298                RpcError::RpcError()
+                0x0000000000000298                RpcError::RpcError()
+ .text._ZN7arduino7msgpack8UnpackerC2Ev
+                0x00000000000002c4       0x10 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+                0x00000000000002c4                arduino::msgpack::Unpacker::Unpacker()
+                0x00000000000002c4                arduino::msgpack::Unpacker::Unpacker()
+ .text._ZN10RPCRequestILj256EEC2Ev
+                0x00000000000002d4       0x4c /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+                0x00000000000002d4                RPCRequest<256u>::RPCRequest()
+                0x00000000000002d4                RPCRequest<256u>::RPCRequest()
+ .text.loop     0x0000000000000320       0x28 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+                0x0000000000000320                loop
+ .text._ZNSt12_Vector_baseIhSaIhEED2Ev
+                0x0000000000000348       0x18 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+                0x0000000000000348                std::_Vector_base<unsigned char, std::allocator<unsigned char> >::~_Vector_base()
+                0x0000000000000348                std::_Vector_base<unsigned char, std::allocator<unsigned char> >::~_Vector_base()
+ .text.__tcf_3  0x0000000000000360       0x14 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+ .text.__tcf_2  0x0000000000000374       0x14 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+ .text._ZNSt6vectorIhSaIhEE14_M_move_assignEOS1_St17integral_constantIbLb1EE.isra.0
+                0x0000000000000388       0x34 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+ .text._ZNK7arduino7msgpack8Unpacker11getRawBytesIhEET_jj
+                0x00000000000003bc       0x1e /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+                0x00000000000003bc                unsigned char arduino::msgpack::Unpacker::getRawBytes<unsigned char>(unsigned int, unsigned int) const
+ *fill*         0x00000000000003da        0x2 
+ .text._ZNK7arduino7msgpack8Unpacker7getTypeEj
+                0x00000000000003dc       0x58 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+                0x00000000000003dc                arduino::msgpack::Unpacker::getType(unsigned int) const
+ .text._ZNK7arduino7msgpack8Unpacker7getTypeEv
+                0x0000000000000434       0x10 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+                0x0000000000000434                arduino::msgpack::Unpacker::getType() const
+ .text._ZN7arduino7msgpack8Unpacker11unpackInt32Ev
+                0x0000000000000444       0x58 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+                0x0000000000000444                arduino::msgpack::Unpacker::unpackInt32()
+ .text._ZN7arduino7msgpack8Unpacker11unpackInt64Ev
+                0x000000000000049c       0x60 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+                0x000000000000049c                arduino::msgpack::Unpacker::unpackInt64()
+ .text._ZN7arduino7msgpack8Unpacker9unpackNilEv
+                0x00000000000004fc       0x3c /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+                0x00000000000004fc                arduino::msgpack::Unpacker::unpackNil()
+ .text._ZNK7arduino7msgpack8Unpacker7isArrayEv
+                0x0000000000000538       0x20 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+                0x0000000000000538                arduino::msgpack::Unpacker::isArray() const
+ .text._ZNK7arduino7msgpack8Unpacker5isMapEv
+                0x0000000000000558       0x20 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+                0x0000000000000558                arduino::msgpack::Unpacker::isMap() const
+ .text._ZNK7arduino7msgpack8Unpacker6isUIntEv
+                0x0000000000000578       0x20 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+                0x0000000000000578                arduino::msgpack::Unpacker::isUInt() const
+ .text._ZNK7arduino7msgpack8Unpacker5isIntEv
+                0x0000000000000598       0x20 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+                0x0000000000000598                arduino::msgpack::Unpacker::isInt() const
+ .text._ZN7arduino7msgpack8Unpacker13unpackFloat32Ev
+                0x00000000000005b8       0x60 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+                0x00000000000005b8                arduino::msgpack::Unpacker::unpackFloat32()
+ .text._ZN7arduino7msgpack8Unpacker11unpackInt16Ev
+                0x0000000000000618       0x4c /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+                0x0000000000000618                arduino::msgpack::Unpacker::unpackInt16()
+ *fill*         0x0000000000000664        0x4 
+ .text._ZN7arduino7msgpack8Unpacker13unpackFloat64Ev
+                0x0000000000000668       0x6c /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+                0x0000000000000668                arduino::msgpack::Unpacker::unpackFloat64()
+ .text._ZN7arduino7msgpack8Unpacker10unpackInt5Ev
+                0x00000000000006d4       0x4c /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+                0x00000000000006d4                arduino::msgpack::Unpacker::unpackInt5()
+ .text._ZN7arduino7msgpack8Unpacker11unpackUInt7Ev
+                0x0000000000000720       0x48 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+                0x0000000000000720                arduino::msgpack::Unpacker::unpackUInt7()
+ .text._ZN7arduino7msgpack8Unpacker11unpackUInt8Ev
+                0x0000000000000768       0x48 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+                0x0000000000000768                arduino::msgpack::Unpacker::unpackUInt8()
+ .text._ZNK7arduino7msgpack8Unpacker11getRawBytesItEET_jj
+                0x00000000000007b0       0x26 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+                0x00000000000007b0                unsigned short arduino::msgpack::Unpacker::getRawBytes<unsigned short>(unsigned int, unsigned int) const
+ *fill*         0x00000000000007d6        0x2 
+ .text._ZN7arduino7msgpack8Unpacker12unpackUInt16Ev
+                0x00000000000007d8       0x48 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+                0x00000000000007d8                arduino::msgpack::Unpacker::unpackUInt16()
+ .text._ZNK7arduino7msgpack8Unpacker11getRawBytesIjEET_jj
+                0x0000000000000820       0x34 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+                0x0000000000000820                unsigned int arduino::msgpack::Unpacker::getRawBytes<unsigned int>(unsigned int, unsigned int) const
+ .text._ZNK7arduino7msgpack8Unpacker14getElementSizeEj
+                0x0000000000000854      0x11c /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+                0x0000000000000854                arduino::msgpack::Unpacker::getElementSize(unsigned int) const
+ .text._ZN7arduino7msgpack8Unpacker15unpackArraySizeEv
+                0x0000000000000970       0x78 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+                0x0000000000000970                arduino::msgpack::Unpacker::unpackArraySize()
+ .text._ZN7arduino7msgpack8Unpacker11deserializeINS0_4type9ArraySizeEJEEEbRT_DpOT0_.isra.0
+                0x00000000000009e8       0x40 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+ .text._ZN7arduino7msgpack8Unpacker12unpackUInt32Ev
+                0x0000000000000a28       0x48 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+                0x0000000000000a28                arduino::msgpack::Unpacker::unpackUInt32()
+ .text._ZN7arduino7msgpack8Unpacker13unpackMapSizeEv
+                0x0000000000000a70       0x78 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+                0x0000000000000a70                arduino::msgpack::Unpacker::unpackMapSize()
+ .text._ZNK7arduino7msgpack8Unpacker11getRawBytesIyEET_jj
+                0x0000000000000ae8       0x3a /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+                0x0000000000000ae8                unsigned long long arduino::msgpack::Unpacker::getRawBytes<unsigned long long>(unsigned int, unsigned int) const
+ *fill*         0x0000000000000b22        0x2 
+ .text._ZN7arduino7msgpack8Unpacker12unpackUInt64Ev
+                0x0000000000000b24       0x4c /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+                0x0000000000000b24                arduino::msgpack::Unpacker::unpackUInt64()
+ .text._ZNK7arduino7msgpack8Unpacker11getRawBytesIaEET_jj
+                0x0000000000000b70       0x1e /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+                0x0000000000000b70                signed char arduino::msgpack::Unpacker::getRawBytes<signed char>(unsigned int, unsigned int) const
+ *fill*         0x0000000000000b8e        0x2 
+ .text._ZN7arduino7msgpack8Unpacker10unpackInt8Ev
+                0x0000000000000b90       0x48 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+                0x0000000000000b90                arduino::msgpack::Unpacker::unpackInt8()
+ .text._ZNK7arduino7msgpack8Unpacker13isTimestamp32Ev
+                0x0000000000000bd8       0x2c /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+                0x0000000000000bd8                arduino::msgpack::Unpacker::isTimestamp32() const
+ .text._ZNK7arduino7msgpack8Unpacker13isTimestamp64Ev
+                0x0000000000000c04       0x2c /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+                0x0000000000000c04                arduino::msgpack::Unpacker::isTimestamp64() const
+ .text._ZNK7arduino7msgpack8Unpacker13isTimestamp96Ev
+                0x0000000000000c30       0x40 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+                0x0000000000000c30                arduino::msgpack::Unpacker::isTimestamp96() const
+ .text._ZNK7arduino7msgpack8Unpacker11getRawBytesIcEET_jj
+                0x0000000000000c70       0x1e /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+                0x0000000000000c70                char arduino::msgpack::Unpacker::getRawBytes<char>(unsigned int, unsigned int) const
+ *fill*         0x0000000000000c8e        0x2 
+ .text._ZN7arduino7msgpack8Unpacker11deserializeINS0_6object5nil_tEJEEEbRT_DpOT0_
+                0x0000000000000c90       0x40 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+                0x0000000000000c90                bool arduino::msgpack::Unpacker::deserialize<arduino::msgpack::object::nil_t>(arduino::msgpack::object::nil_t&)
+ .text._ZN7arduino7msgpack8Unpacker11deserializeIbJEEEbRT_DpOT0_
+                0x0000000000000cd0       0x68 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+                0x0000000000000cd0                bool arduino::msgpack::Unpacker::deserialize<bool>(bool&)
+ .text._ZN7arduino7msgpack8Unpacker11deserializeINS_6StringEJEEEbRT_DpOT0_
+                0x0000000000000d38      0x174 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+                0x0000000000000d38                bool arduino::msgpack::Unpacker::deserialize<arduino::String>(arduino::String&)
+ .text._ZN7arduino7msgpack8Unpacker11deserializeINS0_6object8timespecEJEEEbRT_DpOT0_
+                0x0000000000000eac       0xc4 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+                0x0000000000000eac                bool arduino::msgpack::Unpacker::deserialize<arduino::msgpack::object::timespec>(arduino::msgpack::object::timespec&)
+ .text._ZN17RpcDecoderManagerILj3EE10getDecoderER10ITransport
+                0x0000000000000f70       0x74 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+                0x0000000000000f70                RpcDecoderManager<3u>::getDecoder(ITransport&)
+ .text._ZNSt12_Vector_baseIjSaIjEED2Ev
+                0x0000000000000fe4       0x18 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+                0x0000000000000fe4                std::_Vector_base<unsigned int, std::allocator<unsigned int> >::~_Vector_base()
+                0x0000000000000fe4                std::_Vector_base<unsigned int, std::allocator<unsigned int> >::~_Vector_base()
+ .text._ZN10RPCRequestILj256EED2Ev
+                0x0000000000000ffc       0x2c /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+                0x0000000000000ffc                RPCRequest<256u>::~RPCRequest()
+                0x0000000000000ffc                RPCRequest<256u>::~RPCRequest()
+ .text._ZNSt6vectorIjSaIjEE17_M_realloc_insertIJRjEEEvN9__gnu_cxx17__normal_iteratorIPjS1_EEDpOT_
+                0x0000000000001028       0xdc /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+                0x0000000000001028                void std::vector<unsigned int, std::allocator<unsigned int> >::_M_realloc_insert<unsigned int&>(__gnu_cxx::__normal_iterator<unsigned int*, std::vector<unsigned int, std::allocator<unsigned int> > >, unsigned int&)
+ .text._ZN7arduino7msgpack8Unpacker4feedEPKhj
+                0x0000000000001104       0x78 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+                0x0000000000001104                arduino::msgpack::Unpacker::feed(unsigned char const*, unsigned int)
+ .text._ZNKSt6vectorIhSaIhEE12_M_check_lenEjPKc
+                0x000000000000117c       0x38 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+                0x000000000000117c                std::vector<unsigned char, std::allocator<unsigned char> >::_M_check_len(unsigned int, char const*) const
+ .text._ZNSt6vectorIhSaIhEE12emplace_backIJRKhEEERhDpOT_.isra.0
+                0x00000000000011b4       0x90 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+ .text._ZNSt6vectorIhSaIhEE12emplace_backIJhEEERhDpOT_.isra.0
+                0x0000000000001244       0x90 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+ .text._ZN7arduino7msgpack8Unpacker11deserializeISt6vectorIhSaIhEEJEEEbRT_DpOT0_
+                0x00000000000012d4      0x13c /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+                0x00000000000012d4                bool arduino::msgpack::Unpacker::deserialize<std::vector<unsigned char, std::allocator<unsigned char> >>(std::vector<unsigned char, std::allocator<unsigned char> >&)
+ .text._ZN7arduino7msgpack6Packer11packRawByteERKNS0_4TypeE.isra.0
+                0x0000000000001410       0x18 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+ .text._ZN7arduino7msgpack6Packer7packNilEv
+                0x0000000000001428       0x18 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+                0x0000000000001428                arduino::msgpack::Packer::packNil()
+ .text._ZN7arduino7msgpack6Packer9packUInt8Eh
+                0x0000000000001440       0x2c /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+                0x0000000000001440                arduino::msgpack::Packer::packUInt8(unsigned char)
+ .text._ZNSt6vectorIhSaIhEE12emplace_backIJRhEEES3_DpOT_.isra.0
+                0x000000000000146c       0x90 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+ .text._ZN7arduino7msgpack6Packer15packRawReversedIjEEvRKT_
+                0x00000000000014fc       0x1c /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+                0x00000000000014fc                void arduino::msgpack::Packer::packRawReversed<unsigned int>(unsigned int const&)
+ .text._ZN7arduino7msgpack6Packer10packUInt32Ej
+                0x0000000000001518       0x28 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+                0x0000000000001518                arduino::msgpack::Packer::packUInt32(unsigned int)
+ .text._ZN7arduino7msgpack6Packer15packRawReversedItEEvRKT_
+                0x0000000000001540       0x1c /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+                0x0000000000001540                void arduino::msgpack::Packer::packRawReversed<unsigned short>(unsigned short const&)
+ .text._ZN7arduino7msgpack6Packer13packArraySizeEj
+                0x000000000000155c       0x58 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+                0x000000000000155c                arduino::msgpack::Packer::packArraySize(unsigned int)
+ .text._ZN7arduino7msgpack6Packer10packUInt16Et
+                0x00000000000015b4       0x2c /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+                0x00000000000015b4                arduino::msgpack::Packer::packUInt16(unsigned short)
+ .text._ZN7arduino7msgpack6Packer11packIntegerIjEENSt9enable_ifIXaaaaaasrSt13is_arithmeticIT_E5valuesrSt11is_integralIS5_E5valuentsrSt7is_sameIS5_bE5valuentsrS9_INSt9remove_cvIS5_E4typeEPcE5valueEvE4typeERKS5_.isra.0
+                0x00000000000015e0       0x50 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+ .text._ZN7arduino7msgpack6Packer11packIntegerIiEENSt9enable_ifIXaaaaaasrSt13is_arithmeticIT_E5valuesrSt11is_integralIS5_E5valuentsrSt7is_sameIS5_bE5valuentsrS9_INSt9remove_cvIS5_E4typeEPcE5valueEvE4typeERKS5_.isra.0
+                0x0000000000001630       0xb8 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+ .text._ZN7arduino7msgpack6Packer12packRawBytesEPKcj
+                0x00000000000016e8       0x9c /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+                0x00000000000016e8                arduino::msgpack::Packer::packRawBytes(char const*, unsigned int)
+ .text._ZN7arduino7msgpack6Packer4packERKNS_6StringE
+                0x0000000000001784       0x7c /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+                0x0000000000001784                arduino::msgpack::Packer::pack(arduino::String const&)
+ .text._ZN7arduino7msgpack6Packer9serializeIJRKiRjRKNS_6StringEEEEvRKNS0_4type9ArraySizeEDpOT_.isra.0
+                0x0000000000001800       0x38 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+ .text._ZN7arduino7msgpack6Packer9serializeI8RpcErrorJRNS0_6object5nil_tEEEENSt9enable_ifIXoooontsrSt10is_pointerIT_E5valuesrSt7is_sameIS9_PKcE5valuesrSB_IS9_PKNS_19__FlashStringHelperEE5valueEvE4typeERKS9_DpOT0_.isra.0
+                0x0000000000001838       0x38 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+ .text._ZN18RpcFunctionWrapperISt8functionIFvbEEEclERN7arduino7msgpack8UnpackerERNS5_6PackerE
+                0x0000000000001870      0x12c /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+                0x0000000000001870                RpcFunctionWrapper<std::function<void (bool)> >::operator()(arduino::msgpack::Unpacker&, arduino::msgpack::Packer&)
+ .text._ZN7arduino7msgpack8Unpacker9unpackIntIiEENSt9enable_ifIXaaaaaaaasrSt13is_arithmeticIT_E5valuesrSt11is_integralIS5_E5valuentsrSt7is_sameIS5_bE5valuentsrS9_INSt9remove_cvIS5_E4typeEPcE5valuesrSt9is_signedIS5_E5valueES5_E4typeEv
+                0x000000000000199c       0xd0 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+                0x000000000000199c                std::enable_if<(((std::is_arithmetic<int>::value&&std::is_integral<int>::value)&&(!std::is_same<int, bool>::value))&&(!std::is_same<std::remove_cv<int>::type, char*>::value))&&std::is_signed<int>::value, int>::type arduino::msgpack::Unpacker::unpackInt<int>()
+ .text._ZN7arduino7msgpack8Unpacker11deserializeIiJEEEbRT_DpOT0_
+                0x0000000000001a6c       0x40 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+                0x0000000000001a6c                bool arduino::msgpack::Unpacker::deserialize<int>(int&)
+ .text._ZN7arduino7msgpack8Unpacker11unpackFloatIfEENSt9enable_ifIXaasrSt13is_arithmeticIT_E5valuesrSt17is_floating_pointIS5_E5valueES5_E4typeEv
+                0x0000000000001aac      0x118 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+                0x0000000000001aac                std::enable_if<std::is_arithmetic<float>::value&&std::is_floating_point<float>::value, float>::type arduino::msgpack::Unpacker::unpackFloat<float>()
+ *fill*         0x0000000000001bc4        0x4 
+ .text._ZN7arduino7msgpack8Unpacker11unpackFloatIdEENSt9enable_ifIXaasrSt13is_arithmeticIT_E5valuesrSt17is_floating_pointIS5_E5valueES5_E4typeEv
+                0x0000000000001bc8      0x118 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+                0x0000000000001bc8                std::enable_if<std::is_arithmetic<double>::value&&std::is_floating_point<double>::value, double>::type arduino::msgpack::Unpacker::unpackFloat<double>()
+ .text._ZN7arduino7msgpack8Unpacker11deserializeINS0_4type9ArraySizeEJRiEEEbRT_DpOT0_
+                0x0000000000001ce0       0x44 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+                0x0000000000001ce0                bool arduino::msgpack::Unpacker::deserialize<arduino::msgpack::type::ArraySize, int&>(arduino::msgpack::type::ArraySize&, int&)
+ .text._ZNK10RpcDecoderILj1024EE4sendEPKhj
+                0x0000000000001d24       0x22 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+                0x0000000000001d24                RpcDecoder<1024u>::send(unsigned char const*, unsigned int) const
+ *fill*         0x0000000000001d46        0x2 
+ .text._ZN9RPCClient8send_rpcIJRKN7arduino6StringEEEEbS4_RjDpOT_.isra.0
+                0x0000000000001d48       0x84 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+ .text._ZN9RPCClient8send_rpcIJEEEbRKN7arduino6StringERjDpOT_.isra.0
+                0x0000000000001dcc       0x74 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+ .text._ZN9RPCClient8send_rpcIJRKjEEEbRKN7arduino6StringERjDpOT_.isra.0
+                0x0000000000001e40       0x84 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+ .text._ZNK9RPCServer13send_responseILj256EEEbRK10RPCRequestIXT_EE.isra.0
+                0x0000000000001ec4       0x24 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+ .text._ZN10RpcDecoderILj1024EE7consumeEjj
+                0x0000000000001ee8       0x36 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+                0x0000000000001ee8                RpcDecoder<1024u>::consume(unsigned int, unsigned int)
+ *fill*         0x0000000000001f1e        0x2 
+ .text._ZN10RpcDecoderILj1024EE7discardEv
+                0x0000000000001f20       0x2c /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+                0x0000000000001f20                RpcDecoder<1024u>::discard()
+ .text._ZN7arduino7msgpack8Unpacker11deserializeI8RpcErrorJRNS0_6object5nil_tEEEEbRT_DpOT0_
+                0x0000000000001f4c       0x90 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+                0x0000000000001f4c                bool arduino::msgpack::Unpacker::deserialize<RpcError, arduino::msgpack::object::nil_t&>(RpcError&, arduino::msgpack::object::nil_t&)
+ .text._Z4wrapIRFvbESt8functionIS0_EEP18RpcFunctionWrapperIT0_EOT_
+                0x0000000000001fdc       0x6c /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+                0x0000000000001fdc                RpcFunctionWrapper<std::function<void (bool)> >* wrap<void (&)(bool), std::function<void (bool)> >(void (&)(bool))
+ .text._ZN7arduino7msgpack8Unpacker10unpackUIntIjEENSt9enable_ifIXaaaaaaaasrSt13is_arithmeticIT_E5valuesrSt11is_integralIS5_E5valuentsrSt7is_sameIS5_bE5valuentsrS9_INSt9remove_cvIS5_E4typeEPcE5valuentsrSt9is_signedIS5_E5valueES5_E4typeEv
+                0x0000000000002048       0x80 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+                0x0000000000002048                std::enable_if<(((std::is_arithmetic<unsigned int>::value&&std::is_integral<unsigned int>::value)&&(!std::is_same<unsigned int, bool>::value))&&(!std::is_same<std::remove_cv<unsigned int>::type, char*>::value))&&(!std::is_signed<unsigned int>::value), unsigned int>::type arduino::msgpack::Unpacker::unpackUInt<unsigned int>()
+ .text._ZN7arduino7msgpack8Unpacker11deserializeIjJRNS_6StringEEEEbRT_DpOT0_
+                0x00000000000020c8       0x44 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+                0x00000000000020c8                bool arduino::msgpack::Unpacker::deserialize<unsigned int, arduino::String&>(unsigned int&, arduino::String&)
+ .text._ZN10RpcDecoderILj1024EE16fetch_rpc_methodEv
+                0x000000000000210c       0xe8 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+                0x000000000000210c                RpcDecoder<1024u>::fetch_rpc_method()
+ .text._ZN10RPCRequestILj256EE22unpack_request_headersEv
+                0x00000000000021f4       0xb8 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+                0x00000000000021f4                RPCRequest<256u>::unpack_request_headers()
+ .text._ZN9RPCServer15process_requestILj256EEEvR10RPCRequestIXT_EE
+                0x00000000000022ac      0x114 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+                0x00000000000022ac                void RPCServer::process_request<256u>(RPCRequest<256u>&)
+ .text._ZN7arduino7msgpack8Unpacker11deserializeIjJEEEbRT_DpOT0_
+                0x00000000000023c0       0x40 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+                0x00000000000023c0                bool arduino::msgpack::Unpacker::deserialize<unsigned int>(unsigned int&)
+ .text._ZN7arduino7msgpack8Unpacker11deserializeINS0_4type9ArraySizeEJRiRjEEEbRT_DpOT0_
+                0x0000000000002400       0x78 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+                0x0000000000002400                bool arduino::msgpack::Unpacker::deserialize<arduino::msgpack::type::ArraySize, int&, unsigned int&>(arduino::msgpack::type::ArraySize&, int&, unsigned int&)
+ .text._ZN10RpcDecoderILj1024EE12get_responseIN7arduino7msgpack6object5nil_tEEEbjRT_R8RpcError
+                0x0000000000002478      0x168 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+                0x0000000000002478                bool RpcDecoder<1024u>::get_response<arduino::msgpack::object::nil_t>(unsigned int, arduino::msgpack::object::nil_t&, RpcError&)
+ .text._ZN10RpcDecoderILj1024EE12get_responseIbEEbjRT_R8RpcError
+                0x00000000000025e0      0x168 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+                0x00000000000025e0                bool RpcDecoder<1024u>::get_response<bool>(unsigned int, bool&, RpcError&)
+ .text._ZNSt11__copy_moveILb0ELb1ESt26random_access_iterator_tagE8__copy_mIhEEPT_PKS3_S6_S4_
+                0x0000000000002748       0x1c /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+                0x0000000000002748                unsigned char* std::__copy_move<false, true, std::random_access_iterator_tag>::__copy_m<unsigned char>(unsigned char const*, unsigned char const*, unsigned char*)
+ .text._ZNSt11__copy_moveILb1ELb1ESt26random_access_iterator_tagE8__copy_mIhEEPT_PKS3_S6_S4_
+                0x0000000000002764       0x1c /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+                0x0000000000002764                unsigned char* std::__copy_move<true, true, std::random_access_iterator_tag>::__copy_m<unsigned char>(unsigned char const*, unsigned char const*, unsigned char*)
+ .text._ZN7arduino7msgpack6object3extC2EaPKhj
+                0x0000000000002780      0x104 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+                0x0000000000002780                arduino::msgpack::object::ext::ext(signed char, unsigned char const*, unsigned int)
+                0x0000000000002780                arduino::msgpack::object::ext::ext(signed char, unsigned char const*, unsigned int)
+ .text._ZN7arduino7msgpack8Unpacker9unpackExtEv
+                0x0000000000002884      0x178 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+                0x0000000000002884                arduino::msgpack::Unpacker::unpackExt()
+ .text._ZN8RpcUtils6detail12unpackObjectERN7arduino7msgpack8UnpackerE
+                0x00000000000029fc      0x294 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+                0x00000000000029fc                RpcUtils::detail::unpackObject(arduino::msgpack::Unpacker&)
+ .text._ZN10RpcDecoderILj1024EE12parse_packetEv
+                0x0000000000002c90       0xf8 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+                0x0000000000002c90                RpcDecoder<1024u>::parse_packet()
+ .text._ZN10RpcDecoderILj1024EE6decodeEv
+                0x0000000000002d88       0x40 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+                0x0000000000002d88                RpcDecoder<1024u>::decode()
+ .text._ZN9RPCServer7get_rpcILj256EEEbR10RPCRequestIXT_EEN7arduino6StringE
+                0x0000000000002dc8       0xc4 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+                0x0000000000002dc8                bool RPCServer::get_rpc<256u>(RPCRequest<256u>&, arduino::String)
+ .text._ZN11BridgeClass11update_safeEv
+                0x0000000000002e8c       0xb0 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+                0x0000000000002e8c                BridgeClass::update_safe()
+ .text._Z10__loopHookv
+                0x0000000000002f3c       0x20 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+                0x0000000000002f3c                __loopHook()
+ .text._ZN11BridgeClass6updateEv
+                0x0000000000002f5c       0xb0 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+                0x0000000000002f5c                BridgeClass::update()
+ .text._Z16updateEntryPointPvS_S_
+                0x000000000000300c       0x24 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+                0x000000000000300c                updateEntryPoint(void*, void*, void*)
+ .text._ZN9RPCClient12get_responseIN7arduino7msgpack6object5nil_tEEEbjRT_R8RpcError
+                0x0000000000003030       0x40 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+                0x0000000000003030                bool RPCClient::get_response<arduino::msgpack::object::nil_t>(unsigned int, arduino::msgpack::object::nil_t&, RpcError&)
+ .text._ZN9RpcResultIJEED2Ev
+                0x0000000000003070       0x9c /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+                0x0000000000003070                RpcResult<>::~RpcResult()
+                0x0000000000003070                RpcResult<>::~RpcResult()
+ .text._ZN9RPCClient12get_responseIbEEbjRT_R8RpcError
+                0x000000000000310c       0x40 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+                0x000000000000310c                bool RPCClient::get_response<bool>(unsigned int, bool&, RpcError&)
+ .text._ZN9RpcResultIJRKN7arduino6StringEEE6resultIbEEbRT_
+                0x000000000000314c       0x90 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+                0x000000000000314c                bool RpcResult<arduino::String const&>::result<bool>(bool&)
+ .text._ZN9RpcResultIJEE6resultIbEEbRT_.isra.0
+                0x00000000000031dc       0x88 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+ .text._ZN11BridgeClass5beginEm
+                0x0000000000003264      0x154 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+                0x0000000000003264                BridgeClass::begin(unsigned long)
+ .text.setup    0x00000000000033b8      0x25c /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+                0x00000000000033b8                setup
+ .text._ZN8RpcUtils6detail9unpackMapERN7arduino7msgpack8UnpackerERj
+                0x0000000000003614       0x80 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+                0x0000000000003614                RpcUtils::detail::unpackMap(arduino::msgpack::Unpacker&, unsigned int&)
+ .text._ZN10RpcDecoderILj1024EE12get_responseIjEEbjRT_R8RpcError
+                0x0000000000003694      0x168 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+                0x0000000000003694                bool RpcDecoder<1024u>::get_response<unsigned int>(unsigned int, unsigned int&, RpcError&)
+ .text._ZN9RpcResultIJRN7arduino6StringEEE6resultIjEEbRT_
+                0x00000000000037fc       0xbc /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+                0x00000000000037fc                bool RpcResult<arduino::String&>::result<unsigned int>(unsigned int&)
+ .text._ZN13BridgeMonitorILj512EE5writeEPKhj
+                0x00000000000038b8      0x128 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+                0x00000000000038b8                BridgeMonitor<512u>::write(unsigned char const*, unsigned int)
+ .text._ZN10RpcDecoderILj1024EE12get_responseISt6vectorIhSaIhEEEEbjRT_R8RpcError
+                0x00000000000039e0      0x168 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+                0x00000000000039e0                bool RpcDecoder<1024u>::get_response<std::vector<unsigned char, std::allocator<unsigned char> > >(unsigned int, std::vector<unsigned char, std::allocator<unsigned char> >&, RpcError&)
+ .text._ZN9RpcResultIJRjEE6resultISt6vectorIhSaIhEEEEbRT_
+                0x0000000000003b48       0xbc /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+                0x0000000000003b48                bool RpcResult<unsigned int&>::result<std::vector<unsigned char, std::allocator<unsigned char> > >(std::vector<unsigned char, std::allocator<unsigned char> >&)
+ .text._ZN13BridgeMonitorILj512EE5_readEj
+                0x0000000000003c04      0x15c /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+                0x0000000000003c04                BridgeMonitor<512u>::_read(unsigned int)
+ .text._ZN13BridgeMonitorILj512EE9availableEv
+                0x0000000000003d60       0x44 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+                0x0000000000003d60                BridgeMonitor<512u>::available()
+ .text._GLOBAL__sub_I_Bridge
+                0x0000000000003da4       0xc8 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+ .text._GLOBAL__sub_D_Bridge
+                0x0000000000003e6c       0x20 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+ .text._ZSt20__throw_length_errorPKc
+                0x0000000000003e8c        0x2 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(abi.cpp.o)
+                0x0000000000003e8c                std::__throw_length_error(char const*)
+ .text._ZSt17__throw_bad_allocv
+                0x0000000000003e8e        0x2 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(abi.cpp.o)
+                0x0000000000003e8e                std::__throw_bad_alloc()
+ .text._ZSt25__throw_bad_function_callv
+                0x0000000000003e90        0x2 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(abi.cpp.o)
+                0x0000000000003e90                std::__throw_bad_function_call()
+ .text.atexit   0x0000000000003e92        0x4 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(abi.cpp.o)
+                0x0000000000003e92                atexit
+ .text.strcmp   0x0000000000003e96       0x16 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(abi.cpp.o)
+                0x0000000000003e96                strcmp
+ .text._ZN7arduino5Print5writeEPKc
+                0x0000000000003eac       0x24 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(Print.cpp.o)
+                0x0000000000003eac                arduino::Print::write(char const*)
+ .text._ZN7arduino5Print7printlnEv
+                0x0000000000003ed0       0x14 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(Print.cpp.o)
+                0x0000000000003ed0                arduino::Print::println()
+ .text._ZN7arduino5Print7printlnEPKNS_19__FlashStringHelperE
+                0x0000000000003ee4       0x1c /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(Print.cpp.o)
+                0x0000000000003ee4                arduino::Print::println(arduino::__FlashStringHelper const*)
+ .text._ZN7arduino5Print7printlnEPKc
+                0x0000000000003f00        0x8 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(Print.cpp.o)
+                0x0000000000003f00                arduino::Print::println(char const*)
+ .text._ZN7arduino6Stream9timedReadEv
+                0x0000000000003f08       0x2c /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(Stream.cpp.o)
+                0x0000000000003f08                arduino::Stream::timedRead()
+ .text._ZN7arduino6Stream10setTimeoutEm
+                0x0000000000003f34        0x4 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(Stream.cpp.o)
+                0x0000000000003f34                arduino::Stream::setTimeout(unsigned long)
+ .text._ZN7arduino6Stream9readBytesEPcj
+                0x0000000000003f38       0x2c /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(Stream.cpp.o)
+                0x0000000000003f38                arduino::Stream::readBytes(char*, unsigned int)
+ .text._ZN7arduino6StringC2EOS0_
+                0x0000000000003f64       0x16 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(String.cpp.o)
+                0x0000000000003f64                arduino::String::String(arduino::String&&)
+                0x0000000000003f64                arduino::String::String(arduino::String&&)
+ *fill*         0x0000000000003f7a        0x2 
+ .text._ZN7arduino6StringD2Ev
+                0x0000000000003f7c       0x14 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(String.cpp.o)
+                0x0000000000003f7c                arduino::String::~String()
+                0x0000000000003f7c                arduino::String::~String()
+ .text._ZN7arduino6String10invalidateEv
+                0x0000000000003f90       0x1c /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(String.cpp.o)
+                0x0000000000003f90                arduino::String::invalidate()
+ .text._ZN7arduino6String12changeBufferEj
+                0x0000000000003fac       0x1c /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(String.cpp.o)
+                0x0000000000003fac                arduino::String::changeBuffer(unsigned int)
+ .text._ZN7arduino6String7reserveEj
+                0x0000000000003fc8       0x28 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(String.cpp.o)
+                0x0000000000003fc8                arduino::String::reserve(unsigned int)
+ .text._ZN7arduino6String4copyEPKcj
+                0x0000000000003ff0       0x3c /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(String.cpp.o)
+                0x0000000000003ff0                arduino::String::copy(char const*, unsigned int)
+ .text._ZN7arduino6StringC2EPKc
+                0x000000000000402c       0x2c /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(String.cpp.o)
+                0x000000000000402c                arduino::String::String(char const*)
+                0x000000000000402c                arduino::String::String(char const*)
+ .text._ZN7arduino6String4moveERS0_
+                0x0000000000004058       0x2c /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(String.cpp.o)
+                0x0000000000004058                arduino::String::move(arduino::String&)
+ .text._ZN7arduino6StringaSERKS0_
+                0x0000000000004084       0x28 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(String.cpp.o)
+                0x0000000000004084                arduino::String::operator=(arduino::String const&)
+ .text._ZN7arduino6StringC2ERKS0_
+                0x00000000000040ac       0x18 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(String.cpp.o)
+                0x00000000000040ac                arduino::String::String(arduino::String const&)
+                0x00000000000040ac                arduino::String::String(arduino::String const&)
+ .text._ZN7arduino6StringaSEOS0_
+                0x00000000000040c4       0x10 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(String.cpp.o)
+                0x00000000000040c4                arduino::String::operator=(arduino::String&&)
+ .text._ZN7arduino6StringaSEPKc
+                0x00000000000040d4       0x30 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(String.cpp.o)
+                0x00000000000040d4                arduino::String::operator=(char const*)
+ .text._ZN7arduino6StringC2Eih
+                0x0000000000004104       0x2c /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(String.cpp.o)
+                0x0000000000004104                arduino::String::String(int, unsigned char)
+                0x0000000000004104                arduino::String::String(int, unsigned char)
+ .text._ZN7arduino6String6concatEPKcj
+                0x0000000000004130       0x40 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(String.cpp.o)
+                0x0000000000004130                arduino::String::concat(char const*, unsigned int)
+ .text._ZN7arduino6String6concatERKS0_
+                0x0000000000004170        0xc /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(String.cpp.o)
+                0x0000000000004170                arduino::String::concat(arduino::String const&)
+ .text._ZN7arduino6String6concatEc
+                0x000000000000417c       0x1c /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(String.cpp.o)
+                0x000000000000417c                arduino::String::concat(char)
+ .text._ZNK7arduino6String9compareToERKS0_
+                0x0000000000004198       0x30 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(String.cpp.o)
+                0x0000000000004198                arduino::String::compareTo(arduino::String const&) const
+ .text._ZNK7arduino6String6equalsERKS0_
+                0x00000000000041c8       0x20 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(String.cpp.o)
+                0x00000000000041c8                arduino::String::equals(arduino::String const&) const
+ .text._ZNK7arduino6String6equalsEPKc
+                0x00000000000041e8       0x28 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(String.cpp.o)
+                0x00000000000041e8                arduino::String::equals(char const*) const
+ .text.ltoa     0x0000000000004210       0x80 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(itoa.cpp.o)
+                0x0000000000004210                ltoa
+ .text.itoa     0x0000000000004290        0x8 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(itoa.cpp.o)
+                0x0000000000004290                itoa
+ .text.initVariant
+                0x0000000000004298        0x2 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(main.cpp.o)
+                0x0000000000004298                initVariant
+ *fill*         0x000000000000429a        0x2 
+ .text.main     0x000000000000429c       0x2c /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(main.cpp.o)
+                0x000000000000429c                main
+ .text._ZL10new_helperj
+                0x00000000000042c8       0x10 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(new.cpp.o)
+ .text._Znwj    0x00000000000042d8        0x8 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(new.cpp.o)
+                0x00000000000042d8                operator new(unsigned int)
+ .text._ZnwjPv  0x00000000000042e0        0x4 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(new.cpp.o)
+                0x00000000000042e0                operator new(unsigned int, void*)
+ .text._ZdlPvj  0x00000000000042e4        0x8 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(new.cpp.o)
+                0x00000000000042e4                operator delete(void*, unsigned int)
+ .text._Z20start_static_threadsv
+                0x00000000000042ec       0x6c /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(threads.cpp.o)
+                0x00000000000042ec                start_static_threads()
+ .text.gpio_pin_set_dt.isra.0
+                0x0000000000004358       0x28 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(zephyrCommon.cpp.o)
+ .text.gpio_pin_configure_dt.isra.0
+                0x0000000000004380       0x2a /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(zephyrCommon.cpp.o)
+ *fill*         0x00000000000043aa        0x2 
+ .text.yield    0x00000000000043ac        0x8 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(zephyrCommon.cpp.o)
+                0x00000000000043ac                yield
+ .text.pinMode  0x00000000000043b4       0x3c /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(zephyrCommon.cpp.o)
+                0x00000000000043b4                pinMode
+ .text.digitalWrite
+                0x00000000000043f0       0x14 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(zephyrCommon.cpp.o)
+                0x00000000000043f0                digitalWrite
+ .text.delay    0x0000000000004404       0x10 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(zephyrCommon.cpp.o)
+                0x0000000000004404                delay
+ .text.millis   0x0000000000004414       0x18 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(zephyrCommon.cpp.o)
+                0x0000000000004414                millis
+ .text.z_impl_uart_irq_tx_enable
+                0x000000000000442c        0xa /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(zephyrSerial.cpp.o)
+ .text._ZN7arduino12ZephyrSerial5beginEm
+                0x0000000000004436        0xa /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(zephyrSerial.cpp.o)
+                0x0000000000004436                arduino::ZephyrSerial::begin(unsigned long)
+ .text._ZN7arduino12ZephyrSerial3endEv
+                0x0000000000004440        0x2 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(zephyrSerial.cpp.o)
+                0x0000000000004440                arduino::ZephyrSerial::end()
+ .text._ZN7arduino12ZephyrSerial5writeEh
+                0x0000000000004442       0x18 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(zephyrSerial.cpp.o)
+                0x0000000000004442                arduino::ZephyrSerial::write(unsigned char)
+ .text._ZN7arduino12ZephyrSerialcvbEv
+                0x000000000000445a        0x4 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(zephyrSerial.cpp.o)
+                0x000000000000445a                arduino::ZephyrSerial::operator bool()
+ *fill*         0x000000000000445e        0x2 
+ .text.k_sem_give
+                0x0000000000004460        0x8 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(zephyrSerial.cpp.o)
+ .text.k_sem_take.isra.0
+                0x0000000000004468        0x8 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(zephyrSerial.cpp.o)
+ .text._ZN7arduino12ZephyrSerial4readEv
+                0x0000000000004470       0x48 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(zephyrSerial.cpp.o)
+                0x0000000000004470                arduino::ZephyrSerial::read()
+ .text._ZN7arduino12ZephyrSerial4peekEv
+                0x00000000000044b8       0x48 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(zephyrSerial.cpp.o)
+                0x00000000000044b8                arduino::ZephyrSerial::peek()
+ .text._ZN7arduino12ZephyrSerial17availableForWriteEv
+                0x0000000000004500       0x34 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(zephyrSerial.cpp.o)
+                0x0000000000004500                arduino::ZephyrSerial::availableForWrite()
+ .text._ZN7arduino12ZephyrSerial9availableEv
+                0x0000000000004534       0x34 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(zephyrSerial.cpp.o)
+                0x0000000000004534                arduino::ZephyrSerial::available()
+ .text._ZN7arduino12ZephyrSerial5beginEmt
+                0x0000000000004568       0xb8 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(zephyrSerial.cpp.o)
+                0x0000000000004568                arduino::ZephyrSerial::begin(unsigned long, unsigned short)
+ .text._ZN7arduino12ZephyrSerial5flushEv
+                0x0000000000004620       0x2c /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(zephyrSerial.cpp.o)
+                0x0000000000004620                arduino::ZephyrSerial::flush()
+ .text._ZN7arduino12ZephyrSerial5writeEPKhj
+                0x000000000000464c       0x70 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(zephyrSerial.cpp.o)
+                0x000000000000464c                arduino::ZephyrSerial::write(unsigned char const*, unsigned int)
+ .text._ZN7arduino12ZephyrSerial10IrqHandlerEv
+                0x00000000000046bc       0xec /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(zephyrSerial.cpp.o)
+                0x00000000000046bc                arduino::ZephyrSerial::IrqHandler()
+ .text._ZN7arduino12ZephyrSerial11IrqDispatchEPK6devicePv
+                0x00000000000047a8        0xc /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(zephyrSerial.cpp.o)
+                0x00000000000047a8                arduino::ZephyrSerial::IrqDispatch(device const*, void*)
+ .text._ZN7arduino12ZephyrSerial18ZephyrSerialBufferILi64EEC2Ev
+                0x00000000000047b4       0x28 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(zephyrSerial.cpp.o)
+                0x00000000000047b4                arduino::ZephyrSerial::ZephyrSerialBuffer<64>::ZephyrSerialBuffer()
+                0x00000000000047b4                arduino::ZephyrSerial::ZephyrSerialBuffer<64>::ZephyrSerialBuffer()
+ .text._GLOBAL__sub_I__ZN7arduino12ZephyrSerial5beginEmt
+                0x00000000000047dc       0x5c /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(zephyrSerial.cpp.o)
+ *(.text.*)
+ *(.text._*)
+ *(.init)
+ *(.ctors)
+ *(.dtors)
+ *(.fini)
+
+.static_thread_data_area
+                0x0000000000004838        0x0
+                0x0000000000004838                __static_thread_data_list_start = .
+ *(.static_thread_data_area SORT_BY_NAME(.__static_thread_data.*))
+                0x0000000000004838                __static_thread_data_list_end = .
+
+.rodata         0x0000000000004838      0x4cc
+ *(.rodata)
+ *(.rodata1)
+ *(.rodata.*)
+ .rodata._ZN8RpcErrorC2Ev.str1.1
+                0x0000000000004838        0x1 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+ .rodata.loop.str1.1
+                0x0000000000004839        0xc /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+ .rodata._ZNSt6vectorIjSaIjEE17_M_realloc_insertIJRjEEEvN9__gnu_cxx17__normal_iteratorIPjS1_EEDpOT_.str1.1
+                0x0000000000004845       0x1a /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+ .rodata._ZN18RpcFunctionWrapperISt8functionIFvbEEEclERN7arduino7msgpack8UnpackerERNS5_6PackerE.str1.1
+                0x000000000000485f       0xa6 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+ .rodata._ZN10RpcDecoderILj1024EE12get_responseIN7arduino7msgpack6object5nil_tEEEbjRT_R8RpcError.str1.1
+                0x0000000000004905       0x7b /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+ .rodata._ZN7arduino7msgpack6object3extC2EaPKhj.str1.1
+                0x0000000000004980       0x28 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+ .rodata._ZN11BridgeClass11update_safeEv.str1.1
+                0x00000000000049a8        0x9 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+ .rodata._ZN11BridgeClass5beginEm.str1.1
+                0x00000000000049b1        0x8 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+ .rodata.setup.str1.1
+                0x00000000000049b9       0x27 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+ .rodata._ZN13BridgeMonitorILj512EE5writeEPKhj.str1.1
+                0x00000000000049e0        0xa /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+ .rodata._ZN13BridgeMonitorILj512EE5_readEj.str1.1
+                0x00000000000049ea        0x9 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+ *fill*         0x00000000000049f3        0x1 
+ .rodata._ZTV15SerialTransport
+                0x00000000000049f4       0x20 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+                0x00000000000049f4                vtable for SerialTransport
+ .rodata._ZTV13BridgeMonitorILj512EE
+                0x0000000000004a14       0x24 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+                0x0000000000004a14                vtable for BridgeMonitor<512u>
+ .rodata._ZTV18RpcFunctionWrapperISt8functionIFvbEEE
+                0x0000000000004a38       0x14 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+                0x0000000000004a38                vtable for RpcFunctionWrapper<std::function<void (bool)> >
+ .rodata._ZN7arduino5Print7printlnEv.str1.1
+                0x0000000000004a4c        0x3 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(Print.cpp.o)
+ .rodata.str1.1
+                0x0000000000004a4f       0x51 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(main.cpp.o)
+ .rodata._ZL12arduino_pins
+                0x0000000000004aa0      0x230 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(zephyrCommon.cpp.o)
+ .rodata._ZTVN7arduino12ZephyrSerialE
+                0x0000000000004cd0       0x34 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(zephyrSerial.cpp.o)
+                0x0000000000004cd0                vtable for arduino::ZephyrSerial
+
+.data
+ *(.data .data.*)
+
+.bss            0x0000000000004d08     0x1254
+ *(.bss .bss.* COMMON)
+ .bss._ZN17RpcDecoderManagerILj3EE14decoders_countE
+                0x0000000000004d08        0x4 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+                0x0000000000004d08                RpcDecoderManager<3u>::decoders_count
+ .bss._ZGVN17RpcDecoderManagerILj3EE9decoders_E
+                0x0000000000004d0c        0x4 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+                0x0000000000004d0c                guard variable for RpcDecoderManager<3u>::decoders_
+ .bss._ZN17RpcDecoderManagerILj3EE9decoders_E
+                0x0000000000004d10      0xc60 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+                0x0000000000004d10                RpcDecoderManager<3u>::decoders_
+ .bss._ZGVZN7arduino7msgpack8Unpacker10from_arrayIJRiRNS_6StringEEEEbDpOT_E2sz
+                0x0000000000005970        0x4 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+                0x0000000000005970                guard variable for arduino::msgpack::Unpacker::from_array<int&, arduino::String&>(int&, arduino::String&)::sz
+ .bss._ZZN7arduino7msgpack8Unpacker10from_arrayIJRiRNS_6StringEEEEbDpOT_E2sz
+                0x0000000000005974        0x4 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+                0x0000000000005974                arduino::msgpack::Unpacker::from_array<int&, arduino::String&>(int&, arduino::String&)::sz
+ .bss._ZN12RouterBridge3HCIE
+                0x0000000000005978       0x28 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+                0x0000000000005978                RouterBridge::HCI
+ .bss.Monitor   0x00000000000059a0      0x238 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+                0x00000000000059a0                Monitor
+ .bss.Bridge    0x0000000000005bd8      0x150 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+                0x0000000000005bd8                Bridge
+ .bss._ZZN8RpcUtils6detail12unpackObjectERN7arduino7msgpack8UnpackerEE1t
+                0x0000000000005d28       0x10 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+                0x0000000000005d28                RpcUtils::detail::unpackObject(arduino::msgpack::Unpacker&)::t
+ .bss._ZGVZN8RpcUtils6detail12unpackObjectERN7arduino7msgpack8UnpackerEE1e
+                0x0000000000005d38        0x4 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+                0x0000000000005d38                guard variable for RpcUtils::detail::unpackObject(arduino::msgpack::Unpacker&)::e
+ .bss._ZZN8RpcUtils6detail12unpackObjectERN7arduino7msgpack8UnpackerEE1e
+                0x0000000000005d3c        0xc /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+                0x0000000000005d3c                RpcUtils::detail::unpackObject(arduino::msgpack::Unpacker&)::e
+ .bss._ZZN8RpcUtils6detail12unpackObjectERN7arduino7msgpack8UnpackerEE6map_sz
+                0x0000000000005d48        0x4 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+                0x0000000000005d48                RpcUtils::detail::unpackObject(arduino::msgpack::Unpacker&)::map_sz
+ .bss._ZZN8RpcUtils6detail12unpackObjectERN7arduino7msgpack8UnpackerEE6arr_sz
+                0x0000000000005d4c        0x4 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+                0x0000000000005d4c                RpcUtils::detail::unpackObject(arduino::msgpack::Unpacker&)::arr_sz
+ .bss._ZGVZN8RpcUtils6detail12unpackObjectERN7arduino7msgpack8UnpackerEE5bytes
+                0x0000000000005d50        0x4 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+                0x0000000000005d50                guard variable for RpcUtils::detail::unpackObject(arduino::msgpack::Unpacker&)::bytes
+ .bss._ZZN8RpcUtils6detail12unpackObjectERN7arduino7msgpack8UnpackerEE5bytes
+                0x0000000000005d54        0xc /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+                0x0000000000005d54                RpcUtils::detail::unpackObject(arduino::msgpack::Unpacker&)::bytes
+ .bss._ZGVZN8RpcUtils6detail12unpackObjectERN7arduino7msgpack8UnpackerEE6string
+                0x0000000000005d60        0x4 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+                0x0000000000005d60                guard variable for RpcUtils::detail::unpackObject(arduino::msgpack::Unpacker&)::string
+ .bss._ZZN8RpcUtils6detail12unpackObjectERN7arduino7msgpack8UnpackerEE6string
+                0x0000000000005d64        0xc /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+                0x0000000000005d64                RpcUtils::detail::unpackObject(arduino::msgpack::Unpacker&)::string
+ .bss._ZZN8RpcUtils6detail12unpackObjectERN7arduino7msgpack8UnpackerEE5num64
+                0x0000000000005d70        0x8 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+                0x0000000000005d70                RpcUtils::detail::unpackObject(arduino::msgpack::Unpacker&)::num64
+ .bss._ZZN8RpcUtils6detail12unpackObjectERN7arduino7msgpack8UnpackerEE5num32
+                0x0000000000005d78        0x4 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+                0x0000000000005d78                RpcUtils::detail::unpackObject(arduino::msgpack::Unpacker&)::num32
+ .bss._ZZN8RpcUtils6detail12unpackObjectERN7arduino7msgpack8UnpackerEE7integer
+                0x0000000000005d7c        0x4 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+                0x0000000000005d7c                RpcUtils::detail::unpackObject(arduino::msgpack::Unpacker&)::integer
+ .bss._ZZN8RpcUtils6detail12unpackObjectERN7arduino7msgpack8UnpackerEE1b
+                0x0000000000005d80        0x1 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+                0x0000000000005d80                RpcUtils::detail::unpackObject(arduino::msgpack::Unpacker&)::b
+ .bss._ZZN8RpcUtils6detail12unpackObjectERN7arduino7msgpack8UnpackerEE3nil
+                0x0000000000005d81        0x1 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+                0x0000000000005d81                RpcUtils::detail::unpackObject(arduino::msgpack::Unpacker&)::nil
+ *fill*         0x0000000000005d82        0x2 
+ .bss.Serial1   0x0000000000005d84       0xec /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(zephyrSerial.cpp.o)
+                0x0000000000005d84                Serial1
+ .bss.Serial    0x0000000000005e70       0xec /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(zephyrSerial.cpp.o)
+                0x0000000000005e70                Serial
+ *(.noinit .noinit.*)
+
+.exported_sym   0x0000000000005f5c        0x8
+ *(.exported_sym)
+ .exported_sym  0x0000000000005f5c        0x8 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(main.cpp.o)
+ *(.exported_sym.*)
+
+.init_array     0x0000000000005f64        0x8
+ *(.init_array)
+ .init_array    0x0000000000005f64        0x4 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+ .init_array    0x0000000000005f68        0x4 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(zephyrSerial.cpp.o)
+
+.fini_array     0x0000000000005f6c        0x4
+ *(.fini_array)
+ .fini_array    0x0000000000005f6c        0x4 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+
+.symtab
+ *(.symtab)
+
+.strtab
+ *(.strtab)
+
+.shstrtab
+ *(.shstrtab)
+
+.rel
+ *(.rel .rel.*)
+
+.got
+ *(.got .got.* .got.plt .got.plt*)
+OUTPUT(/home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch.ino_debug.elf elf32-littlearm)
+LOAD linker stubs
+
+.debug_info     0x0000000000000000    0x45a7b
+ .debug_info    0x0000000000000000    0x2f96e /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+ .debug_info    0x000000000002f96e      0x1de /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(abi.cpp.o)
+ .debug_info    0x000000000002fb4c     0x2d13 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(Print.cpp.o)
+ .debug_info    0x000000000003285f     0x1f74 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(Stream.cpp.o)
+ .debug_info    0x00000000000347d3     0x3e0c /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(String.cpp.o)
+ .debug_info    0x00000000000385df      0x3de /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(itoa.cpp.o)
+ .debug_info    0x00000000000389bd     0x1e2b /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(main.cpp.o)
+ .debug_info    0x000000000003a7e8      0x7af /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(new.cpp.o)
+ .debug_info    0x000000000003af97     0x1f7a /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(threads.cpp.o)
+ .debug_info    0x000000000003cf11     0x5263 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(zephyrCommon.cpp.o)
+ .debug_info    0x0000000000042174     0x3907 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(zephyrSerial.cpp.o)
+
+.debug_abbrev   0x0000000000000000     0x4879
+ .debug_abbrev  0x0000000000000000     0x159a /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+ .debug_abbrev  0x000000000000159a      0x154 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(abi.cpp.o)
+ .debug_abbrev  0x00000000000016ee      0x594 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(Print.cpp.o)
+ .debug_abbrev  0x0000000000001c82      0x500 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(Stream.cpp.o)
+ .debug_abbrev  0x0000000000002182      0x5d4 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(String.cpp.o)
+ .debug_abbrev  0x0000000000002756      0x128 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(itoa.cpp.o)
+ .debug_abbrev  0x000000000000287e      0x538 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(main.cpp.o)
+ .debug_abbrev  0x0000000000002db6      0x234 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(new.cpp.o)
+ .debug_abbrev  0x0000000000002fea      0x4d6 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(threads.cpp.o)
+ .debug_abbrev  0x00000000000034c0      0xa92 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(zephyrCommon.cpp.o)
+ .debug_abbrev  0x0000000000003f52      0x927 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(zephyrSerial.cpp.o)
+
+.debug_loclists
+                0x0000000000000000     0xef32
+ .debug_loclists
+                0x0000000000000000     0x993e /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+ .debug_loclists
+                0x000000000000993e       0x88 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(abi.cpp.o)
+ .debug_loclists
+                0x00000000000099c6     0x12da /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(Print.cpp.o)
+ .debug_loclists
+                0x000000000000aca0      0x883 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(Stream.cpp.o)
+ .debug_loclists
+                0x000000000000b523     0x1943 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(String.cpp.o)
+ .debug_loclists
+                0x000000000000ce66      0x3e1 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(itoa.cpp.o)
+ .debug_loclists
+                0x000000000000d247       0x72 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(main.cpp.o)
+ .debug_loclists
+                0x000000000000d2b9      0x2bc /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(new.cpp.o)
+ .debug_loclists
+                0x000000000000d575       0xd1 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(threads.cpp.o)
+ .debug_loclists
+                0x000000000000d646     0x1163 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(zephyrCommon.cpp.o)
+ .debug_loclists
+                0x000000000000e7a9      0x789 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(zephyrSerial.cpp.o)
+
+.debug_aranges  0x0000000000000000      0xca8
+ .debug_aranges
+                0x0000000000000000      0x4b8 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+ .debug_aranges
+                0x00000000000004b8       0x58 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(abi.cpp.o)
+ .debug_aranges
+                0x0000000000000510      0x128 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(Print.cpp.o)
+ .debug_aranges
+                0x0000000000000638       0x90 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(Stream.cpp.o)
+ .debug_aranges
+                0x00000000000006c8      0x298 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(String.cpp.o)
+ .debug_aranges
+                0x0000000000000960       0x40 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(itoa.cpp.o)
+ .debug_aranges
+                0x00000000000009a0       0x38 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(main.cpp.o)
+ .debug_aranges
+                0x00000000000009d8       0xb0 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(new.cpp.o)
+ .debug_aranges
+                0x0000000000000a88       0x20 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(threads.cpp.o)
+ .debug_aranges
+                0x0000000000000aa8      0x140 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(zephyrCommon.cpp.o)
+ .debug_aranges
+                0x0000000000000be8       0xc0 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(zephyrSerial.cpp.o)
+
+.debug_rnglists
+                0x0000000000000000     0x2203
+ .debug_rnglists
+                0x0000000000000000     0x15e0 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+ .debug_rnglists
+                0x00000000000015e0       0x3d /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(abi.cpp.o)
+ .debug_rnglists
+                0x000000000000161d      0x1c1 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(Print.cpp.o)
+ .debug_rnglists
+                0x00000000000017de      0x103 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(Stream.cpp.o)
+ .debug_rnglists
+                0x00000000000018e1      0x375 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(String.cpp.o)
+ .debug_rnglists
+                0x0000000000001c56       0x2c /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(itoa.cpp.o)
+ .debug_rnglists
+                0x0000000000001c82       0x33 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(main.cpp.o)
+ .debug_rnglists
+                0x0000000000001cb5       0x7f /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(new.cpp.o)
+ .debug_rnglists
+                0x0000000000001d34       0x46 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(threads.cpp.o)
+ .debug_rnglists
+                0x0000000000001d7a      0x2c7 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(zephyrCommon.cpp.o)
+ .debug_rnglists
+                0x0000000000002041      0x1c2 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(zephyrSerial.cpp.o)
+
+.debug_line     0x0000000000000000     0xf1e0
+ .debug_line    0x0000000000000000     0x8099 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+ .debug_line    0x0000000000008099      0x138 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(abi.cpp.o)
+ .debug_line    0x00000000000081d1      0xc5a /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(Print.cpp.o)
+ .debug_line    0x0000000000008e2b      0x8d4 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(Stream.cpp.o)
+ .debug_line    0x00000000000096ff     0x1a12 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(String.cpp.o)
+ .debug_line    0x000000000000b111      0x32d /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(itoa.cpp.o)
+ .debug_line    0x000000000000b43e      0x83b /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(main.cpp.o)
+ .debug_line    0x000000000000bc79      0x36b /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(new.cpp.o)
+ .debug_line    0x000000000000bfe4      0x870 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(threads.cpp.o)
+ .debug_line    0x000000000000c854     0x1a0d /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(zephyrCommon.cpp.o)
+ .debug_line    0x000000000000e261      0xf7f /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(zephyrSerial.cpp.o)
+
+.debug_str      0x0000000000000000    0x2fdef
+ .debug_str     0x0000000000000000    0x215a1 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+ .debug_str     0x00000000000215a1      0x40d /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(abi.cpp.o)
+ .debug_str     0x00000000000219ae     0x16d0 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(Print.cpp.o)
+ .debug_str     0x000000000002307e     0x167e /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(Stream.cpp.o)
+ .debug_str     0x00000000000246fc     0x1828 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(String.cpp.o)
+ .debug_str     0x0000000000025f24      0x37a /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(itoa.cpp.o)
+ .debug_str     0x000000000002629e     0x1fdf /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(main.cpp.o)
+ .debug_str     0x000000000002827d      0x4d7 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(new.cpp.o)
+ .debug_str     0x0000000000028754     0x1c17 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(threads.cpp.o)
+ .debug_str     0x000000000002a36b     0x3034 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(zephyrCommon.cpp.o)
+ .debug_str     0x000000000002d39f     0x2a50 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(zephyrSerial.cpp.o)
+
+.debug_frame    0x0000000000000000     0x2858
+ .debug_frame   0x0000000000000000     0x11a0 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/sketch/sketch.ino.cpp.o
+ .debug_frame   0x00000000000011a0       0x90 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(abi.cpp.o)
+ .debug_frame   0x0000000000001230      0x3d0 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(Print.cpp.o)
+ .debug_frame   0x0000000000001600      0x1fc /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(Stream.cpp.o)
+ .debug_frame   0x00000000000017fc      0x7e8 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(String.cpp.o)
+ .debug_frame   0x0000000000001fe4       0xa0 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(itoa.cpp.o)
+ .debug_frame   0x0000000000002084       0x68 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(main.cpp.o)
+ .debug_frame   0x00000000000020ec      0x140 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(new.cpp.o)
+ .debug_frame   0x000000000000222c       0x40 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(threads.cpp.o)
+ .debug_frame   0x000000000000226c      0x3dc /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(zephyrCommon.cpp.o)
+ .debug_frame   0x0000000000002648      0x210 /home/arduino/ArduinoApps/remoteprocedurecall/.cache/sketch/core/core.a(zephyrSerial.cpp.o)

@@ -1,0 +1,9 @@
+name: Brick_ArduinoCloud
+description: ""
+ports: []
+bricks:
+- arduino:arduino_cloud:
+    variables:
+      ARDUINO_DEVICE_ID: 502c90ad-48d0-42f0-b5d6-5a109263ce1e
+      ARDUINO_SECRET: "2ry0x4?@sM2wDdbJK1r0Z2hG#"
+icon: 🧱

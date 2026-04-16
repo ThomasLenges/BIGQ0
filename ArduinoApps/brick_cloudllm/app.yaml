@@ -1,0 +1,9 @@
+name: Brick_CloudLLM
+description: This example shows how to create a bedtime story teller using Arduino. It uses a cloud-based language model to generate a story based on user input and shows the story on a web interface.
+ports: []
+bricks:
+- arduino:cloud_llm:
+    variables:
+      API_KEY: KEYTOUPDATEHERE!!!
+- arduino:web_ui: {}
+icon: 🧱

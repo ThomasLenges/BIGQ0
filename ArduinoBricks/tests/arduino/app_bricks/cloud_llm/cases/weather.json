@@ -1,0 +1,20 @@
+{
+  "id": "weather_01",
+  "runners": ["weather.run"],
+  "prompt": "What's the weather like today in Boston?",
+  "must_call_tools": [
+    {
+      "name": "get_current_weather",
+      "input_parameters": { "location": "Boston" }
+    }
+  ],
+  "forbidden": ["I don't", "I'm not", "I can't", "Sun", "Snow", "Cloud"],
+  "semantic": {
+    "evaluation_steps": [
+      "Accurately retrieves the current weather information for Boston.",
+      "Gives information about temperature and conditions.",
+      "If it provides details or unnecessary information other than temperature and conditions, penalize the score."
+    ],
+    "min_score": 0.75
+  }
+}

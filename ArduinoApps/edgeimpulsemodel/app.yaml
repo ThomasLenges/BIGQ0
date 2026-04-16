@@ -1,0 +1,8 @@
+name: EdgeImpulseModel
+description: ""
+ports: []
+bricks:
+- arduino:video_object_detection:
+    model: ei-model-951763-1
+- arduino:web_ui: {}
+icon: 🚗

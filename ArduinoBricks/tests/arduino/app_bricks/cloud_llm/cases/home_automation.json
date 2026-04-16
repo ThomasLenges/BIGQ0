@@ -1,0 +1,104 @@
+[
+  {
+    "id": "home_automation_01",
+    "runners": ["home_automation.run_granular"],
+    "prompt": "Turn on the living room lights.",
+    "must_call_tools": [
+      { "name": "turn_on_light", "input_parameters": { "room": "living room" } }
+    ],
+    "forbidden": ["I don't", "I'm not", "I can't"]
+  },
+  {
+    "id": "home_automation_02",
+    "runners": ["home_automation.run_object"],
+    "prompt": "Turn on the living room lights.",
+    "must_call_tools": [
+      {
+        "name": "light_control",
+        "input_parameters": { "state": true, "room": "living room" }
+      }
+    ],
+    "forbidden": ["I don't", "I'm not", "I can't"]
+  },
+  {
+    "id": "home_automation_03",
+    "runners": ["home_automation.run_granular"],
+    "prompt": "Set the thermostat to 22 degrees in the bedroom.",
+    "must_call_tools": [
+      {
+        "name": "set_thermostat",
+        "input_parameters": { "room": "bedroom", "temperature": 22 }
+      }
+    ],
+    "forbidden": ["I don't", "I'm not", "I can't"]
+  },
+  {
+    "id": "home_automation_04",
+    "runners": ["home_automation.run_object"],
+    "prompt": "Set the thermostat to 22 degrees in the bedroom.",
+    "must_call_tools": [
+      {
+        "name": "air_conditioner_control",
+        "input_parameters": {
+          "state": true,
+          "temperature": 22,
+          "room": "bedroom"
+        }
+      }
+    ],
+    "forbidden": ["I don't", "I'm not", "I can't"]
+  },
+  {
+    "id": "home_automation_05",
+    "runners": ["home_automation.run_granular"],
+    "prompt": "I am in the living room and I'm feeling very hot. Do something about it.",
+    "must_call_tools": [{ "name": "turn_on_ac", "room": "living room" }],
+    "forbidden": ["I don't", "I'm not", "I can't"]
+  },
+  {
+    "id": "home_automation_06",
+    "runners": ["home_automation.run_object"],
+    "prompt": "I am in the living room and I'm feeling very hot. Do something about it.",
+    "must_call_tools": [
+      {
+        "name": "air_conditioner_control",
+        "input_parameters": {
+          "state": true,
+          "temperature": 22,
+          "room": "living room"
+        }
+      }
+    ],
+    "forbidden": ["I don't", "I'm not", "I can't"]
+  },
+  {
+    "id": "home_automation_07",
+    "runners": ["home_automation.run_granular_with_weather"],
+    "prompt": "I'm in Boston, if outside is cold set the thermostat in the living room to 22 degrees",
+    "must_call_tools": [
+      { "name": "get_current_weather", "args": { "location": "Boston" } },
+      {
+        "name": "set_thermostat",
+        "input_parameters": { "room": "living room", "temperature": 22 }
+      }
+    ],
+    "forbidden": ["I don't", "I'm not", "I can't"]
+  },
+  {
+    "id": "home_automation_08",
+    "runners": ["home_automation.run_object_with_weather"],
+    "prompt": "I'm in Boston, if outside is cold set the thermostat in the living room to 22 degrees",
+    "must_call_tools": [
+      { "name": "get_current_weather", "args": { "location": "Boston" } },
+      {
+        "name": "air_conditioner_control",
+        "input_parameters": {
+          "state": true,
+          "temperature": 22,
+          "room": "living room"
+        }
+      }
+    ],
+    "forbidden": ["I don't", "I'm not", "I can't"]
+  }
+]

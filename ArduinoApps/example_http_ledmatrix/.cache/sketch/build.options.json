@@ -1,0 +1,9 @@
+{
+  "additionalFiles": "../..",
+  "compiler.optimization_flags": "",
+  "customBuildProperties": "",
+  "fqbn": "arduino:zephyr:unoq",
+  "hardwareFolders": "/home/arduino/.arduino15/packages/arduino/hardware/zephyr/0.53.1,/home/arduino/.arduino15/packages/arduino/hardware/zephyr/0.53.1",
+  "otherLibrariesFolders": "/home/arduino/Arduino/libraries",
+  "sketchLocation": "/home/arduino/ArduinoApps/air-quality-on-led-matrix/sketch"
+}

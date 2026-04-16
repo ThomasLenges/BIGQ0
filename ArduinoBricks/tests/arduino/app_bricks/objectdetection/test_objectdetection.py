@@ -1,0 +1,283 @@
+# SPDX-FileCopyrightText: Copyright (C) ARDUINO SRL (http://www.arduino.cc)
+#
+# SPDX-License-Identifier: MPL-2.0
+
+import pytest
+from pathlib import Path
+from arduino.app_bricks.object_detection import ObjectDetection
+from arduino.app_utils import HttpClient
+
+
+class ModelInfo:
+    def __init__(self, model_type: str):
+        self.model_type = model_type
+
+
+@pytest.fixture(autouse=True)
+def mock_dependencies(monkeypatch: pytest.MonkeyPatch):
+    """Mock external dependencies in __init__.
+
+    This is needed to avoid network calls and other side effects.
+    """
+    fake_compose = {"services": {"ei-inference": {"ports": ["${BIND_ADDRESS:-127.0.0.1}:1337:1337"]}}}
+    monkeypatch.setattr("arduino.app_internal.core.ei.load_brick_compose_file", lambda cls: fake_compose)
+    monkeypatch.setattr("arduino.app_internal.core.resolve_address", lambda host: "127.0.0.1")
+    monkeypatch.setattr("arduino.app_internal.core.parse_docker_compose_variable", lambda x: [(None, None), (None, "1337")])
+    monkeypatch.setattr("arduino.app_bricks.object_detection.ObjectDetection.get_model_info", lambda self: ModelInfo("object-detection"))
+
+    class FakeResp:
+        status_code = 200
+
+        def json(self):
+            return {
+                "project": {
+                    "deploy_version": 11,
+                    "id": 774707,
+                    "impulse_id": 1,
+                    "impulse_name": "Time series data, Spectral Analysis, Classification (Keras), Anomaly Detection (K-means)",
+                    "name": "Fan Monitoring - Advanced Anomaly Detection",
+                    "owner": "Arduino",
+                },
+                "modelParameters": {
+                    "has_visual_anomaly_detection": False,
+                    "axis_count": 3,
+                    "frequency": 100,
+                    "has_anomaly": 1,
+                    "has_object_tracking": False,
+                    "has_performance_calibration": False,
+                    "image_channel_count": 0,
+                    "image_input_frames": 0,
+                    "image_input_height": 0,
+                    "image_input_width": 0,
+                    "image_resize_mode": "none",
+                    "inferencing_engine": 4,
+                    "input_features_count": 600,
+                    "interval_ms": 10,
+                    "label_count": 2,
+                    "labels": ["nominal", "off"],
+                    "model_type": "classification",
+                    "sensor": 2,
+                    "slice_size": 50,
+                    "thresholds": [],
+                    "use_continuous_mode": False,
+                    "sensorType": "accelerometer",
+                },
+            }
+
+    def fake_get(
+        self,
+        url: str,
+        method: str = "GET",
+        data: dict | str = None,
+        json: dict = None,
+        headers: dict = None,
+        timeout: int = 5,
+    ):
+        return FakeResp()
+
+    # Mock the requests.get method to return a fake response
+    monkeypatch.setattr(HttpClient, "request_with_retry", fake_get)
+
+
+@pytest.fixture
+def detector():
+    """Fixture to create an instance of ObjectDetection.
+
+    Returns:
+        ObjectDetection: An instance of the ObjectDetection class.
+    """
+    return ObjectDetection()
+
+
+def test_detect_invalid_inputs(detector: ObjectDetection):
+    """Test invalid inputs for the detect method.
+
+    1. No bytes: should return None
+    2. No type: should return None
+    3. Unsupported type: should return None
+
+    Args:
+        detector (ObjectDetection): An instance of the ObjectDetection class.
+    """
+    # no bytes
+    assert detector.detect(b"", "jpg") is None
+    # no type
+    assert detector.detect(b"abc", "") is None
+    # unsupported type
+    assert detector.detect(b"abc", "bmp") is None
+
+
+def test_detect_success(detector: ObjectDetection, monkeypatch: pytest.MonkeyPatch):
+    """Test the detect method with valid inputs.
+
+    This test mocks the requests.post method to avoid actual network calls.
+
+    Args:
+        detector (ObjectDetection): An instance of the ObjectDetection class.
+        monkeypatch (pytest.MonkeyPatch): The monkeypatch fixture to mock external dependencies.
+    """
+    captured = {}
+
+    class FakeResp:
+        status_code = 200
+
+        def json(self):
+            return {"result": {"bounding_boxes": [{"label": "C", "value": 0.5, "x": 1, "y": 2, "width": 3, "height": 4}]}}
+
+    def fake_post(
+        url: str,
+        files: dict = None,
+    ):
+        captured["url"] = url
+        captured["files"] = files
+        return FakeResp()
+
+    monkeypatch.setattr("arduino.app_internal.core.ei.requests.post", fake_post)
+    result = detector.detect(b"bytes", "jpg", confidence=0.25)
+    assert result["detection"] == [{"class_name": "C", "confidence": "50.00", "bounding_box_xyxy": [1.0, 2.0, 4.0, 6.0]}]
+
+
+def test_detect_from_file(monkeypatch: pytest.MonkeyPatch, tmp_path: Path, detector: ObjectDetection):
+    """Test the detect_from_file method with a valid file path.
+
+    This test creates a temporary file and checks if the detection works as expected.
+
+    Args:
+        monkeypatch (pytest.MonkeyPatch): The monkeypatch fixture to mock external dependencies.
+        tmp_path (Path): The temporary path fixture to create temporary files.
+        detector (ObjectDetection): An instance of the ObjectDetection class.
+    """
+
+    class FakeResp:
+        status_code = 200
+
+        def json(self):
+            return {"result": {"bounding_boxes": [{"label": "C", "value": 0.5, "x": 1, "y": 2, "width": 3, "height": 4}]}}
+
+    captured = {}
+
+    def fake_post(
+        url: str,
+        files: dict = None,
+    ):
+        captured["url"] = url
+        captured["files"] = files
+        return FakeResp()
+
+    monkeypatch.setattr("arduino.app_internal.core.ei.requests.post", fake_post)
+    p = tmp_path / "img.jpg"
+    p.write_bytes(b"123")
+    result = detector.detect_from_file(str(p))
+    assert result["detection"] == [{"class_name": "C", "confidence": "50.00", "bounding_box_xyxy": [1.0, 2.0, 4.0, 6.0]}]
+
+
+def test_process(monkeypatch: pytest.MonkeyPatch, tmp_path: Path, detector: ObjectDetection):
+    """Test the process method with a valid file path.
+
+    Args:
+        monkeypatch (pytest.MonkeyPatch): A pytest fixture for monkeypatching.
+        tmp_path (Path): A temporary directory path.
+        detector (ObjectDetection): An instance of the ObjectDetection class.
+    """
+
+    class FakeResp:
+        status_code = 200
+
+        def json(self):
+            return {"result": {"bounding_boxes": [{"label": "C", "value": 0.5, "x": 1, "y": 2, "width": 3, "height": 4}]}}
+
+    captured = {}
+
+    def fake_post(
+        url: str,
+        files: dict = None,
+    ):
+        captured["url"] = url
+        captured["files"] = files
+        return FakeResp()
+
+    monkeypatch.setattr("arduino.app_internal.core.ei.requests.post", fake_post)
+    p = tmp_path / "img.jpg"
+    p.write_bytes(b"123")
+    result = detector.process(str(p))
+    assert result["detection"] == [{"class_name": "C", "confidence": "50.00", "bounding_box_xyxy": [1.0, 2.0, 4.0, 6.0]}]
+
+
+def test_detect_http_error_status(detector: ObjectDetection, monkeypatch: pytest.MonkeyPatch):
+    """Test the detect method with an HTTP error status.
+
+    This test checks if the method returns None when the status code is not 200.
+
+    Args:
+        detector (ObjectDetection): An instance of the ObjectDetection class.
+        monkeypatch (pytest.MonkeyPatch): The monkeypatch fixture to mock external dependencies.
+    """
+
+    class FakeResp:
+        status_code = 500
+        text = "Server error"
+
+    monkeypatch.setattr("arduino.app_internal.core.ei.requests.post", lambda url, files=None, headers=None: FakeResp())
+    assert detector.detect(b"bytes", "jpg") is None
+
+
+def test_detect_status_not_ok(detector: ObjectDetection, monkeypatch: pytest.MonkeyPatch):
+    """Test the detect method with a non-OK status in the response.
+
+    This test checks if the method returns None when the status is not "OK".
+
+    Args:
+        detector (ObjectDetection): An instance of the ObjectDetection class.
+        monkeypatch (pytest.MonkeyPatch): The monkeypatch fixture to mock external dependencies.
+    """
+
+    class FakeResp:
+        status_code = 200
+
+        def json(self):
+            return {"status": "FAIL", "message": "oops"}
+
+    monkeypatch.setattr("arduino.app_internal.core.ei.requests.post", lambda url, files=None, headers=None: FakeResp())
+    assert detector.detect(b"bytes", "jpg") is None
+
+
+def test_detect_doesnt_propagate_exception(detector: ObjectDetection, monkeypatch: pytest.MonkeyPatch):
+    """Test the detect method when an exception occurs.
+
+    This test checks if the method returns None when an exception is raised during detection.
+
+    Args:
+        detector (ObjectDetection): An instance of the ObjectDetection class.
+        monkeypatch (pytest.MonkeyPatch): The monkeypatch fixture to mock external dependencies.
+    """
+    monkeypatch.setattr(detector, "detect_from_file", lambda **kwargs: (_ for _ in ()).throw(RuntimeError("network down")))
+    result = detector.detect(b"bytes", "jpg")
+    assert result is None, "Expected detect to return None when an exception occurs"
+
+
+def test_detect_from_file_doesnt_propagate_exception(tmp_path: Path, detector: ObjectDetection, monkeypatch: pytest.MonkeyPatch):
+    """Test the detect_from_file method when detect raises an exception.
+
+    This test checks if the method returns None when the detect method raises an exception.
+
+    Args:
+        tmp_path (Path): The temporary path fixture to create temporary files.
+        detector (ObjectDetection): An instance of the ObjectDetection class.
+        monkeypatch (pytest.MonkeyPatch): The monkeypatch fixture to mock external dependencies.
+    """
+    p = tmp_path / "img.jpg"
+    p.write_bytes(b"123")
+    monkeypatch.setattr(detector, "detect", lambda **kwargs: (_ for _ in ()).throw(ValueError("bad")))
+    result = detector.detect_from_file(str(p))
+    assert result is None, "Expected detect_from_file to return None when detect raises an error"
+
+
+def test_process_file_not_found_returns_none(detector: ObjectDetection):
+    """Test the process method with a non-existent file path.
+
+    This test checks if the method returns None when the file does not exist (FileNotFoundError).
+
+    Args:
+        detector (ObjectDetection): An instance of the ObjectDetection class.
+    """
+    assert detector.process("no_such_file.jpg") is None

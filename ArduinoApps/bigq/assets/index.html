@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<body>
+  <h1>BIGQ</h1>
+  <img id="cam" src="/frame.jpg" width="640" />
+
+  <script>
+    const img = document.getElementById("cam"); // Get image by its id
+
+    setInterval(() => {
+      img.src = "/frame.jpg?t=" + Date.now(); // Calls Python API unables cache to retrieve new image
+    }, 100); // Execute every 100ms (10 FPS)
+  </script>
+
+</body>
+</html>
+

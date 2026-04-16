@@ -1,0 +1,1 @@
+Tests to learn how to use VSC as development environment instead of AppLab
