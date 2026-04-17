@@ -8,6 +8,16 @@ const MAX_RECENT_SCANS = 5;
 let scans = [];
 const socket = io(`http://${window.location.host}`); // Initialize socket.io connection
 let errorContainer = document.getElementById('error-container');
+const trackingOverlay = document.getElementById('trackingOverlay');
+const trackingCtx = trackingOverlay.getContext('2d');
+
+let currentTrack = null;
+
+// Important:
+// These should match the resolution used by the detection stream.
+// If your detection/video stream is 1024x768, keep these values.
+const SOURCE_WIDTH = 1024;
+const SOURCE_HEIGHT = 768;
 
 // Start the application
 document.addEventListener('DOMContentLoaded', () => {
@@ -62,6 +72,15 @@ function initSocketIO() {
         printDetection(message);
         renderDetections();
         updateFeedback(message);
+    });
+    socket.on('track', (message) => {
+        currentTrack = message;
+        drawTrackedCar(currentTrack);
+    });
+
+    socket.on('track_lost', () => {
+        currentTrack = null;
+        clearTrackingOverlay();
     });
 
 }
@@ -216,4 +235,45 @@ function resetConfidence() {
     confidenceSlider.value = '0.5';
     confidenceInput.value = '0.50';
     updateConfidenceDisplay();
+}
+
+function clearTrackingOverlay() {
+    trackingCtx.clearRect(0, 0, trackingOverlay.width, trackingOverlay.height);
+}
+
+function drawTrackedCar(track) {
+    if (!track || !track.bbox) return;
+
+    clearTrackingOverlay();
+
+    const [x1, y1, x2, y2] = track.bbox;
+
+    const scaleX = trackingOverlay.width / SOURCE_WIDTH;
+    const scaleY = trackingOverlay.height / SOURCE_HEIGHT;
+
+    const sx1 = x1 * scaleX;
+    const sy1 = y1 * scaleY;
+    const sx2 = x2 * scaleX;
+    const sy2 = y2 * scaleY;
+
+    const cx = ((x1 + x2) / 2) * scaleX;
+    const cy = ((y1 + y2) / 2) * scaleY;
+
+    // Draw tracked box
+    trackingCtx.strokeStyle = 'lime';
+    trackingCtx.lineWidth = 3;
+    trackingCtx.strokeRect(sx1, sy1, sx2 - sx1, sy2 - sy1);
+
+    // Draw center point
+    trackingCtx.beginPath();
+    trackingCtx.arc(cx, cy, 14, 0, 2 * Math.PI);
+    trackingCtx.fillStyle = 'red';
+    trackingCtx.fill();
+
+    // Draw ID inside the red dot
+    trackingCtx.font = 'bold 16px Arial';
+    trackingCtx.textAlign = 'center';
+    trackingCtx.textBaseline = 'middle';
+    trackingCtx.fillStyle = 'white';
+    trackingCtx.fillText(String(track.id), cx, cy);
 }

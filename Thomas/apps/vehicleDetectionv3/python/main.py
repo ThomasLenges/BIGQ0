@@ -82,15 +82,17 @@ def choose_best_match(previous_bbox, candidates):
 
 
 def send_track_to_ui(track):
-    """
-    Sends the active track to the frontend.
-    Your webpage can listen to 'track' and render a label/ID differently.
-    """
+    x1, y1, x2, y2 = track["bbox"]
+    center_x = int((x1 + x2) / 2)
+    center_y = int((y1 + y2) / 2)
+
     ui.send_message("track", message={
         "id": track["id"],
         "label": TRACK_LABEL,
         "confidence": track["confidence"],
-        "bbox": track["bbox"],  # XYXY
+        "bbox": track["bbox"],      # [x1, y1, x2, y2]
+        "center_x": center_x,
+        "center_y": center_y,
         "timestamp": datetime.now(UTC).isoformat()
     })
 

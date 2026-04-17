@@ -17,12 +17,34 @@
 
         <div class="main-content">
             <div class="container" id="video-container">
-                <div id="videoFeedContainer">
+                <div id="videoFeedContainer" style="position: relative; display: inline-block;">
                     <div id="videoPlaceholder" class="camera-status">
                         <img src="./img/no-face.svg" alt="Searching webcam">
                         <p class="feedback-text">Searching Webcam...</p>
                     </div>
-                    <iframe id="dynamicIframe" title="Video stream" width="1024px" height="768px" frameBorder="0" style="display: none;"></iframe>
+
+                    <iframe
+                        id="dynamicIframe"
+                        title="Video stream"
+                        width="1024px"
+                        height="768px"
+                        frameBorder="0"
+                        style="display: none; position: relative; z-index: 1;"
+                    ></iframe>
+
+                    <canvas
+                        id="trackingOverlay"
+                        width="1024"
+                        height="768"
+                        style="
+                            display: none;
+                            position: absolute;
+                            top: 0;
+                            left: 0;
+                            z-index: 2;
+                            pointer-events: none;
+                        "
+                    ></canvas>
                 </div>
             </div>
 
@@ -83,6 +105,7 @@
 
     <script>
         const iframe = document.getElementById('dynamicIframe');
+        const overlay = document.getElementById('trackingOverlay');
         const placeholder = document.getElementById('videoPlaceholder');
         const currentHostname = window.location.hostname;
         const targetPort = 4912;
@@ -91,20 +114,30 @@
 
         let intervalId;
 
+        function syncOverlaySize() {
+            overlay.width = iframe.clientWidth || 1024;
+            overlay.height = iframe.clientHeight || 768;
+            overlay.style.width = `${iframe.clientWidth || 1024}px`;
+            overlay.style.height = `${iframe.clientHeight || 768}px`;
+        }
+
         iframe.onload = () => {
             if (intervalId) {
                 clearInterval(intervalId);
             }
             placeholder.style.display = 'none';
             iframe.style.display = 'block';
+            overlay.style.display = 'block';
+            syncOverlaySize();
         };
 
+        window.addEventListener('resize', syncOverlaySize);
+
         const startLoading = () => {
-            // Set the src to start loading
             iframe.src = streamUrl;
         };
 
-        intervalId = setInterval(startLoading, 1000); // Try to load every second
+        intervalId = setInterval(startLoading, 1000);
     </script>
 
     <script src="libs/socket.io.min.js"></script>
