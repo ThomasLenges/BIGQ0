@@ -1,1 +1,1 @@
-Streaming of USB Camera to HTML interface
+Face detection

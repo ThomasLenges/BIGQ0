@@ -1,4 +1,4 @@
-name: cameraStreaming
+name: faceDetection
 icon: 
 ports: []
 bricks:
