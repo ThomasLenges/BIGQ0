@@ -29,7 +29,11 @@ document.addEventListener('DOMContentLoaded', () => {
     // Popover logic
     const confidencePopoverText = "Minimum confidence score for detected objects. Lower values show more results but may include false positives.";
     const feedbackPopoverText = "When the camera detects an object like cat, cell phone, clock, cup, dog or potted plant, a picture and a message will be shown here.";
-
+    window.addEventListener('resize', () => {
+    if (currentTrack) {
+            drawTrackedCar(currentTrack);
+        }
+    });
     document.querySelectorAll('.info-btn.confidence').forEach(img => {
         const popover = img.nextElementSibling;
         img.addEventListener('mouseenter', () => {
@@ -73,16 +77,19 @@ function initSocketIO() {
         renderDetections();
         updateFeedback(message);
     });
+
+    // New: tracked object event
     socket.on('track', (message) => {
+        console.log('TRACK:', message);
         currentTrack = message;
         drawTrackedCar(currentTrack);
     });
 
+    // New: track lost event
     socket.on('track_lost', () => {
         currentTrack = null;
         clearTrackingOverlay();
     });
-
 }
 
 function updateFeedback(detection) {
@@ -248,29 +255,25 @@ function drawTrackedCar(track) {
 
     const [x1, y1, x2, y2] = track.bbox;
 
+    // Scale detector coordinates to the visible overlay size
     const scaleX = trackingOverlay.width / SOURCE_WIDTH;
     const scaleY = trackingOverlay.height / SOURCE_HEIGHT;
-
-    const sx1 = x1 * scaleX;
-    const sy1 = y1 * scaleY;
-    const sx2 = x2 * scaleX;
-    const sy2 = y2 * scaleY;
 
     const cx = ((x1 + x2) / 2) * scaleX;
     const cy = ((y1 + y2) / 2) * scaleY;
 
-    // Draw tracked box
-    trackingCtx.strokeStyle = 'lime';
-    trackingCtx.lineWidth = 3;
-    trackingCtx.strokeRect(sx1, sy1, sx2 - sx1, sy2 - sy1);
-
-    // Draw center point
+    // Draw only the center point (no green rectangle)
     trackingCtx.beginPath();
     trackingCtx.arc(cx, cy, 14, 0, 2 * Math.PI);
-    trackingCtx.fillStyle = 'red';
+    trackingCtx.fillStyle = 'rgba(255, 0, 0, 0.85)';
     trackingCtx.fill();
 
-    // Draw ID inside the red dot
+    // White outline around the dot for visibility
+    trackingCtx.lineWidth = 2;
+    trackingCtx.strokeStyle = 'white';
+    trackingCtx.stroke();
+
+    // Draw the track ID inside the dot
     trackingCtx.font = 'bold 16px Arial';
     trackingCtx.textAlign = 'center';
     trackingCtx.textBaseline = 'middle';

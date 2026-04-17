@@ -17,8 +17,8 @@
 
         <div class="main-content">
             <div class="container" id="video-container">
-                <div id="videoFeedContainer" style="position: relative; display: inline-block;">
-                    <div id="videoPlaceholder" class="camera-status">
+                <div id="videoFeedContainer" style="position: relative; width: 1024px; height: 768px; overflow: hidden;">
+                    <div id="videoPlaceholder" class="camera-status" style="position: absolute; inset: 0; z-index: 0;">
                         <img src="./img/no-face.svg" alt="Searching webcam">
                         <p class="feedback-text">Searching Webcam...</p>
                     </div>
@@ -26,10 +26,18 @@
                     <iframe
                         id="dynamicIframe"
                         title="Video stream"
-                        width="1024px"
-                        height="768px"
+                        width="1024"
+                        height="768"
                         frameBorder="0"
-                        style="display: none; position: relative; z-index: 1;"
+                        style="
+                            display: none;
+                            position: absolute;
+                            top: 0;
+                            left: 0;
+                            width: 1024px;
+                            height: 768px;
+                            z-index: 1;
+                        "
                     ></iframe>
 
                     <canvas
@@ -41,6 +49,8 @@
                             position: absolute;
                             top: 0;
                             left: 0;
+                            width: 1024px;
+                            height: 768px;
                             z-index: 2;
                             pointer-events: none;
                         "
@@ -115,19 +125,24 @@
         let intervalId;
 
         function syncOverlaySize() {
-            overlay.width = iframe.clientWidth || 1024;
-            overlay.height = iframe.clientHeight || 768;
-            overlay.style.width = `${iframe.clientWidth || 1024}px`;
-            overlay.style.height = `${iframe.clientHeight || 768}px`;
+            const width = iframe.clientWidth || 1024;
+            const height = iframe.clientHeight || 768;
+
+            overlay.width = width;
+            overlay.height = height;
+            overlay.style.width = `${width}px`;
+            overlay.style.height = `${height}px`;
         }
 
         iframe.onload = () => {
             if (intervalId) {
                 clearInterval(intervalId);
             }
+
             placeholder.style.display = 'none';
             iframe.style.display = 'block';
             overlay.style.display = 'block';
+
             syncOverlaySize();
         };
 

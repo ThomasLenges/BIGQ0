@@ -20,9 +20,18 @@ ui.on_message("override_th", lambda sid, threshold: detection_stream.override_th
 # =========================
 # Tracking state
 # =========================
-TRACK_LABEL = "car"          # change if your model uses "cars" or another label
-IOU_MATCH_THRESHOLD = 0.25   # how similar the new bbox must be to keep same track
+TRACK_LABEL = "y"          # change if your model uses "cars" or another label
+IOU_MATCH_THRESHOLD = 0.12   # how similar the new bbox must be to keep same track
 TRACK_TIMEOUT_SEC = 1.0      # if not updated for this duration -> lost
+
+# Also allow matching by center distance, not IoU only
+MAX_CENTER_DISTANCE_PX = 120
+
+# Keep a track alive longer before declaring it lost
+TRACK_TIMEOUT_SEC = 2.0
+
+# Smooth the box a bit to reduce jitter
+SMOOTHING_ALPHA = 0.65
 
 track_lock = threading.Lock()
 tracked_car = None           # dict with id, bbox, confidence, last_seen
@@ -34,6 +43,18 @@ def box_area(box):
     x1, y1, x2, y2 = box
     return max(0, x2 - x1) * max(0, y2 - y1)
 
+def center_of_box(box):
+    """Return the center (cx, cy) of an XYXY box."""
+    x1, y1, x2, y2 = box
+    return ((x1 + x2) / 2.0, (y1 + y2) / 2.0)
+
+def center_distance(box_a, box_b):
+    """Euclidean distance between the centers of two boxes."""
+    ax, ay = center_of_box(box_a)
+    bx, by = center_of_box(box_b)
+    dx = ax - bx
+    dy = ay - by
+    return (dx * dx + dy * dy) ** 0.5
 
 def iou_xyxy(box_a, box_b):
     """Intersection over Union for two XYXY boxes."""
@@ -56,14 +77,18 @@ def iou_xyxy(box_a, box_b):
     return inter_area / union_area
 
 
+
 def choose_best_match(previous_bbox, candidates):
     """
-    Among detected cars, choose the one that best matches the current track.
-    Each candidate is expected to contain:
-      {
-        "confidence": ...,
-        "bounding_box_xyxy": (x1, y1, x2, y2)
-      }
+    Match the current track to the next detection using:
+    - IoU
+    - center distance
+
+    A candidate is accepted if:
+    - IoU is decent, OR
+    - the center stayed close enough
+
+    Then we rank candidates with a combined score.
     """
     best_det = None
     best_score = -1.0
@@ -73,8 +98,19 @@ def choose_best_match(previous_bbox, candidates):
         if bbox is None:
             continue
 
-        score = iou_xyxy(previous_bbox, bbox)
-        if score > best_score:
+        iou = iou_xyxy(previous_bbox, bbox)
+        dist = center_distance(previous_bbox, bbox)
+
+        # Normalize distance to [0, 1] score
+        distance_score = max(0.0, 1.0 - (dist / MAX_CENTER_DISTANCE_PX))
+
+        # Combined score: IoU matters more, distance still helps a lot
+        score = (0.7 * iou) + (0.3 * distance_score)
+
+        # Accept if either condition says "likely same object"
+        is_valid_match = (iou >= IOU_MATCH_THRESHOLD) or (dist <= MAX_CENTER_DISTANCE_PX)
+
+        if is_valid_match and score > best_score:
             best_score = score
             best_det = det
 
@@ -82,6 +118,10 @@ def choose_best_match(previous_bbox, candidates):
 
 
 def send_track_to_ui(track):
+    """
+    Send the tracked car to the frontend.
+    The frontend will draw only a dot + the ID.
+    """
     x1, y1, x2, y2 = track["bbox"]
     center_x = int((x1 + x2) / 2)
     center_y = int((y1 + y2) / 2)
@@ -90,7 +130,7 @@ def send_track_to_ui(track):
         "id": track["id"],
         "label": TRACK_LABEL,
         "confidence": track["confidence"],
-        "bbox": track["bbox"],      # [x1, y1, x2, y2]
+        "bbox": [x1, y1, x2, y2],
         "center_x": center_x,
         "center_y": center_y,
         "timestamp": datetime.now(UTC).isoformat()
@@ -104,12 +144,37 @@ def send_track_lost_to_ui(track_id):
         "timestamp": datetime.now(UTC).isoformat()
     })
 
+def smooth_box(old_box, new_box, alpha=SMOOTHING_ALPHA):
+    """
+    Smooth the tracked box to reduce visible jitter.
+    alpha closer to 1.0 = more stability, less reactivity.
+    """
+    return (
+        int(alpha * old_box[0] + (1.0 - alpha) * new_box[0]),
+        int(alpha * old_box[1] + (1.0 - alpha) * new_box[1]),
+        int(alpha * old_box[2] + (1.0 - alpha) * new_box[2]),
+        int(alpha * old_box[3] + (1.0 - alpha) * new_box[3]),
+    )
+
+
+def pick_initial_target(candidates):
+    """
+    When no track exists, pick the largest detected object.
+    This is often more stable than picking the highest confidence only.
+    """
+    valid = [d for d in candidates if d.get("bounding_box_xyxy") is not None]
+    if not valid:
+        return None
+    return max(valid, key=lambda d: box_area(d["bounding_box_xyxy"]))
+
 
 def update_tracking_with_detections(detections: dict):
     """
-    Tracking-by-detection:
-    - if no track exists, pick the best car
-    - if a track exists, keep the car with highest IoU to previous bbox
+    Single-object tracking-by-detection.
+
+    - If no track exists: pick one car and start tracking it
+    - If a track exists: find the best matching car
+    - If no match this frame: do not kill immediately, let the watchdog decide
     """
     global tracked_car, next_track_id
 
@@ -120,12 +185,15 @@ def update_tracking_with_detections(detections: dict):
     now = time.time()
 
     with track_lock:
-        # Start tracking if nothing is tracked yet
+        # Start a new track if none exists
         if tracked_car is None:
-            best = max(car_detections, key=lambda d: d.get("confidence", 0.0))
+            best = pick_initial_target(car_detections)
+            if best is None:
+                return
+
             tracked_car = {
                 "id": next_track_id,
-                "bbox": best["bounding_box_xyxy"],
+                "bbox": tuple(best["bounding_box_xyxy"]),
                 "confidence": best.get("confidence", 0.0),
                 "last_seen": now,
             }
@@ -133,19 +201,22 @@ def update_tracking_with_detections(detections: dict):
             send_track_to_ui(tracked_car)
             return
 
-        # Try to keep the current track alive with the best matching bbox
-        best_match, best_iou = choose_best_match(tracked_car["bbox"], car_detections)
+        # Try to match the current track to one of the new detections
+        best_match, best_score = choose_best_match(tracked_car["bbox"], car_detections)
 
-        if best_match is not None and best_iou >= IOU_MATCH_THRESHOLD:
-            tracked_car["bbox"] = best_match["bounding_box_xyxy"]
+        if best_match is not None:
+            new_bbox = tuple(best_match["bounding_box_xyxy"])
+
+            # Smooth the box so the center dot jitters less
+            tracked_car["bbox"] = smooth_box(tracked_car["bbox"], new_bbox)
             tracked_car["confidence"] = best_match.get("confidence", 0.0)
             tracked_car["last_seen"] = now
+
             send_track_to_ui(tracked_car)
             return
 
         # No good match this frame:
-        # do nothing here; the watchdog below will decide when the track is really lost.
-
+        # do nothing here; the watchdog thread will clear stale tracks later
 
 def track_watchdog():
     """
