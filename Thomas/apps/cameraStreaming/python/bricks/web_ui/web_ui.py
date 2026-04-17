@@ -29,6 +29,8 @@ class WebUI:
 
     """
 
+    print("You are using local WebUI brick")
+
     def __init__(
         self,
         addr: str = "0.0.0.0",

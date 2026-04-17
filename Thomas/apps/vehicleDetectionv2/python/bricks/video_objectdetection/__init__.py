@@ -37,6 +37,8 @@ class VideoObjectDetection:
       - Invokes per-label callbacks and/or a catch-all callback.
     """
 
+    print("You are using local brick")
+
     ALL_HANDLERS_KEY = "__ALL"
 
     _DETECTION_LOCK_TO = 0.01  # Seconds to wait for a detection lock before discarding the detection signal
