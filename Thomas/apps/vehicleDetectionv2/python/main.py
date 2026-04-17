@@ -1,7 +1,9 @@
 from arduino.app_utils import App
 from arduino.app_bricks.web_ui import WebUI
-from arduino.app_bricks.video_objectdetection import VideoObjectDetection
 from datetime import datetime, UTC
+
+# Moved brick from container to local to be able to modify it
+from bricks.video_objectdetection import VideoObjectDetection
 
 # ==== Web server ====
 ui = WebUI()

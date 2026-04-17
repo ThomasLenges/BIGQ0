@@ -9,9 +9,9 @@ To run models on Adreno GPU or DSP Hexagon
 
 ## Steps
 
-### 1: Move example app to local apps and link it with custom EI model (current app)
+### 1: Move example app to local apps and link it with custom EI model
 
-### 2: Move brick to local
+### 2: Move brick to local (current app)
 
 ### 3: Try without brick/personal brick
 
