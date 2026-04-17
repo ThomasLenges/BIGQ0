@@ -7,6 +7,7 @@ Use the following commands to manage apps on the Arduino UNO Q from the Linux te
 ```bash
 ssh arduino@192.168.1.251
 ```
+172.20.10.4
 
 ## Connect through SSH to VSC (see IP address on AppLab > Settings (at the very bottom)
 
