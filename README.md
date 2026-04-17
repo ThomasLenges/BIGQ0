@@ -38,6 +38,24 @@ arduino-app-cli app stop ~/Thomas/apps/helloworld
 arduino-app-cli app logs ~/Thomas/apps/helloworld
 ```
 
+## Docker
+
+### List containers
+```bash
+docker ps -a
+```
+`-a` affiche tous les conteneurs, y compris ceux qui sont arrêtés.
+
+### Start a container
+```bash
+docker start 
+```
+
+### Run a Python script in a container
+```bash
+docker exec  python main.py
+```
+
 ## Trouble shooting tips
 
 1. Do not forget to update `app.yaml` with the brick configuration and `sketch.yaml` with the required MCU libraries.
