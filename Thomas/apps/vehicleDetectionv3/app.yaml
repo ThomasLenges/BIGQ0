@@ -3,3 +3,5 @@ icon:
 ports: []
 bricks:
 - arduino:web_ui: {}
+- arduino:video_object_detection:
+    model: ei-model-951763-1
