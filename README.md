@@ -61,6 +61,10 @@ docker start
 ```bash
 docker exec  python main.py
 ```
+## Import Python libraries
+```bash
+in AppName/python/ add a file called "requirements.txt"
+```
 
 ## Trouble shooting tips
 
