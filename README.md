@@ -29,19 +29,19 @@ arduino-app-cli app list
 ## Start an app
 
 ```bash
-arduino-app-cli app start ~/Thomas/apps/helloworld
+arduino-app-cli app start ~/Thomas/apps/YourAppName
 ```
 
 ## Stop an app
 
 ```bash
-arduino-app-cli app stop ~/Thomas/apps/helloworld
+arduino-app-cli app stop ~/Thomas/apps/YourAppName
 ```
 
 ## Get python logs
 
 ```bash
-arduino-app-cli app logs ~/Thomas/apps/helloworld
+arduino-app-cli app logs ~/Thomas/apps/YourAppName
 ```
 
 ## Docker
@@ -63,7 +63,12 @@ docker exec  python main.py
 ```
 ## Import Python libraries
 ```bash
-in AppName/python/ add a file called "requirements.txt"
+in YourAppName/python/ add a file called "requirements.txt"
+```
+May need to clear cache if changed requirements.txt
+
+```bash
+rm -rf ~/Thomas/apps/YourAppName/.cache
 ```
 
 ## Trouble shooting tips
