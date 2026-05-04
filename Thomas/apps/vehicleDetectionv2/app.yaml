@@ -1,5 +1,7 @@
-name: vehicleDetection
+name: vehicleDetectionV2
 icon: 
 ports: []
 bricks:
 - arduino:web_ui: {}
+- arduino:video_object_detection:    # Necessary to keep launching docker container!
+    model: ei-model-951763-1

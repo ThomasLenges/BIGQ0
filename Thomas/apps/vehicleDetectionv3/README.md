@@ -13,10 +13,6 @@ To run models on Adreno GPU or DSP Hexagon
 
 ### 2: Move brick to local
 
-### 3: Try without brick/personal brick (current app)
+### 3: Add tracking (in eim or CPU?)
 
-* Understand how video_objectdetection links the model to the camera streaming
-* Rewrite simplified brick (one for camera streaming and one for linking streaming to model)
-* Rewrite UI
-
-### 4: Add tracking (in eim or CPU?)
+Now that we have detection, need to add trackers. Show the model be one unit pipeline or two seperate (detection + tracking)

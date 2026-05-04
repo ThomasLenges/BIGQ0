@@ -9,6 +9,12 @@ ssh arduino@192.168.1.251
 ```
 172.20.10.4
 
+or
+
+```bash
+ssh arduino@172.20.10.4
+```
+
 ## Connect through SSH to VSC (see IP address on AppLab > Settings (at the very bottom)
 
 ```bash
@@ -24,19 +30,19 @@ arduino-app-cli app list
 ## Start an app
 
 ```bash
-arduino-app-cli app start ~/Thomas/apps/helloworld
+arduino-app-cli app start ~/Thomas/apps/YourAppName
 ```
 
 ## Stop an app
 
 ```bash
-arduino-app-cli app stop ~/Thomas/apps/helloworld
+arduino-app-cli app stop ~/Thomas/apps/YourAppName
 ```
 
 ## Get python logs
 
 ```bash
-arduino-app-cli app logs ~/Thomas/apps/helloworld
+arduino-app-cli app logs ~/Thomas/apps/YourAppName
 ```
 
 ## Docker
@@ -55,6 +61,15 @@ docker start
 ### Run a Python script in a container
 ```bash
 docker exec  python main.py
+```
+## Import Python libraries
+```bash
+in YourAppName/python/ add a file called "requirements.txt"
+```
+May need to clear cache if changed requirements.txt
+
+```bash
+rm -rf ~/Thomas/apps/YourAppName/.cache
 ```
 
 ## Trouble shooting tips

@@ -2,7 +2,8 @@ import time
 import threading
 from arduino.app_utils import App
 from bricks.camera.camera import Camera
-from arduino.app_bricks.web_ui import WebUI
+# from arduino.app_bricks.web_ui import WebUI
+from bricks.web_ui.web_ui import WebUI
 from fastapi.responses import Response
 import cv2
 
