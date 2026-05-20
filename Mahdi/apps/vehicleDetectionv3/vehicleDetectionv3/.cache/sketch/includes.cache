@@ -1,0 +1,73 @@
+[
+  {
+    "added_include_path": "/home/arduino/.arduino15/packages/arduino/hardware/zephyr/0.54.1/cores/arduino"
+  },
+  {
+    "added_include_path": "/home/arduino/.arduino15/packages/arduino/hardware/zephyr/0.54.1/variants/arduino_uno_q_stm32u585xx"
+  },
+  {
+    "compile": {
+      "source_path": "/home/arduino/Thomas/apps/vehicleDetectionv3/.cache/sketch/sketch/sketch.ino.cpp.merged",
+      "depfile_path": "/home/arduino/Thomas/apps/vehicleDetectionv3/.cache/sketch/sketch/sketch.ino.cpp.merged.libsdetect.d"
+    },
+    "compile_task": {
+      "args": [
+        "/home/arduino/.arduino15/packages/zephyr/tools/arm-zephyr-eabi/0.16.8/bin/arm-zephyr-eabi-g++",
+        "-g",
+        "-Os",
+        "-std=gnu++17",
+        "-c",
+        "-D_PICOLIBC_CTYPE_SMALL=1",
+        "-w",
+        "-imacros/home/arduino/.arduino15/packages/arduino/hardware/zephyr/0.54.1/variants/arduino_uno_q_stm32u585xx/llext-edk/include/zephyr/include/generated/zephyr/autoconf.h",
+        "-imacros/home/arduino/.arduino15/packages/arduino/hardware/zephyr/0.54.1/variants/arduino_uno_q_stm32u585xx/llext-edk/include/zephyr/include/zephyr/toolchain/zephyr_stdint.h",
+        "@/home/arduino/.arduino15/packages/arduino/hardware/zephyr/0.54.1/variants/arduino_uno_q_stm32u585xx/cxxflags.txt",
+        "-fno-exceptions",
+        "-fno-rtti",
+        "-fno-threadsafe-statics",
+        "-fno-unwind-tables",
+        "-fno-use-cxa-atexit",
+        "-lstdc++",
+        "-lsupc++",
+        "-lnosys",
+        "-nostdlib",
+        "-lstdc++",
+        "-lsupc++",
+        "-lm",
+        "-fno-exceptions",
+        "-fno-rtti",
+        "-fdata-sections",
+        "-ffunction-sections",
+        "-fno-unwind-tables",
+        "-mcpu=cortex-m33",
+        "-mfloat-abi=hard",
+        "-mfpu=fpv5-sp-d16",
+        "-w",
+        "-x",
+        "c++",
+        "-E",
+        "-CC",
+        "-DARDUINO=10607",
+        "-DARDUINO_UNO_Q",
+        "-DARDUINO_ARCH_ZEPHYR",
+        "-DARDUINO_ARCH_ZEPHYR",
+        "-DARDUINO_LIBRARY_DISCOVERY_PHASE=1",
+        "-I/home/arduino/.arduino15/packages/arduino/hardware/zephyr/0.54.1/cores/arduino",
+        "-I/home/arduino/.arduino15/packages/arduino/hardware/zephyr/0.54.1/variants/arduino_uno_q_stm32u585xx",
+        "-I/home/arduino/.arduino15/packages/arduino/hardware/zephyr/0.54.1/cores/arduino/api/deprecated",
+        "-I/home/arduino/.arduino15/packages/arduino/hardware/zephyr/0.54.1/cores/arduino/api/deprecated-avr-comp",
+        "-iprefix/home/arduino/.arduino15/packages/arduino/hardware/zephyr/0.54.1/variants/arduino_uno_q_stm32u585xx",
+        "@/home/arduino/.arduino15/packages/arduino/hardware/zephyr/0.54.1/variants/arduino_uno_q_stm32u585xx/includes.txt",
+        "/home/arduino/Thomas/apps/vehicleDetectionv3/.cache/sketch/sketch/sketch.ino.cpp.merged",
+        "-o",
+        "/dev/null",
+        "-MMD",
+        "-MF",
+        "/home/arduino/Thomas/apps/vehicleDetectionv3/.cache/sketch/sketch/sketch.ino.cpp.merged.libsdetect.d"
+      ]
+    }
+  },
+  {
+    "missing_include_h": ""
+  }
+]

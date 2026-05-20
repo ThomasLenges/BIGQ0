@@ -1,0 +1,26 @@
+services:
+  ei-video-obj-detection-runner:
+    user: 1000:1000
+    devices:
+    - /dev/video0
+    - /dev/video1
+    - /dev/video2
+    - /dev/video3
+    - /dev/snd
+    - /dev/dri
+    group_add:
+    - 44
+    - 29
+    - 991
+    - 20
+    labels:
+      cc.arduino.app: "true"
+      cc.arduino.app.path: /home/arduino/Thomas/apps/vehicleDetectionv3
+    environment:
+      APP_HOME: /home/arduino/Thomas/apps/vehicleDetectionv3
+      BIND_ADDRESS: 0.0.0.0
+      CUSTOM_MODEL_PATH: /home/arduino/.arduino-bricks/models/custom-ei/ei-model-951763-1
+      EI_OBJ_DETECTION_MODEL: /home/arduino/.arduino-bricks/models/custom-ei/ei-model-951763-1/model.eim
+      EI_V_OBJ_DETECTION_MODEL: /home/arduino/.arduino-bricks/models/custom-ei/ei-model-951763-1/model.eim
+      HOST_IP: 192.168.1.251
+      VIDEO_DEVICE: /dev/video0

@@ -1,0 +1,443 @@
+Archive member included to satisfy reference by file (symbol)
+
+/home/arduino/Thomas/apps/vehicleDetectionv3/.cache/sketch/core/core.a(main.cpp.o)
+                              (main)
+/home/arduino/Thomas/apps/vehicleDetectionv3/.cache/sketch/core/core.a(threads.cpp.o)
+                              /home/arduino/Thomas/apps/vehicleDetectionv3/.cache/sketch/core/core.a(main.cpp.o) (start_static_threads())
+/home/arduino/Thomas/apps/vehicleDetectionv3/.cache/sketch/core/core.a(zephyrCommon.cpp.o)
+                              /home/arduino/Thomas/apps/vehicleDetectionv3/.cache/sketch/sketch/sketch.ino.cpp.o (pinMode)
+/home/arduino/Thomas/apps/vehicleDetectionv3/.cache/sketch/core/core.a(Common.cpp.o)
+                              /home/arduino/Thomas/apps/vehicleDetectionv3/.cache/sketch/core/core.a(zephyrCommon.cpp.o) (map(long, long, long, long, long))
+/home/arduino/Thomas/apps/vehicleDetectionv3/.cache/sketch/core/core.a(llext_wrappers.c.o)
+                              /home/arduino/Thomas/apps/vehicleDetectionv3/.cache/sketch/core/core.a(main.cpp.o) (memcpy)
+
+Discarded input sections
+
+ .text          0x0000000000000000        0x0 /home/arduino/Thomas/apps/vehicleDetectionv3/.cache/sketch/sketch/sketch.ino.cpp.o
+ .data          0x0000000000000000        0x0 /home/arduino/Thomas/apps/vehicleDetectionv3/.cache/sketch/sketch/sketch.ino.cpp.o
+ .bss           0x0000000000000000        0x0 /home/arduino/Thomas/apps/vehicleDetectionv3/.cache/sketch/sketch/sketch.ino.cpp.o
+ .comment       0x0000000000000000       0x21 /home/arduino/Thomas/apps/vehicleDetectionv3/.cache/sketch/sketch/sketch.ino.cpp.o
+ .ARM.attributes
+                0x0000000000000000       0x3c /home/arduino/Thomas/apps/vehicleDetectionv3/.cache/sketch/sketch/sketch.ino.cpp.o
+ .text          0x0000000000000000        0x0 /home/arduino/Thomas/apps/vehicleDetectionv3/.cache/sketch/core/analogReference.cpp.o
+ .data          0x0000000000000000        0x0 /home/arduino/Thomas/apps/vehicleDetectionv3/.cache/sketch/core/analogReference.cpp.o
+ .bss           0x0000000000000000        0x0 /home/arduino/Thomas/apps/vehicleDetectionv3/.cache/sketch/core/analogReference.cpp.o
+ .text.analogReference
+                0x0000000000000000        0x8 /home/arduino/Thomas/apps/vehicleDetectionv3/.cache/sketch/core/analogReference.cpp.o
+ .debug_info    0x0000000000000000     0x15b5 /home/arduino/Thomas/apps/vehicleDetectionv3/.cache/sketch/core/analogReference.cpp.o
+ .debug_abbrev  0x0000000000000000      0x31c /home/arduino/Thomas/apps/vehicleDetectionv3/.cache/sketch/core/analogReference.cpp.o
+ .debug_loclists
+                0x0000000000000000       0x23 /home/arduino/Thomas/apps/vehicleDetectionv3/.cache/sketch/core/analogReference.cpp.o
+ .debug_aranges
+                0x0000000000000000       0x20 /home/arduino/Thomas/apps/vehicleDetectionv3/.cache/sketch/core/analogReference.cpp.o
+ .debug_rnglists
+                0x0000000000000000       0x13 /home/arduino/Thomas/apps/vehicleDetectionv3/.cache/sketch/core/analogReference.cpp.o
+ .debug_line    0x0000000000000000      0x3c3 /home/arduino/Thomas/apps/vehicleDetectionv3/.cache/sketch/core/analogReference.cpp.o
+ .debug_str     0x0000000000000000     0x1746 /home/arduino/Thomas/apps/vehicleDetectionv3/.cache/sketch/core/analogReference.cpp.o
+ .comment       0x0000000000000000       0x21 /home/arduino/Thomas/apps/vehicleDetectionv3/.cache/sketch/core/analogReference.cpp.o
+ .debug_frame   0x0000000000000000       0x20 /home/arduino/Thomas/apps/vehicleDetectionv3/.cache/sketch/core/analogReference.cpp.o
+ .ARM.attributes
+                0x0000000000000000       0x3c /home/arduino/Thomas/apps/vehicleDetectionv3/.cache/sketch/core/analogReference.cpp.o
+ .text          0x0000000000000000        0x0 /home/arduino/Thomas/apps/vehicleDetectionv3/.cache/sketch/core/core.a(main.cpp.o)
+ .data          0x0000000000000000        0x0 /home/arduino/Thomas/apps/vehicleDetectionv3/.cache/sketch/core/core.a(main.cpp.o)
+ .bss           0x0000000000000000        0x0 /home/arduino/Thomas/apps/vehicleDetectionv3/.cache/sketch/core/core.a(main.cpp.o)
+ .entry_point   0x0000000000000000       0xb8 /home/arduino/Thomas/apps/vehicleDetectionv3/.cache/sketch/core/core.a(main.cpp.o)
+ .comment       0x0000000000000000       0x21 /home/arduino/Thomas/apps/vehicleDetectionv3/.cache/sketch/core/core.a(main.cpp.o)
+ .ARM.attributes
+                0x0000000000000000       0x3c /home/arduino/Thomas/apps/vehicleDetectionv3/.cache/sketch/core/core.a(main.cpp.o)
+ .text          0x0000000000000000        0x0 /home/arduino/Thomas/apps/vehicleDetectionv3/.cache/sketch/core/core.a(threads.cpp.o)
+ .data          0x0000000000000000        0x0 /home/arduino/Thomas/apps/vehicleDetectionv3/.cache/sketch/core/core.a(threads.cpp.o)
+ .bss           0x0000000000000000        0x0 /home/arduino/Thomas/apps/vehicleDetectionv3/.cache/sketch/core/core.a(threads.cpp.o)
+ .comment       0x0000000000000000       0x21 /home/arduino/Thomas/apps/vehicleDetectionv3/.cache/sketch/core/core.a(threads.cpp.o)
+ .ARM.attributes
+                0x0000000000000000       0x3c /home/arduino/Thomas/apps/vehicleDetectionv3/.cache/sketch/core/core.a(threads.cpp.o)
+ .text          0x0000000000000000        0x0 /home/arduino/Thomas/apps/vehicleDetectionv3/.cache/sketch/core/core.a(zephyrCommon.cpp.o)
+ .data          0x0000000000000000        0x0 /home/arduino/Thomas/apps/vehicleDetectionv3/.cache/sketch/core/core.a(zephyrCommon.cpp.o)
+ .bss           0x0000000000000000        0x0 /home/arduino/Thomas/apps/vehicleDetectionv3/.cache/sketch/core/core.a(zephyrCommon.cpp.o)
+ .text.gpio_pin_get_dt
+                0x0000000000000000       0x2a /home/arduino/Thomas/apps/vehicleDetectionv3/.cache/sketch/core/core.a(zephyrCommon.cpp.o)
+ .text._ZN12_GLOBAL__N_123find_gpio_port_callbackEPK6device
+                0x0000000000000000       0x3c /home/arduino/Thomas/apps/vehicleDetectionv3/.cache/sketch/core/core.a(zephyrCommon.cpp.o)
+ .text._ZN12_GLOBAL__N_118handleGpioCallbackEPK6deviceP13gpio_callbackj
+                0x0000000000000000       0x24 /home/arduino/Thomas/apps/vehicleDetectionv3/.cache/sketch/core/core.a(zephyrCommon.cpp.o)
+ .text._ZN12_GLOBAL__N_119setInterruptHandlerEhPFvvE.part.0
+                0x0000000000000000       0x28 /home/arduino/Thomas/apps/vehicleDetectionv3/.cache/sketch/core/core.a(zephyrCommon.cpp.o)
+ .text._Z14tone_expiry_cbP7k_timer
+                0x0000000000000000       0x10 /home/arduino/Thomas/apps/vehicleDetectionv3/.cache/sketch/core/core.a(zephyrCommon.cpp.o)
+ .text.yield    0x0000000000000000        0x8 /home/arduino/Thomas/apps/vehicleDetectionv3/.cache/sketch/core/core.a(zephyrCommon.cpp.o)
+ .text.digitalRead
+                0x0000000000000000       0x24 /home/arduino/Thomas/apps/vehicleDetectionv3/.cache/sketch/core/core.a(zephyrCommon.cpp.o)
+ .text._Z4tonehjm
+                0x0000000000000000       0xfc /home/arduino/Thomas/apps/vehicleDetectionv3/.cache/sketch/core/core.a(zephyrCommon.cpp.o)
+ .text._Z6noToneh
+                0x0000000000000000       0x38 /home/arduino/Thomas/apps/vehicleDetectionv3/.cache/sketch/core/core.a(zephyrCommon.cpp.o)
+ .text._Z15tone_timeout_cbP7k_timer
+                0x0000000000000000        0xc /home/arduino/Thomas/apps/vehicleDetectionv3/.cache/sketch/core/core.a(zephyrCommon.cpp.o)
+ .text.micros   0x0000000000000000       0x1c /home/arduino/Thomas/apps/vehicleDetectionv3/.cache/sketch/core/core.a(zephyrCommon.cpp.o)
+ .text.millis   0x0000000000000000       0x18 /home/arduino/Thomas/apps/vehicleDetectionv3/.cache/sketch/core/core.a(zephyrCommon.cpp.o)
+ .text._Z21analogWriteResolutioni
+                0x0000000000000000        0xc /home/arduino/Thomas/apps/vehicleDetectionv3/.cache/sketch/core/core.a(zephyrCommon.cpp.o)
+ .text._Z21analogWriteResolutionv
+                0x0000000000000000        0xc /home/arduino/Thomas/apps/vehicleDetectionv3/.cache/sketch/core/core.a(zephyrCommon.cpp.o)
+ .text.analogWrite
+                0x0000000000000000      0x118 /home/arduino/Thomas/apps/vehicleDetectionv3/.cache/sketch/core/core.a(zephyrCommon.cpp.o)
+ .text._Z11analogWrite7dacPinsi
+                0x0000000000000000       0x78 /home/arduino/Thomas/apps/vehicleDetectionv3/.cache/sketch/core/core.a(zephyrCommon.cpp.o)
+ .text.analogReference
+                0x0000000000000000        0x2 /home/arduino/Thomas/apps/vehicleDetectionv3/.cache/sketch/core/core.a(zephyrCommon.cpp.o)
+ .text._Z20analogReadResolutioni
+                0x0000000000000000        0xc /home/arduino/Thomas/apps/vehicleDetectionv3/.cache/sketch/core/core.a(zephyrCommon.cpp.o)
+ .text._Z20analogReadResolutionv
+                0x0000000000000000        0xc /home/arduino/Thomas/apps/vehicleDetectionv3/.cache/sketch/core/core.a(zephyrCommon.cpp.o)
+ .text.analogRead
+                0x0000000000000000       0xd4 /home/arduino/Thomas/apps/vehicleDetectionv3/.cache/sketch/core/core.a(zephyrCommon.cpp.o)
+ .text._Z10randomSeedm
+                0x0000000000000000        0x8 /home/arduino/Thomas/apps/vehicleDetectionv3/.cache/sketch/core/core.a(zephyrCommon.cpp.o)
+ .text._Z6randomll
+                0x0000000000000000       0x1c /home/arduino/Thomas/apps/vehicleDetectionv3/.cache/sketch/core/core.a(zephyrCommon.cpp.o)
+ .text._Z6randoml
+                0x0000000000000000       0x18 /home/arduino/Thomas/apps/vehicleDetectionv3/.cache/sketch/core/core.a(zephyrCommon.cpp.o)
+ .text.pulseIn  0x0000000000000000       0xd4 /home/arduino/Thomas/apps/vehicleDetectionv3/.cache/sketch/core/core.a(zephyrCommon.cpp.o)
+ .text.enableInterrupt
+                0x0000000000000000       0x2c /home/arduino/Thomas/apps/vehicleDetectionv3/.cache/sketch/core/core.a(zephyrCommon.cpp.o)
+ .text.attachInterrupt
+                0x0000000000000000       0xb8 /home/arduino/Thomas/apps/vehicleDetectionv3/.cache/sketch/core/core.a(zephyrCommon.cpp.o)
+ .text.disableInterrupt
+                0x0000000000000000       0x30 /home/arduino/Thomas/apps/vehicleDetectionv3/.cache/sketch/core/core.a(zephyrCommon.cpp.o)
+ .text.detachInterrupt
+                0x0000000000000000       0x24 /home/arduino/Thomas/apps/vehicleDetectionv3/.cache/sketch/core/core.a(zephyrCommon.cpp.o)
+ .text._Z10interruptsv
+                0x0000000000000000       0x20 /home/arduino/Thomas/apps/vehicleDetectionv3/.cache/sketch/core/core.a(zephyrCommon.cpp.o)
+ .text._Z12noInterruptsv
+                0x0000000000000000       0x28 /home/arduino/Thomas/apps/vehicleDetectionv3/.cache/sketch/core/core.a(zephyrCommon.cpp.o)
+ .text._Z21digitalPinToInterrupth
+                0x0000000000000000       0x28 /home/arduino/Thomas/apps/vehicleDetectionv3/.cache/sketch/core/core.a(zephyrCommon.cpp.o)
+ .rodata.CSWTCH.126
+                0x0000000000000000       0x14 /home/arduino/Thomas/apps/vehicleDetectionv3/.cache/sketch/core/core.a(zephyrCommon.cpp.o)
+ .data._ZL15read_resolution
+                0x0000000000000000        0x4 /home/arduino/Thomas/apps/vehicleDetectionv3/.cache/sketch/core/core.a(zephyrCommon.cpp.o)
+ .data._ZL24_analog_write_resolution
+                0x0000000000000000        0x4 /home/arduino/Thomas/apps/vehicleDetectionv3/.cache/sketch/core/core.a(zephyrCommon.cpp.o)
+ .bss.arduino_pin_timers_timeout
+                0x0000000000000000      0xf50 /home/arduino/Thomas/apps/vehicleDetectionv3/.cache/sketch/core/core.a(zephyrCommon.cpp.o)
+ .bss.arduino_pin_timers
+                0x0000000000000000      0xf50 /home/arduino/Thomas/apps/vehicleDetectionv3/.cache/sketch/core/core.a(zephyrCommon.cpp.o)
+ .bss._ZN12_GLOBAL__N_1L19interrupts_disabledE
+                0x0000000000000000        0x1 /home/arduino/Thomas/apps/vehicleDetectionv3/.cache/sketch/core/core.a(zephyrCommon.cpp.o)
+ .bss._ZN12_GLOBAL__N_1L7irq_keyE
+                0x0000000000000000        0x4 /home/arduino/Thomas/apps/vehicleDetectionv3/.cache/sketch/core/core.a(zephyrCommon.cpp.o)
+ .rodata._ZN12_GLOBAL__N_1L10dac_ch_cfgE
+                0x0000000000000000        0x6 /home/arduino/Thomas/apps/vehicleDetectionv3/.cache/sketch/core/core.a(zephyrCommon.cpp.o)
+ .rodata._ZN12_GLOBAL__N_1L11arduino_adcE
+                0x0000000000000000       0x60 /home/arduino/Thomas/apps/vehicleDetectionv3/.cache/sketch/core/core.a(zephyrCommon.cpp.o)
+ .rodata._ZN12_GLOBAL__N_1L16arduino_pwm_pinsE
+                0x0000000000000000       0x10 /home/arduino/Thomas/apps/vehicleDetectionv3/.cache/sketch/core/core.a(zephyrCommon.cpp.o)
+ .rodata._ZN12_GLOBAL__N_1L11arduino_pwmE
+                0x0000000000000000      0x100 /home/arduino/Thomas/apps/vehicleDetectionv3/.cache/sketch/core/core.a(zephyrCommon.cpp.o)
+ .bss._ZN12_GLOBAL__N_113port_callbackE
+                0x0000000000000000      0x534 /home/arduino/Thomas/apps/vehicleDetectionv3/.cache/sketch/core/core.a(zephyrCommon.cpp.o)
+ .comment       0x0000000000000000       0x21 /home/arduino/Thomas/apps/vehicleDetectionv3/.cache/sketch/core/core.a(zephyrCommon.cpp.o)
+ .ARM.attributes
+                0x0000000000000000       0x3c /home/arduino/Thomas/apps/vehicleDetectionv3/.cache/sketch/core/core.a(zephyrCommon.cpp.o)
+ .text          0x0000000000000000        0x0 /home/arduino/Thomas/apps/vehicleDetectionv3/.cache/sketch/core/core.a(Common.cpp.o)
+ .data          0x0000000000000000        0x0 /home/arduino/Thomas/apps/vehicleDetectionv3/.cache/sketch/core/core.a(Common.cpp.o)
+ .bss           0x0000000000000000        0x0 /home/arduino/Thomas/apps/vehicleDetectionv3/.cache/sketch/core/core.a(Common.cpp.o)
+ .text._Z3maplllll
+                0x0000000000000000       0x14 /home/arduino/Thomas/apps/vehicleDetectionv3/.cache/sketch/core/core.a(Common.cpp.o)
+ .text._Z8makeWordt
+                0x0000000000000000        0x2 /home/arduino/Thomas/apps/vehicleDetectionv3/.cache/sketch/core/core.a(Common.cpp.o)
+ .text._Z8makeWordhh
+                0x0000000000000000        0x6 /home/arduino/Thomas/apps/vehicleDetectionv3/.cache/sketch/core/core.a(Common.cpp.o)
+ .debug_info    0x0000000000000000      0x16a /home/arduino/Thomas/apps/vehicleDetectionv3/.cache/sketch/core/core.a(Common.cpp.o)
+ .debug_abbrev  0x0000000000000000       0xc1 /home/arduino/Thomas/apps/vehicleDetectionv3/.cache/sketch/core/core.a(Common.cpp.o)
+ .debug_loclists
+                0x0000000000000000       0x51 /home/arduino/Thomas/apps/vehicleDetectionv3/.cache/sketch/core/core.a(Common.cpp.o)
+ .debug_aranges
+                0x0000000000000000       0x30 /home/arduino/Thomas/apps/vehicleDetectionv3/.cache/sketch/core/core.a(Common.cpp.o)
+ .debug_rnglists
+                0x0000000000000000       0x1f /home/arduino/Thomas/apps/vehicleDetectionv3/.cache/sketch/core/core.a(Common.cpp.o)
+ .debug_line    0x0000000000000000      0x1b6 /home/arduino/Thomas/apps/vehicleDetectionv3/.cache/sketch/core/core.a(Common.cpp.o)
+ .debug_str     0x0000000000000000      0x37e /home/arduino/Thomas/apps/vehicleDetectionv3/.cache/sketch/core/core.a(Common.cpp.o)
+ .comment       0x0000000000000000       0x21 /home/arduino/Thomas/apps/vehicleDetectionv3/.cache/sketch/core/core.a(Common.cpp.o)
+ .debug_frame   0x0000000000000000       0x48 /home/arduino/Thomas/apps/vehicleDetectionv3/.cache/sketch/core/core.a(Common.cpp.o)
+ .ARM.attributes
+                0x0000000000000000       0x3c /home/arduino/Thomas/apps/vehicleDetectionv3/.cache/sketch/core/core.a(Common.cpp.o)
+ .text          0x0000000000000000        0x0 /home/arduino/Thomas/apps/vehicleDetectionv3/.cache/sketch/core/core.a(llext_wrappers.c.o)
+ .data          0x0000000000000000        0x0 /home/arduino/Thomas/apps/vehicleDetectionv3/.cache/sketch/core/core.a(llext_wrappers.c.o)
+ .bss           0x0000000000000000        0x0 /home/arduino/Thomas/apps/vehicleDetectionv3/.cache/sketch/core/core.a(llext_wrappers.c.o)
+ .text.memcpy   0x0000000000000000        0x8 /home/arduino/Thomas/apps/vehicleDetectionv3/.cache/sketch/core/core.a(llext_wrappers.c.o)
+ .text.memmove  0x0000000000000000        0x8 /home/arduino/Thomas/apps/vehicleDetectionv3/.cache/sketch/core/core.a(llext_wrappers.c.o)
+ .text.strlen   0x0000000000000000        0x8 /home/arduino/Thomas/apps/vehicleDetectionv3/.cache/sketch/core/core.a(llext_wrappers.c.o)
+ .text.strnlen  0x0000000000000000        0x8 /home/arduino/Thomas/apps/vehicleDetectionv3/.cache/sketch/core/core.a(llext_wrappers.c.o)
+ .text.strchr   0x0000000000000000        0x8 /home/arduino/Thomas/apps/vehicleDetectionv3/.cache/sketch/core/core.a(llext_wrappers.c.o)
+ .text.strrchr  0x0000000000000000        0x8 /home/arduino/Thomas/apps/vehicleDetectionv3/.cache/sketch/core/core.a(llext_wrappers.c.o)
+ .text.strstr   0x0000000000000000        0x8 /home/arduino/Thomas/apps/vehicleDetectionv3/.cache/sketch/core/core.a(llext_wrappers.c.o)
+ .text.strcmp   0x0000000000000000        0x8 /home/arduino/Thomas/apps/vehicleDetectionv3/.cache/sketch/core/core.a(llext_wrappers.c.o)
+ .text.strncmp  0x0000000000000000        0x8 /home/arduino/Thomas/apps/vehicleDetectionv3/.cache/sketch/core/core.a(llext_wrappers.c.o)
+ .text.strcasecmp
+                0x0000000000000000        0x8 /home/arduino/Thomas/apps/vehicleDetectionv3/.cache/sketch/core/core.a(llext_wrappers.c.o)
+ .text.strncpy  0x0000000000000000        0x8 /home/arduino/Thomas/apps/vehicleDetectionv3/.cache/sketch/core/core.a(llext_wrappers.c.o)
+ .text.strcat   0x0000000000000000        0x8 /home/arduino/Thomas/apps/vehicleDetectionv3/.cache/sketch/core/core.a(llext_wrappers.c.o)
+ .text.strcpy   0x0000000000000000        0x8 /home/arduino/Thomas/apps/vehicleDetectionv3/.cache/sketch/core/core.a(llext_wrappers.c.o)
+ .text.memcmp   0x0000000000000000        0x8 /home/arduino/Thomas/apps/vehicleDetectionv3/.cache/sketch/core/core.a(llext_wrappers.c.o)
+ .text.memset   0x0000000000000000        0x8 /home/arduino/Thomas/apps/vehicleDetectionv3/.cache/sketch/core/core.a(llext_wrappers.c.o)
+ .text.strtok   0x0000000000000000        0x8 /home/arduino/Thomas/apps/vehicleDetectionv3/.cache/sketch/core/core.a(llext_wrappers.c.o)
+ .text.strtod   0x0000000000000000        0x8 /home/arduino/Thomas/apps/vehicleDetectionv3/.cache/sketch/core/core.a(llext_wrappers.c.o)
+ .text.strtol   0x0000000000000000        0x8 /home/arduino/Thomas/apps/vehicleDetectionv3/.cache/sketch/core/core.a(llext_wrappers.c.o)
+ .text.strtoul  0x0000000000000000        0x8 /home/arduino/Thomas/apps/vehicleDetectionv3/.cache/sketch/core/core.a(llext_wrappers.c.o)
+ .text.atoi     0x0000000000000000        0x8 /home/arduino/Thomas/apps/vehicleDetectionv3/.cache/sketch/core/core.a(llext_wrappers.c.o)
+ .text.atof     0x0000000000000000        0x8 /home/arduino/Thomas/apps/vehicleDetectionv3/.cache/sketch/core/core.a(llext_wrappers.c.o)
+ .text.atol     0x0000000000000000        0x8 /home/arduino/Thomas/apps/vehicleDetectionv3/.cache/sketch/core/core.a(llext_wrappers.c.o)
+ .text.malloc   0x0000000000000000        0x8 /home/arduino/Thomas/apps/vehicleDetectionv3/.cache/sketch/core/core.a(llext_wrappers.c.o)
+ .text.realloc  0x0000000000000000        0x8 /home/arduino/Thomas/apps/vehicleDetectionv3/.cache/sketch/core/core.a(llext_wrappers.c.o)
+ .text.calloc   0x0000000000000000        0x8 /home/arduino/Thomas/apps/vehicleDetectionv3/.cache/sketch/core/core.a(llext_wrappers.c.o)
+ .text.free     0x0000000000000000        0x8 /home/arduino/Thomas/apps/vehicleDetectionv3/.cache/sketch/core/core.a(llext_wrappers.c.o)
+ .text.rand     0x0000000000000000        0x8 /home/arduino/Thomas/apps/vehicleDetectionv3/.cache/sketch/core/core.a(llext_wrappers.c.o)
+ .text.srand    0x0000000000000000        0x8 /home/arduino/Thomas/apps/vehicleDetectionv3/.cache/sketch/core/core.a(llext_wrappers.c.o)
+ .text.isspace  0x0000000000000000        0x8 /home/arduino/Thomas/apps/vehicleDetectionv3/.cache/sketch/core/core.a(llext_wrappers.c.o)
+ .text.isalnum  0x0000000000000000        0x8 /home/arduino/Thomas/apps/vehicleDetectionv3/.cache/sketch/core/core.a(llext_wrappers.c.o)
+ .text.tolower  0x0000000000000000        0x8 /home/arduino/Thomas/apps/vehicleDetectionv3/.cache/sketch/core/core.a(llext_wrappers.c.o)
+ .text.toupper  0x0000000000000000        0x8 /home/arduino/Thomas/apps/vehicleDetectionv3/.cache/sketch/core/core.a(llext_wrappers.c.o)
+ .text.isalpha  0x0000000000000000        0x8 /home/arduino/Thomas/apps/vehicleDetectionv3/.cache/sketch/core/core.a(llext_wrappers.c.o)
+ .text.iscntrl  0x0000000000000000        0x8 /home/arduino/Thomas/apps/vehicleDetectionv3/.cache/sketch/core/core.a(llext_wrappers.c.o)
+ .text.isdigit  0x0000000000000000        0x8 /home/arduino/Thomas/apps/vehicleDetectionv3/.cache/sketch/core/core.a(llext_wrappers.c.o)
+ .text.isgraph  0x0000000000000000        0x8 /home/arduino/Thomas/apps/vehicleDetectionv3/.cache/sketch/core/core.a(llext_wrappers.c.o)
+ .text.isprint  0x0000000000000000        0x8 /home/arduino/Thomas/apps/vehicleDetectionv3/.cache/sketch/core/core.a(llext_wrappers.c.o)
+ .text.isupper  0x0000000000000000        0x8 /home/arduino/Thomas/apps/vehicleDetectionv3/.cache/sketch/core/core.a(llext_wrappers.c.o)
+ .text.islower  0x0000000000000000        0x8 /home/arduino/Thomas/apps/vehicleDetectionv3/.cache/sketch/core/core.a(llext_wrappers.c.o)
+ .text.isxdigit
+                0x0000000000000000        0x8 /home/arduino/Thomas/apps/vehicleDetectionv3/.cache/sketch/core/core.a(llext_wrappers.c.o)
+ .text.acos     0x0000000000000000        0x8 /home/arduino/Thomas/apps/vehicleDetectionv3/.cache/sketch/core/core.a(llext_wrappers.c.o)
+ .text.asin     0x0000000000000000        0x8 /home/arduino/Thomas/apps/vehicleDetectionv3/.cache/sketch/core/core.a(llext_wrappers.c.o)
+ .text.atan     0x0000000000000000        0x8 /home/arduino/Thomas/apps/vehicleDetectionv3/.cache/sketch/core/core.a(llext_wrappers.c.o)
+ .text.atan2    0x0000000000000000        0x8 /home/arduino/Thomas/apps/vehicleDetectionv3/.cache/sketch/core/core.a(llext_wrappers.c.o)
+ .text.cos      0x0000000000000000        0x8 /home/arduino/Thomas/apps/vehicleDetectionv3/.cache/sketch/core/core.a(llext_wrappers.c.o)
+ .text.exp      0x0000000000000000        0x8 /home/arduino/Thomas/apps/vehicleDetectionv3/.cache/sketch/core/core.a(llext_wrappers.c.o)
+ .text.exp2     0x0000000000000000        0x8 /home/arduino/Thomas/apps/vehicleDetectionv3/.cache/sketch/core/core.a(llext_wrappers.c.o)
+ .text.ldexp    0x0000000000000000        0x8 /home/arduino/Thomas/apps/vehicleDetectionv3/.cache/sketch/core/core.a(llext_wrappers.c.o)
+ .text.log10    0x0000000000000000        0x8 /home/arduino/Thomas/apps/vehicleDetectionv3/.cache/sketch/core/core.a(llext_wrappers.c.o)
+ .text.log2     0x0000000000000000        0x8 /home/arduino/Thomas/apps/vehicleDetectionv3/.cache/sketch/core/core.a(llext_wrappers.c.o)
+ .text.log      0x0000000000000000        0x8 /home/arduino/Thomas/apps/vehicleDetectionv3/.cache/sketch/core/core.a(llext_wrappers.c.o)
+ .text.pow      0x0000000000000000        0x8 /home/arduino/Thomas/apps/vehicleDetectionv3/.cache/sketch/core/core.a(llext_wrappers.c.o)
+ .text.sin      0x0000000000000000        0x8 /home/arduino/Thomas/apps/vehicleDetectionv3/.cache/sketch/core/core.a(llext_wrappers.c.o)
+ .text.sqrt     0x0000000000000000        0x8 /home/arduino/Thomas/apps/vehicleDetectionv3/.cache/sketch/core/core.a(llext_wrappers.c.o)
+ .text.tan      0x0000000000000000        0x8 /home/arduino/Thomas/apps/vehicleDetectionv3/.cache/sketch/core/core.a(llext_wrappers.c.o)
+ .text.acosf    0x0000000000000000        0x8 /home/arduino/Thomas/apps/vehicleDetectionv3/.cache/sketch/core/core.a(llext_wrappers.c.o)
+ .text.asinf    0x0000000000000000        0x8 /home/arduino/Thomas/apps/vehicleDetectionv3/.cache/sketch/core/core.a(llext_wrappers.c.o)
+ .text.atanf    0x0000000000000000        0x8 /home/arduino/Thomas/apps/vehicleDetectionv3/.cache/sketch/core/core.a(llext_wrappers.c.o)
+ .text.atan2f   0x0000000000000000        0x8 /home/arduino/Thomas/apps/vehicleDetectionv3/.cache/sketch/core/core.a(llext_wrappers.c.o)
+ .text.cosf     0x0000000000000000        0x8 /home/arduino/Thomas/apps/vehicleDetectionv3/.cache/sketch/core/core.a(llext_wrappers.c.o)
+ .text.logf     0x0000000000000000        0x8 /home/arduino/Thomas/apps/vehicleDetectionv3/.cache/sketch/core/core.a(llext_wrappers.c.o)
+ .text.sinf     0x0000000000000000        0x8 /home/arduino/Thomas/apps/vehicleDetectionv3/.cache/sketch/core/core.a(llext_wrappers.c.o)
+ .text.sqrtf    0x0000000000000000        0x8 /home/arduino/Thomas/apps/vehicleDetectionv3/.cache/sketch/core/core.a(llext_wrappers.c.o)
+ .text.tanf     0x0000000000000000        0x8 /home/arduino/Thomas/apps/vehicleDetectionv3/.cache/sketch/core/core.a(llext_wrappers.c.o)
+ .text.puts     0x0000000000000000        0x8 /home/arduino/Thomas/apps/vehicleDetectionv3/.cache/sketch/core/core.a(llext_wrappers.c.o)
+ .text.putchar  0x0000000000000000        0x8 /home/arduino/Thomas/apps/vehicleDetectionv3/.cache/sketch/core/core.a(llext_wrappers.c.o)
+ .text.vsnprintf
+                0x0000000000000000       0x10 /home/arduino/Thomas/apps/vehicleDetectionv3/.cache/sketch/core/core.a(llext_wrappers.c.o)
+ .text.atexit   0x0000000000000000        0x8 /home/arduino/Thomas/apps/vehicleDetectionv3/.cache/sketch/core/core.a(llext_wrappers.c.o)
+ .text.abort    0x0000000000000000        0xc /home/arduino/Thomas/apps/vehicleDetectionv3/.cache/sketch/core/core.a(llext_wrappers.c.o)
+ .text.exit     0x0000000000000000        0xc /home/arduino/Thomas/apps/vehicleDetectionv3/.cache/sketch/core/core.a(llext_wrappers.c.o)
+ .text._exit    0x0000000000000000        0xc /home/arduino/Thomas/apps/vehicleDetectionv3/.cache/sketch/core/core.a(llext_wrappers.c.o)
+ .debug_info    0x0000000000000000     0x1a83 /home/arduino/Thomas/apps/vehicleDetectionv3/.cache/sketch/core/core.a(llext_wrappers.c.o)
+ .debug_abbrev  0x0000000000000000      0x1e9 /home/arduino/Thomas/apps/vehicleDetectionv3/.cache/sketch/core/core.a(llext_wrappers.c.o)
+ .debug_loclists
+                0x0000000000000000      0xa0f /home/arduino/Thomas/apps/vehicleDetectionv3/.cache/sketch/core/core.a(llext_wrappers.c.o)
+ .debug_aranges
+                0x0000000000000000      0x250 /home/arduino/Thomas/apps/vehicleDetectionv3/.cache/sketch/core/core.a(llext_wrappers.c.o)
+ .debug_rnglists
+                0x0000000000000000      0x1b7 /home/arduino/Thomas/apps/vehicleDetectionv3/.cache/sketch/core/core.a(llext_wrappers.c.o)
+ .debug_line    0x0000000000000000      0x6fc /home/arduino/Thomas/apps/vehicleDetectionv3/.cache/sketch/core/core.a(llext_wrappers.c.o)
+ .debug_str     0x0000000000000000      0x7fe /home/arduino/Thomas/apps/vehicleDetectionv3/.cache/sketch/core/core.a(llext_wrappers.c.o)
+ .comment       0x0000000000000000       0x21 /home/arduino/Thomas/apps/vehicleDetectionv3/.cache/sketch/core/core.a(llext_wrappers.c.o)
+ .debug_frame   0x0000000000000000      0x4a4 /home/arduino/Thomas/apps/vehicleDetectionv3/.cache/sketch/core/core.a(llext_wrappers.c.o)
+ .ARM.attributes
+                0x0000000000000000       0x3c /home/arduino/Thomas/apps/vehicleDetectionv3/.cache/sketch/core/core.a(llext_wrappers.c.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD /home/arduino/.arduino15/packages/zephyr/tools/arm-zephyr-eabi/0.16.8/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/../../../../arm-zephyr-eabi/lib/thumb/v8-m.main+fp/hard/libstdc++_nano.a
+LOAD /home/arduino/.arduino15/packages/zephyr/tools/arm-zephyr-eabi/0.16.8/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/../../../../arm-zephyr-eabi/lib/thumb/v8-m.main+fp/hard/libsupc++_nano.a
+LOAD /home/arduino/.arduino15/packages/zephyr/tools/arm-zephyr-eabi/0.16.8/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/../../../../arm-zephyr-eabi/lib/thumb/v8-m.main+fp/hard/libnosys.a
+LOAD /home/arduino/Thomas/apps/vehicleDetectionv3/.cache/sketch/sketch/sketch.ino.cpp.o
+LOAD /home/arduino/Thomas/apps/vehicleDetectionv3/.cache/sketch/core/analogReference.cpp.o
+START GROUP
+LOAD /home/arduino/Thomas/apps/vehicleDetectionv3/.cache/sketch/core/core.a
+LOAD /home/arduino/.arduino15/packages/zephyr/tools/arm-zephyr-eabi/0.16.8/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/../../../../arm-zephyr-eabi/lib/thumb/v8-m.main+fp/hard/libstdc++_nano.a
+LOAD /home/arduino/.arduino15/packages/zephyr/tools/arm-zephyr-eabi/0.16.8/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/../../../../arm-zephyr-eabi/lib/thumb/v8-m.main+fp/hard/libsupc++_nano.a
+LOAD /home/arduino/.arduino15/packages/zephyr/tools/arm-zephyr-eabi/0.16.8/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/../../../../arm-zephyr-eabi/lib/thumb/v8-m.main+fp/hard/libm_nano.a
+END GROUP
+
+/DISCARD/
+ *(.ARM.attributes)
+ *(.ARM.attributes.*)
+ *(.ARM.exidx)
+ *(.ARM.exidx.*)
+ *(.ARM.extidx)
+ *(.ARM.extidx.*)
+ *(.ARM.extab)
+ *(.ARM.extab.*)
+ *(.comment)
+ *(.comment.*)
+ *(.llvmbc)
+ *(.llvmcmd)
+ *(.eh_frame)
+ *stdexcept.o()
+ *eh_*.o()
+ *cow-stdexcept.o()
+ *cow-string-inst.o()
+
+.text           0x0000000000000000      0x1e8
+ *(.text)
+ *(.stub)
+ *(.text*)
+ .text.setup    0x0000000000000000       0x20 /home/arduino/Thomas/apps/vehicleDetectionv3/.cache/sketch/sketch/sketch.ino.cpp.o
+                0x0000000000000000                setup
+ .text.loop     0x0000000000000020       0x4c /home/arduino/Thomas/apps/vehicleDetectionv3/.cache/sketch/sketch/sketch.ino.cpp.o
+                0x0000000000000020                loop
+ .text.initVariant
+                0x000000000000006c        0x2 /home/arduino/Thomas/apps/vehicleDetectionv3/.cache/sketch/core/core.a(main.cpp.o)
+                0x000000000000006c                initVariant
+ .text._Z10__loopHookv
+                0x000000000000006e        0x2 /home/arduino/Thomas/apps/vehicleDetectionv3/.cache/sketch/core/core.a(main.cpp.o)
+                0x000000000000006e                __loopHook()
+ .text.main     0x0000000000000070       0x2c /home/arduino/Thomas/apps/vehicleDetectionv3/.cache/sketch/core/core.a(main.cpp.o)
+                0x0000000000000070                main
+ .text._Z20start_static_threadsv
+                0x000000000000009c       0x6c /home/arduino/Thomas/apps/vehicleDetectionv3/.cache/sketch/core/core.a(threads.cpp.o)
+                0x000000000000009c                start_static_threads()
+ .text.gpio_pin_set_dt.isra.0
+                0x0000000000000108       0x28 /home/arduino/Thomas/apps/vehicleDetectionv3/.cache/sketch/core/core.a(zephyrCommon.cpp.o)
+ .text.gpio_pin_configure_dt.isra.0
+                0x0000000000000130       0x2a /home/arduino/Thomas/apps/vehicleDetectionv3/.cache/sketch/core/core.a(zephyrCommon.cpp.o)
+ *fill*         0x000000000000015a        0x2 
+ .text._reinit_peripheral_if_needed
+                0x000000000000015c       0x20 /home/arduino/Thomas/apps/vehicleDetectionv3/.cache/sketch/core/core.a(zephyrCommon.cpp.o)
+                0x000000000000015c                _reinit_peripheral_if_needed
+ .text.pinMode  0x000000000000017c       0x54 /home/arduino/Thomas/apps/vehicleDetectionv3/.cache/sketch/core/core.a(zephyrCommon.cpp.o)
+                0x000000000000017c                pinMode
+ .text.digitalWrite
+                0x00000000000001d0       0x18 /home/arduino/Thomas/apps/vehicleDetectionv3/.cache/sketch/core/core.a(zephyrCommon.cpp.o)
+                0x00000000000001d0                digitalWrite
+ *(.text.*)
+ *(.text._*)
+ *(.init)
+ *(.ctors)
+ *(.dtors)
+ *(.fini)
+
+.static_thread_data_area
+                0x00000000000001e8        0x0
+                0x00000000000001e8                __static_thread_data_list_start = .
+ *(.static_thread_data_area SORT_BY_NAME(.__static_thread_data.*))
+                0x00000000000001e8                __static_thread_data_list_end = .
+
+.data
+ *(.data .data.*)
+
+.bss            0x00000000000001e8      0x118
+ *(.bss .bss.* COMMON)
+ .bss._ZL12pinmux_array
+                0x00000000000001e8      0x118 /home/arduino/Thomas/apps/vehicleDetectionv3/.cache/sketch/core/core.a(zephyrCommon.cpp.o)
+ *(.noinit .noinit.*)
+
+.exported_sym   0x0000000000000300        0x8
+ *(.exported_sym)
+ .exported_sym  0x0000000000000300        0x8 /home/arduino/Thomas/apps/vehicleDetectionv3/.cache/sketch/core/core.a(main.cpp.o)
+ *(.exported_sym.*)
+
+.rodata.str1.1  0x0000000000000000       0x51
+ .rodata.str1.1
+                0x0000000000000000       0x51 /home/arduino/Thomas/apps/vehicleDetectionv3/.cache/sketch/core/core.a(main.cpp.o)
+
+.rodata._ZL12arduino_pins
+                0x0000000000000000      0x230
+ .rodata._ZL12arduino_pins
+                0x0000000000000000      0x230 /home/arduino/Thomas/apps/vehicleDetectionv3/.cache/sketch/core/core.a(zephyrCommon.cpp.o)
+
+.init_array
+ *(.init_array)
+
+.fini_array
+ *(.fini_array)
+
+.symtab
+ *(.symtab)
+
+.strtab
+ *(.strtab)
+
+.shstrtab
+ *(.shstrtab)
+
+.got
+ *(.got .got.* .got.plt .got.plt*)
+OUTPUT(/home/arduino/Thomas/apps/vehicleDetectionv3/.cache/sketch/sketch.ino_temp.elf elf32-littlearm)
+LOAD linker stubs
+
+.debug_info     0x0000000000000000     0xa7da
+ .debug_info    0x0000000000000000     0x186c /home/arduino/Thomas/apps/vehicleDetectionv3/.cache/sketch/sketch/sketch.ino.cpp.o
+ .debug_info    0x000000000000186c     0x1e2d /home/arduino/Thomas/apps/vehicleDetectionv3/.cache/sketch/core/core.a(main.cpp.o)
+ .debug_info    0x0000000000003699     0x1f7c /home/arduino/Thomas/apps/vehicleDetectionv3/.cache/sketch/core/core.a(threads.cpp.o)
+ .debug_info    0x0000000000005615     0x51c5 /home/arduino/Thomas/apps/vehicleDetectionv3/.cache/sketch/core/core.a(zephyrCommon.cpp.o)
+
+.debug_abbrev   0x0000000000000000     0x18bb
+ .debug_abbrev  0x0000000000000000      0x43d /home/arduino/Thomas/apps/vehicleDetectionv3/.cache/sketch/sketch/sketch.ino.cpp.o
+ .debug_abbrev  0x000000000000043d      0x538 /home/arduino/Thomas/apps/vehicleDetectionv3/.cache/sketch/core/core.a(main.cpp.o)
+ .debug_abbrev  0x0000000000000975      0x4d6 /home/arduino/Thomas/apps/vehicleDetectionv3/.cache/sketch/core/core.a(threads.cpp.o)
+ .debug_abbrev  0x0000000000000e4b      0xa70 /home/arduino/Thomas/apps/vehicleDetectionv3/.cache/sketch/core/core.a(zephyrCommon.cpp.o)
+
+.debug_loclists
+                0x0000000000000000     0x12de
+ .debug_loclists
+                0x0000000000000000       0x2a /home/arduino/Thomas/apps/vehicleDetectionv3/.cache/sketch/sketch/sketch.ino.cpp.o
+ .debug_loclists
+                0x000000000000002a       0x72 /home/arduino/Thomas/apps/vehicleDetectionv3/.cache/sketch/core/core.a(main.cpp.o)
+ .debug_loclists
+                0x000000000000009c       0xd1 /home/arduino/Thomas/apps/vehicleDetectionv3/.cache/sketch/core/core.a(threads.cpp.o)
+ .debug_loclists
+                0x000000000000016d     0x1171 /home/arduino/Thomas/apps/vehicleDetectionv3/.cache/sketch/core/core.a(zephyrCommon.cpp.o)
+
+.debug_aranges  0x0000000000000000      0x1b8
+ .debug_aranges
+                0x0000000000000000       0x28 /home/arduino/Thomas/apps/vehicleDetectionv3/.cache/sketch/sketch/sketch.ino.cpp.o
+ .debug_aranges
+                0x0000000000000028       0x38 /home/arduino/Thomas/apps/vehicleDetectionv3/.cache/sketch/core/core.a(main.cpp.o)
+ .debug_aranges
+                0x0000000000000060       0x20 /home/arduino/Thomas/apps/vehicleDetectionv3/.cache/sketch/core/core.a(threads.cpp.o)
+ .debug_aranges
+                0x0000000000000080      0x138 /home/arduino/Thomas/apps/vehicleDetectionv3/.cache/sketch/core/core.a(zephyrCommon.cpp.o)
+
+.debug_rnglists
+                0x0000000000000000      0x368
+ .debug_rnglists
+                0x0000000000000000       0x31 /home/arduino/Thomas/apps/vehicleDetectionv3/.cache/sketch/sketch/sketch.ino.cpp.o
+ .debug_rnglists
+                0x0000000000000031       0x33 /home/arduino/Thomas/apps/vehicleDetectionv3/.cache/sketch/core/core.a(main.cpp.o)
+ .debug_rnglists
+                0x0000000000000064       0x46 /home/arduino/Thomas/apps/vehicleDetectionv3/.cache/sketch/core/core.a(threads.cpp.o)
+ .debug_rnglists
+                0x00000000000000aa      0x2be /home/arduino/Thomas/apps/vehicleDetectionv3/.cache/sketch/core/core.a(zephyrCommon.cpp.o)
+
+.debug_line     0x0000000000000000     0x31da
+ .debug_line    0x0000000000000000      0x5ef /home/arduino/Thomas/apps/vehicleDetectionv3/.cache/sketch/sketch/sketch.ino.cpp.o
+ .debug_line    0x00000000000005ef      0x83b /home/arduino/Thomas/apps/vehicleDetectionv3/.cache/sketch/core/core.a(main.cpp.o)
+ .debug_line    0x0000000000000e2a      0x870 /home/arduino/Thomas/apps/vehicleDetectionv3/.cache/sketch/core/core.a(threads.cpp.o)
+ .debug_line    0x000000000000169a     0x1b40 /home/arduino/Thomas/apps/vehicleDetectionv3/.cache/sketch/core/core.a(zephyrCommon.cpp.o)
+
+.debug_str      0x0000000000000000     0x8435
+ .debug_str     0x0000000000000000     0x1826 /home/arduino/Thomas/apps/vehicleDetectionv3/.cache/sketch/sketch/sketch.ino.cpp.o
+ .debug_str     0x0000000000001826     0x1fed /home/arduino/Thomas/apps/vehicleDetectionv3/.cache/sketch/core/core.a(main.cpp.o)
+ .debug_str     0x0000000000003813     0x1c25 /home/arduino/Thomas/apps/vehicleDetectionv3/.cache/sketch/core/core.a(threads.cpp.o)
+ .debug_str     0x0000000000005438     0x2ffd /home/arduino/Thomas/apps/vehicleDetectionv3/.cache/sketch/core/core.a(zephyrCommon.cpp.o)
+
+.debug_frame    0x0000000000000000      0x4e0
+ .debug_frame   0x0000000000000000       0x54 /home/arduino/Thomas/apps/vehicleDetectionv3/.cache/sketch/sketch/sketch.ino.cpp.o
+ .debug_frame   0x0000000000000054       0x68 /home/arduino/Thomas/apps/vehicleDetectionv3/.cache/sketch/core/core.a(main.cpp.o)
+ .debug_frame   0x00000000000000bc       0x40 /home/arduino/Thomas/apps/vehicleDetectionv3/.cache/sketch/core/core.a(threads.cpp.o)
+ .debug_frame   0x00000000000000fc      0x3e4 /home/arduino/Thomas/apps/vehicleDetectionv3/.cache/sketch/core/core.a(zephyrCommon.cpp.o)
