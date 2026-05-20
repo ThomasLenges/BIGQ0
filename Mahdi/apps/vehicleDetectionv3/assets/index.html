@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vehicle Detection V3</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <div>
+        <div class="header">
+            <h1 class="arduino-text">Vehicle Detection V3</h1>
+            <img class="arduino-logo" src="./img/logo.svg" alt="Arduino Logo">
+        </div>
+
+        <div class="main-content">
+            <div class="container" id="video-container">
+                <div id="videoFeedContainer" style="width: 100%; aspect-ratio: 4/3;">
+                    <div id="videoPlaceholder" class="camera-status">
+                        <img src="./img/no-face.svg" alt="Searching webcam">
+                        <p class="feedback-text">Searching Webcam...</p>
+                    </div>
+
+                    <div
+                        id="streamWrapper"
+                        style="
+                            display: none;
+                            position: relative;
+                            width: 100%;
+                            aspect-ratio: 4 / 3;
+                            overflow: hidden;
+                        "
+                    >
+                        <iframe
+                            id="dynamicIframe"
+                            title="Video stream"
+                            frameBorder="0"
+                            style="
+                                position: absolute;
+                                inset: 0;
+                                width: 100%;
+                                height: 100%;
+                                border: 0;
+                                z-index: 1;
+                            "
+                        ></iframe>
+
+                        <canvas
+                            id="trackingOverlay"
+                            style="
+                                position: absolute;
+                                inset: 0;
+                                width: 100%;
+                                height: 100%;
+                                z-index: 2;
+                                pointer-events: none;
+                            "
+                        ></canvas>
+                    </div>
+                </div>
+            </div>
+
+            <div class="right-column">
+                <div class="container container-right">
+                    <div class="controls-section">
+                        <div class="control-group">
+                            <div class="control-confidence">
+                                <div style="display: flex; align-items: center; gap: 8px; position: relative;">
+                                    <label id="confidence-label" for="confidenceSlider">Confidence</label>
+                                    <img src="./img/info.svg" alt="Info" class="info-btn confidence"/>
+                                    <div class="popover"></div>
+                                </div>
+                                <button id="confidenceResetButton" class="btn-tertiary">
+                                    <input type="number" id="confidenceInput" class="confidence-input" min="0" max="1" step="0.05" value="0.50">
+                                    <img src="img/icon-reset.svg" alt="Reset" class="reset-icon">
+                                </button>
+                            </div>
+                            <div class="slider-box">
+                                <span class="confidence-limits">0</span>
+                                <div class="slider-container">
+                                    <div class="slider-progress" id="sliderProgress"></div>
+                                    <div class="confidence-value-display" id="confidenceValueDisplay">0.5</div>
+                                    <input type="range" id="confidenceSlider" min="0" max="1" step="0.01" value="0.5">
+                                </div>
+                                <span class="confidence-limits">1</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="container container-right">
+                    <div id="feedback-section" class="feedback-section">
+                        <div style="display: flex; align-items: center; gap: 8px; position: relative;">
+                        <h2 class="recent-scans-title" style="margin: 0;">Feedback</h2>
+                        <img src="./img/info.svg" alt="Info" class="info-btn feedback"/>
+                        <div class="popover"></div>
+                    </div>
+                        <div id="feedback-content" class="feedback-content">
+                            <img src="img/stars.svg" alt="Stars">
+                            <p class="feedback-text">System response will appear here</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="container container-right">
+                    <div class="recent-detections-section">
+                        <div class="recent-scans-title-container">
+                            <h2 class="recent-scans-title">Recent detections</h2>
+                        </div>
+                        <ul id="recentDetections"></ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="error-container" class="error-message" style="display: none;"></div>
+    </div>
+
+    <script>
+        const iframe = document.getElementById('dynamicIframe');
+        const overlay = document.getElementById('trackingOverlay');
+        const placeholder = document.getElementById('videoPlaceholder');
+        const streamWrapper = document.getElementById('streamWrapper');
+
+        const currentHostname = window.location.hostname;
+        const targetPort = 4912;
+        const targetPath = '/embed';
+        const streamUrl = `http://${currentHostname}:${targetPort}${targetPath}`;
+
+        let intervalId;
+
+        function syncOverlaySize() {
+            const rect = streamWrapper.getBoundingClientRect();
+
+            const width = Math.round(rect.width || 1024);
+            const height = Math.round(rect.height || 768);
+
+            overlay.width = width;
+            overlay.height = height;
+        }
+
+        iframe.onload = () => {
+            if (intervalId) {
+                clearInterval(intervalId);
+            }
+
+            placeholder.style.display = 'none';
+            streamWrapper.style.display = 'block';
+
+            syncOverlaySize();
+        };
+
+        window.addEventListener('resize', syncOverlaySize);
+
+        const startLoading = () => {
+            iframe.src = streamUrl;
+        };
+
+        intervalId = setInterval(startLoading, 1000);
+    </script>
+
+    <script src="libs/socket.io.min.js"></script>
+    <script src="app.js"></script>
+
+</body>
+</html>
