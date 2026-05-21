@@ -77,6 +77,10 @@ rm -rf ~/Thomas/apps/YourAppName/.cache
 Once a model is ready to install on the board => AppLab => Bricks => Object Detction (Example) => AI models and click on install
 ```
 
+```bash
+Go to Object Detection on EI to visualize all key metrics
+```
+
 ## Trouble shooting tips
 
 1. Do not forget to update `app.yaml` with the brick configuration and `sketch.yaml` with the required MCU libraries.
