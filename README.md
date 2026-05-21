@@ -72,6 +72,11 @@ May need to clear cache if changed requirements.txt
 rm -rf ~/Thomas/apps/YourAppName/.cache
 ```
 
+## EdgeImpulse
+```bash
+Once a model is ready to install on the board => AppLab => Bricks => Object Detction (Example) => AI models and click on install
+```
+
 ## Trouble shooting tips
 
 1. Do not forget to update `app.yaml` with the brick configuration and `sketch.yaml` with the required MCU libraries.
