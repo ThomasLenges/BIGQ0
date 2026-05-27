@@ -58,6 +58,11 @@ docker ps -a
 docker start 
 ```
 
+### Look into container logs
+```bash
+docker logs $(docker ps -q --filter "name=ei-video") 2>&1 | head -15
+```
+
 ### Run a Python script in a container
 ```bash
 docker exec  python main.py
@@ -79,7 +84,7 @@ Once a model is ready to install on the board => AppLab => Bricks => Object Dete
 Once back on VSC. 
 
 ```bash
-Add: EI_OBJ_DETECTION_MODEL: /home/arduino/.arduino-bricks/models/custom-ei/ei-model-1003932-3/model.eim under
+Add: EI_V_OBJ_DETECTION_MODEL: /home/arduino/.arduino-bricks/models/custom-ei/ei-model-1003932-3/model.eim under
 
 - id: arduino:video_object_detection
   model_configuration:
