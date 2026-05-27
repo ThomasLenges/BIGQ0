@@ -1,0 +1,22 @@
+id: ei-model-951763-1
+name: BigQ0
+runner: brick
+description: V1 of BigQ Project
+bricks:
+- id: arduino:object_detection
+  model_configuration:
+    CUSTOM_MODEL_PATH: /home/arduino/.arduino-bricks/models/custom-ei/ei-model-951763-1
+    EI_OBJ_DETECTION_MODEL: /home/arduino/.arduino-bricks/models/custom-ei/ei-model-951763-1/model.eim
+- id: arduino:video_object_detection
+  model_configuration:
+    CUSTOM_MODEL_PATH: /home/arduino/.arduino-bricks/models/custom-ei/ei-model-951763-1
+    EI_V_OBJ_DETECTION_MODEL: /home/arduino/.arduino-bricks/models/custom-ei/ei-model-951763-1/model.eim
+metadata:
+  ei-deployment-version: "5"
+  ei-engine: tflite
+  ei-impulse-id: "1"
+  ei-impulse-name: "Impulse #1"
+  ei-last-modified: "2026-04-06T15:13:05.139Z"
+  ei-model-type: float32
+  ei-project-id: "951763"
+  source: edgeimpulse

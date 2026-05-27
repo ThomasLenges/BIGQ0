@@ -1,0 +1,49 @@
+Training:
+
+    Samples: 96
+    Inputs: 320 x 320 (307200 features: 320*320*3(RGB))
+    Model: MobileNetV2 SSD FPN-Lite 320x320
+    Training processor: GPU
+    Number of training cycles: 25
+    Learning rate: 0.05
+
+Results:
+    FP32:
+
+        Inference time F32: 362ms
+        Flash usage: 11.0 MB
+
+        mAP 	0.41
+        mAP@[IoU=50] 	0.74
+        mAP@[IoU=75] 	0.41
+        mAP@[area=small] 	0.23
+        mAP@[area=medium] 	0.55
+        mAP@[area=large] 	-1.00
+        Recall@[max_detections=1] 	0.33
+        Recall@[max_detections=10] 	0.50
+        Recall@[max_detections=100] 	0.50
+        Recall@[area=small] 	0.42
+        Recall@[area=medium] 	0.59
+        Recall@[area=large] 	-1.00
+        Precision score (legacy) 	80.0%
+
+    INT8:
+
+        Inference time I8: 552ms
+        Flash usage: 3.3 MB
+
+        mAP 	0.42
+        mAP@[IoU=50] 	0.75
+        mAP@[IoU=75] 	0.38
+        mAP@[area=small] 	0.24
+        mAP@[area=medium] 	0.56
+        mAP@[area=large] 	-1.00
+        Recall@[max_detections=1] 	0.31
+        Recall@[max_detections=10] 	0.52
+        Recall@[max_detections=100] 	0.52
+        Recall@[area=small] 	0.47
+        Recall@[area=medium] 	0.61
+        Recall@[area=large] 	-1.00
+        Precision score (legacy) 	
+
+IoU: Intersection over Union (1 if completely covers)
