@@ -13,6 +13,4 @@ To run models on Adreno GPU or DSP Hexagon
 
 ### 2: Move brick to local (current app)
 
-### 3: Try without brick/personal brick
-
-### 4: Add tracking (in eim or CPU?)
+### 3: Add tracking (in eim or CPU?)
