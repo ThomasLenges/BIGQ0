@@ -74,7 +74,12 @@ rm -rf ~/Thomas/apps/YourAppName/.cache
 
 ## EdgeImpulse
 ```bash
-Once a model is ready to install on the board => AppLab => Bricks => Object Detction (Example) => AI models and click on install
+Once a model is ready to install on the board => AppLab => Bricks => Object Detection (Example) => AI models and click on install
+```
+
+```bash
+Once back on VSC. Add: EI_OBJ_DETECTION_MODEL: /home/arduino/.arduino-bricks/models/custom-ei/ei-model-1003932-3/model.eim under - id: arduino:video_object_detection
+  model_configuration:. Otherwise, it fully bugs the system into picking a default legacy model!
 ```
 
 ```bash
