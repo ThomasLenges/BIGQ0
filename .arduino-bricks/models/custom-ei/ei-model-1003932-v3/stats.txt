@@ -1,0 +1,49 @@
+Training:
+
+    Samples: 200
+    Inputs: 96 x 96 (27648 features: 96*96*3(RGB))
+    Model: YOLO-Pro
+    Training processor: GPU
+    Number of training cycles: 100
+    Learning rate: 0.001
+
+Results:
+    FP32:
+
+        Inference time F32: 137ms
+        Flash usage: 27.5 MB
+
+        mAP 	0.52
+        mAP@[IoU=50] 	0.97
+        mAP@[IoU=75] 	0.44
+        mAP@[area=small] 	0.53
+        mAP@[area=medium] 	0.52
+        mAP@[area=large] 	-1.00
+        Recall@[max_detections=1] 	0.40
+        Recall@[max_detections=10] 	0.60
+        Recall@[max_detections=100] 	0.60
+        Recall@[area=small] 	0.59
+        Recall@[area=medium] 	0.65
+        Recall@[area=large] 	-1.00
+        Precision score (legacy) 	96.5%
+
+    INT8:
+
+        Inference time I8: 212ms
+        Flash usage: 7.1 MB
+
+        mAP 	0.45
+        mAP@[IoU=50] 	0.99
+        mAP@[IoU=75] 	0.30
+        mAP@[area=small] 	0.46
+        mAP@[area=medium] 	0.55
+        mAP@[area=large] 	-1.00
+        Recall@[max_detections=1] 	0.36
+        Recall@[max_detections=10] 	0.53
+        Recall@[max_detections=100] 	0.53
+        Recall@[area=small] 	0.52
+        Recall@[area=medium] 	0.75
+        Recall@[area=large] 	-1.00
+        Precision score (legacy) 	92.3%
+
+IoU: Intersection over Union (1 if completely covers)

@@ -4,4 +4,4 @@ ports: []
 bricks:
 - arduino:web_ui: {}
 - arduino:video_object_detection:
-    model:  ei-model-1003932-1-v2 # Adapt to selected model
+    model:  ei-model-1003932-3 # Adapt to selected model
